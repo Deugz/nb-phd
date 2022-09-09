@@ -21,25 +21,28 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
+  url: https://github.com/Deugz/nb-phd  # Online location of your book
   path_to_book: docs  # Optional path to your book, relative to the repository root
-  branch: master  # Which branch of the repository should be used when creating links (optional)
+  branch: main  # Which branch of the repository should be used when creating links (optional)
 
-# Add GitHub buttons to your book
-# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
-html:
-  use_issues_button: true
-  use_repository_button: true
 
 html:
-    announcement: "Current Version: 28/07/2022"
-    
-html:
+  favicon                   : "OU_Logo.svg"  
+  use_edit_page_button      : true
+  use_repository_button     : true
+  use_issues_button         : true
+  use_multitoc_numbering    : false
+  extra_navbar              : ""
+  extra_footer              : ""  # Will be displayed underneath the footer.
+  google_analytics_id       : G-EQV9FEH9JF   
+  home_page_in_navbar       : true
+  baseurl                   : "https://deugz.github.io/nb-phd/_build/html/"
   comments:
-    hypothesis: true
-    utterances:
-      repo: "https://github.com/Deugz/PhD"
-      
+    hypothesis              : true
+    utterances              : 
+      repo: "https://github.com/Deugz/nb-phd"
+  announcement              : "Current Version: 09/09/2022"
+
 
 sphinx:
   config:

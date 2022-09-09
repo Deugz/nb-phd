@@ -10,7 +10,7 @@
 ::::{grid} 1
 :::{grid-item-card} 
 :img-top: Documents/SFP-logo.png
-:link:
+:link: https://deugz.github.io/nb-master/_build/html/intro.html
 ^^^
 **Vincent Deguin**
 +++
@@ -106,7 +106,7 @@ Findability, Accessibility, Interoperability and Reusability of my datasets.
 Open Processing tools ⚡
 ^^^
 
-Python Notebooks are available and others can interact with it via `binder`
+Python Notebooks are available and others can interact with it via `binder`.
 :::
 
 :::{grid-item-card}
@@ -116,7 +116,7 @@ Python Notebooks are available and others can interact with it via `binder`
 Social media ⚡
 ^^^
 
-Connect Researcher with the general public
+Connect Researcher with the general public. Collaboration beyond academia (`utterance` comment)
 :::
 
 
@@ -137,17 +137,6 @@ Connect Researcher with the general public
 :class: dropdown
 Pour les Vincent, Charlito et tout ceux que la langue de Shakespeare revulse ...
 ```
-
-- Interactive (Binder)
-- Collaboratif
-
-**Comments** <br>
-
-I intend to use two different commenting systems (for different purposes)
-
-On the right corner are `hypothesis` (Link) buttons allowing **commenting of the whole book**, like you would do in Word.
-- Transparent **Peer-Review** process 
-
 
 ## Notes
 
@@ -180,20 +169,21 @@ reference.bib files for every chapter
 ::::
 
 
-## Main Tasks
+## Workflow
+
+
+
+- Implement notes daily into [Daily Log]()
+- Implement main results into [Monthly Dashboard]()
+- Upload Notebook on Github every Friday.
+
+### Main Tasks
 
 ````{margin} 
-
 ```{note} 
-
 [Source](https://codepen.io/ControlledChaos/pen/OPvrye)
-
 **Later**: php, sql to add-remove content directly from the web-interface
-
-
-
 ```
-
 ````
 
 <div class="blackboard">
@@ -214,18 +204,30 @@ reference.bib files for every chapter
 
 ### Project Scheduled
 
-```{warning} 
-Update gant chart and put here
-```
+:::::{div} full-width
+
+<iframe class="preview-iframe" id="preview-iframe" src="_static/assets/GC/GC6-08-2022.html" width="100%" height="600"></iframe>
+
+:::::
+
+[Gant chart - online attempt](https://view.officeapps.live.com/op/embed.aspx?src=http://www.learningaboutelectronics.com/Articles/Example.xlsx)
 
 
-<embed type="text/html" src="Documents/GC6-08-2022.html"  width="500" height="500">
-
-```{raw} html
-:file: Documents/GC6-08-2022.html
-```
 
 ## Tools
+
+```{warning}
+put: 
+
+- calendar
+- Thesis word counter
+- Astra timer
+
+```
+
+- [Calendar](_static/assets/Calendar/public/index.php)
+
+### Data Analysis
 
 ````{margin} 
 

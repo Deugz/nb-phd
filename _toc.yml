@@ -11,6 +11,7 @@ parts:
     chapters:
     - file: Notes/Daily_Log
     - file: Notes/Monthly_Dashbord
+    - file: Notes/Archives/Archive_Main
   - caption: Data
     chapters:
     - file: Notes/Data_Notes/Data_Main

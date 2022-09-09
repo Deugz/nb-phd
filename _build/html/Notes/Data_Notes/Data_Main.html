@@ -30,6 +30,9 @@
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/custom_style.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/.ipynb_checkpoints/custom_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/assets/Calendar/public/css/calendar.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/assets/GC/GC6-08-2022_files/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/assets/Sample_list/Sample_list_files/stylesheet.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
@@ -92,10 +95,12 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="XP 1-1" href="XP-1_1/XP-1_1.html" />
-    <link rel="prev" title="Monthly Dashboard" href="../Monthly_Dashbord.html" />
+    <link rel="prev" title="Archives" href="../Archives/Archive_Main.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en">
     
@@ -165,6 +170,11 @@ const thebe_selector_output = ".output, .cell_output"
  <li class="toctree-l1">
   <a class="reference internal" href="../Monthly_Dashbord.html">
    Monthly Dashboard
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Archives/Archive_Main.html">
+   Archives
   </a>
  </li>
 </ul>
@@ -607,8 +617,18 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#raw-data">
-     Raw Data
+    <a class="reference internal nav-link" href="#consistent-naming-convention">
+     Consistent naming convention
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#consistent-data-management-plan">
+     Consistent Data-Management Plan
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#reduction-routine">
+     Reduction routine
     </a>
    </li>
   </ul>
@@ -654,8 +674,18 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#raw-data">
-     Raw Data
+    <a class="reference internal nav-link" href="#consistent-naming-convention">
+     Consistent naming convention
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#consistent-data-management-plan">
+     Consistent Data-Management Plan
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#reduction-routine">
+     Reduction routine
     </a>
    </li>
   </ul>
@@ -686,11 +716,134 @@ const thebe_selector_output = ".output, .cell_output"
                 
   <div class="tex2jax_ignore mathjax_ignore section" id="overview">
 <h1>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h1>
+<div class="margin sidebar">
+<p class="sidebar-title"></p>
+<p><strong>litterature Data</strong></p>
+<ul class="simple">
+<li><p>XP 1.1</p>
+<ul>
+<li><p><a class="reference external" href="https://icedb.strw.leidenuniv.nl/">Leiden Database</a>
+2 water spectra with different thickness (4 temperatures each)</p></li>
+</ul>
+</li>
+</ul>
+<p>to cite: <span id="id1">[<a class="reference internal" href="../Thesis_Notes/9_Biblio/bibliography.html#id2" title="K. I. Öberg, H. J. Fraser, A. C.A. Boogert, S. E. Bisschop, G. W. Fuchs, E. F. Van Dishoeck, and H. Linnartz. Effects of co2 on h2o band profiles and band strengths in mixed h2o:co2 ices. Astronomy and Astrophysics, 462:1187-1198, 2 2007. doi:10.1051/0004-6361:20065881.">Öberg <em>et al.</em>, 2007</a>]</span></p>
+<ul class="simple">
+<li><p>XP 1.2</p>
+<ul>
+<li><p>Dartois</p></li>
+<li><p>Nasa, hudson</p></li>
+</ul>
+</li>
+</ul>
+</div>
 <div class="section" id="what-do-i-have">
 <h2>What do I have<a class="headerlink" href="#what-do-i-have" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="raw-data">
-<h3>Raw Data<a class="headerlink" href="#raw-data" title="Permalink to this headline">¶</a></h3>
-<p><img alt="flag alt &gt;" src="../../_images/folder-svgrepo-com.svg" /> Folder Structure</p>
+<div class="section" id="consistent-naming-convention">
+<h3>Consistent naming convention<a class="headerlink" href="#consistent-naming-convention" title="Permalink to this headline">¶</a></h3>
+<p>From Omnic I obtain individual .spa scans named:
+<br><br><span class="math notranslate nohighlight">\(\color{red}{\text{ASW_}}\)</span><em><span class="math notranslate nohighlight">\(\color{blue}{\text{2020_09_15_}}\)</span></em><span class="math notranslate nohighlight">\(\color{green}{\text{0001}}\)</span>.spa<br></p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\color{red}{\text{Sample type}}\)</span> : can take value : ASW, C2H6, C2H6_ASW</p></li>
+<li><p><span class="math notranslate nohighlight">\(\color{blue}{\text{Sample date}}\)</span> : format yyyy_mm_dd (is the id of every sample).</p></li>
+<li><p><span class="math notranslate nohighlight">\(\color{green}{\text{Scan number}}\)</span> : is allocate incrementaly and represent each scan.</p></li>
+</ul>
+</div>
+<div class="section" id="consistent-data-management-plan">
+<h3>Consistent Data-Management Plan<a class="headerlink" href="#consistent-data-management-plan" title="Permalink to this headline">¶</a></h3>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>Data</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><strong>Raw Data</strong></p>
+<p class="sd-card-text"><img alt="flag alt &gt;" src="../../_images/folder-svgrepo-com.svg" /> Folder Structure</p>
+<p class="sd-card-text"><strong>Processed Data</strong></p>
+<p class="sd-card-text"><img alt="flag alt &gt;" src="../../_images/folder-svgrepo-com.svg" /> Folder Structure</p>
+<p class="sd-card-text"><strong>DR1_full.csv</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text">Description:</p></li>
+<li><p class="sd-card-text">Location:</p></li>
+</ul>
+<p class="sd-card-text"><strong>DR2_full.csv</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text">Description:</p></li>
+<li><p class="sd-card-text">Location:</p></li>
+</ul>
+<p class="sd-card-text"><strong>DR3_full.csv</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text">Description:</p></li>
+<li><p class="sd-card-text">Location:</p></li>
+</ul>
+<p class="sd-card-text"><strong>Ice_thickness.csv</strong>
+<strong>Ice_thickness2.csv</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text">Why 2 ?</p></li>
+</ul>
+<p class="sd-card-text"><strong>Sample_list.xlsx</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text">Nicely formatted .xlsx file with sample information, ramp (isotherms ..) -&gt; Not used during the reduction routine</p></li>
+</ul>
+<p class="sd-card-text"><strong>XP_list_test.csv</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text">All the samples. <strong>Link scan number with temperature</strong></p></li>
+<li><p class="sd-card-text">Generated manually using T_ramp</p></li>
+</ul>
+<ul class="simple">
+<li><p class="sd-card-text">Samples</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>Processing Workflow</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><strong>DR0 Notebook</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text">Update the Temperature Ramp into Xp_list_test csv using <strong>DR1</strong></p></li>
+<li><p class="sd-card-text">All done: ✅</p></li>
+</ul>
+<p class="sd-card-text"><strong>DR1 Notebook</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text">Sanity check / merging of indivv sample scan into 1 df per sample.</p></li>
+<li><p class="sd-card-text">Export</p>
+<ul>
+<li><p class="sd-card-text">DR1_(date)_All-scans.csv</p></li>
+<li><p class="sd-card-text">DR1_(date)_data_annex.csv (intermediate data_annex)</p></li>
+</ul>
+</li>
+<li><p class="sd-card-text">All done: ?</p></li>
+</ul>
+<p class="sd-card-text"><strong>DR1.1 Notebook</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text">Create DR1_Full.csv</p></li>
+<li><p class="sd-card-text">to run once once DR1 performed for all samples</p></li>
+<li><p class="sd-card-text">Done: ?</p></li>
+<li><p class="sd-card-text">Data put on Figshare: ?</p></li>
+</ul>
+<p class="sd-card-text"><strong>DR2 Notebook</strong> - 3 sub-notebooks</p>
+<ul class="simple">
+<li><p class="sd-card-text">Baseline Correction</p></li>
+</ul>
+<p class="sd-card-text"><strong>DR2_ASW</strong></p>
+<p class="sd-card-text"><strong>DR2_C2H6</strong></p>
+<p class="sd-card-text"><strong>DR2_ASW_C2H6</strong></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>Implement web_version of Sample_list</p>
+<iframe class="preview-iframe" id="preview-iframe" src="../../_static/assets/Sample_list/Sample_list.html" width="100%" height="400"></iframe>
+</div>
+<div class="section" id="reduction-routine">
+<h3>Reduction routine<a class="headerlink" href="#reduction-routine" title="Permalink to this headline">¶</a></h3>
 </div>
 </div>
 <div class="section" id="data-handling">
@@ -765,11 +918,11 @@ const thebe_selector_output = ".output, .cell_output"
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="../Monthly_Dashbord.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="../Archives/Archive_Main.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Monthly Dashboard</p>
+            <p class="prev-next-title">Archives</p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="XP-1_1/XP-1_1.html" title="next page">

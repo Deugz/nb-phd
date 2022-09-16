@@ -1,6 +1,17 @@
 # Science
 
+## Overview
+
 Systematic study of Amorphous Solid Water
+
+```{figure} Docs/Interstellar_dust.png
+:width: 700px
+Interstellar Dust Grain (include ref Burk 2010)
+```
+
+- Link to teaching:
+    - Dust
+    - Amorphous ice
 
 
 The launch of JWST will open a new era for Astrochemistry.

@@ -4,7 +4,7 @@
 :align: center
 ```
 
-# Welcome
+# Stairway to Heaven
 
 :::::{margin} 
 ::::{grid} 1
@@ -13,256 +13,436 @@
 :link: https://deugz.github.io/nb-master/_build/html/intro.html
 ^^^
 **Vincent Deguin**
-+++
+:::
+::::
+:::::
+
+
+***
+
+<p class="emphase"><strong>Kinetics and Morphologie Changes of Amorphous Solid Water upon Crystalisation (and influence of an imuprity, ethane)</strong></p>
+
+<p class="emphase">V. Deguin, A. Dawes (S. Green, R. Moat)</p>
+
+
+- **Topics**: Experimental Astrophysics, Astrochemistry
+- **Techniques**: mid-IR Spectroscopy
+- **Job**: PhD Part II
 <br>
-Version: 0.1  (August - 2022)
-:::
-::::
-:::::
-
-## Introduction
-
-This web-site is a <a href="https://the-turing-way.netlify.app/welcome.html" target="blank"> Research compendium </a> produced using <a href="https://jupyterbook.org/en/stable/intro.html" target="blank"> Jupyter-Book</a>. This book is part of the **Science For the People** project whose aim is to empower researcher to self-publish themselves in an open and innovative way, far from the unsustainable current publication system. This Book focus on my PhD project, whose title is:
-
-<p class="emphase">Experimenting with the earliest stages of planet formation</p>
-
-If you are eager to know more about the Science and How this book is organised, go visit the [Science](Science/Science.md) page. Using this plateform during my PhD (actually more towards the end) as proven incredibly usefull and because I aim to help others used this method, let me tell you a few benefits of using JupyterBook during your research journey.
-
-### Benefits  
-
-For me, as a Researcher, this web-site is a tool to help me: 
+<br>
+- **Info**: ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-phd?color=green&style=plastic) - ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-phd?color=yellow&style=plastic) - ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-phd/_build/html/intro.html) - ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/nb-phd?color=red&style=plastic)
 
 
-:::::{div} full-width
-::::{grid} 1 1 2 4
-:class-container: text-center
-:gutter: 3
-
-:::{grid-item-card}
-:link: Appendix/How_do_I.html
-:class-header: bg-light
-
-Notebook ✏️
-^^^
-
-Take notes and "stick" the outputs of my research as they are produced.
-:::
-
-:::{grid-item-card}
-:link: content/myst.md
-:class-header: bg-light
-
-Storage Place ✨
-^^^
-
-Web-sites require a solid folder architecture.
-
-:::
-
-:::{grid-item-card}
-:link: content/executable/index.md
-:class-header: bg-light
-
-Project Manager 🔁
-^^^
-
-Keep track of my progress and focus on the right tasks.
-
-:::
-
-:::{grid-item-card}
-:link: interactive/launchbuttons.md
-:class-header: bg-light
-
-Peer-Review Plateform 🚀
-^^^
-Using `hypothesis` (buttons on the right corner), the whole book content can be commented.
-:::
-
-:::{grid-item-card}
-:link: build/publish/web.md
-:class-header: bg-light
-
-Publication gallery  🎁
-^^^
-
-Share this notebook with my familly, friends and everyone else. 
-:::
-
-:::{grid-item-card}
-:link: content/components.md
-:class-header: bg-light
-
-FAIR Data ⚡
-^^^
-
-Findability, Accessibility, Interoperability and Reusability of my datasets.
-:::
-
-:::{grid-item-card}
-:link: content/components.md
-:class-header: bg-light
-
-Open Processing tools ⚡
-^^^
-
-Python Notebooks are available and others can interact with it via `binder`.
-:::
-
-:::{grid-item-card}
-:link: content/components.md
-:class-header: bg-light
-
-Social media ⚡
-^^^
-
-Connect Researcher with the general public. Collaboration beyond academia (`utterance` comment)
-:::
+***
 
 
-::::
-:::::
+## Abstract
+
+Water ice is ubiquitously present on the surface of interstellar dust grains and is thought to play a key role in the interstellar medium chemistry, where more than 200 molecules have been detected (PhD part 2 - this work). Ice is also a key ingredient enhancing aggregation of micrometre dust in protoplanetary disks (PhD part 1). Investigations of those processes rely on the production of laboratory analogues and have been an intense focus of research since the discovery of Amorphous Solid Water (ASW) in 1935 by Burton and Oliver obtained from water vapor deposition on a cold surface (< 70 K). Subsequent work has put into evidence the highly porous and metastable (with respect to the thermodynamically stable crystaline ice) structure of ASW. However, despite mentions of a glass transition, it is not yet clear how ASW transforms to crystalline ice. Having such knowledge is crucial with the launch of James Web Space Telescope (JWST), that will give scientists unprecedented spatial and spectral resolution that could potentially resolve the two polymorphs.
+
+- Infrared Spectroscopy
+
+- Resolve the OH stretching mode 
+
+- Well established Experiment
+
+- New methodology - long isotherm scan to resolve subtle changes, kinetics over an extended period of time
+
+- Presence of impurities will be investigated
 
 
 
+## Content
 
+``````{margin} 
 
+`````{admonition} **My Corner**
+:class: seealso
 
+<br>
+<br>
 
-
-
-
-
-```{admonition} Dialogue ![flag alt >](Documents/SVG_icons/dark-dialogue-bubble-svgrepo-com.svg) - ![flag alt >](Documents/SVG_icons/flag-for-flag-france-svgrepo-com.svg)
-:class: dropdown
-Pour les Vincent, Charlito et tout ceux que la langue de Shakespeare revulse ...
-```
-
-## Notes
-
-
-::::{grid} 3
-:::{grid-item-card}
-:link: Notes/Monthly_Dashbord.html
-**Monthly Dashboard** <span style="float: right">&#10024;</span>
-^^^
-
-To be implemented with major progress. to be reviewed Weekly w/ Anita and discuss w/ the whole supervision team at the end of the Month (then Archive).
-
-
-:::
 :::{grid-item-card}
 :link: Notes/Daily_Log.html
+:class-header: bg-light
 **Daily Notes** 
 ^^^
-Implement Daily and review weekly with Anita
+Daily notes 
+- Day plans
+- Stick outputs
+
+
+- reviewed weekly with Anita
 
 :::
+
+<br>
+<br>
+
+:::{grid-item-card}
+:link: Notes/Monthly_Dashbord.html
+:class-header: bg-light
+**Monthly Dashboard** 
+^^^
+Implemented with major progress. 
+
+
+- Reviewed Weekly w/ Anita and 
+- Discuss w/ the whole supervision team at the end of the Month (then Archive).
+
+:::
+
+<br>
+<br>
 
 :::{grid-item-card}
 :link: Notes/Thesis_Notes/Intro.html
-**Thesis ideas**
+:class-header: bg-light
+**Organisation**
 ^^^
-
-reference.bib files for every chapter 
+- Gant Charts
+- To-do lists
+- Productivity tools
+- Admin
 :::
-::::
-
-
-## Workflow
 
 
 
-- Implement notes daily into [Daily Log]()
-- Implement main results into [Monthly Dashboard]()
-- Upload Notebook on Github every Friday.
+<br>
+<br>
 
-### Main Tasks
+**Support**
 
-````{margin} 
-```{note} 
-[Source](https://codepen.io/ControlledChaos/pen/OPvrye)
-**Later**: php, sql to add-remove content directly from the web-interface
-```
-````
+<br>
+<br>
 
-<div class="blackboard">
-<div class="form">
+![flag alt >](Docs/Svg_icons/patreon-svgrepo-com.svg) [Patreon](https://www.patreon.com/Science_for_the_People)
+
+<br>
+
+or
+
+<br>
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy me a coffee', '#317315', 'O4O6EZO78');kofiwidget2.draw();</script> 
+
+<br>
+<br>
+
+`````
+
+``````
+
+
+<h3><strong>&#187;  <u>Thesis </u></strong></h3>
+
+Chapters in bold (+ &#9999;) on the left menu are **Thesis Chapters**, Other pages in the relevant sections are secoundary materials. Chapter 6 and 7 are located in another book (differrent project). 
+
+<h4><strong>Corpus</strong></h4>
+
+<h5>Part 1: Stairway to Heaven</h5>
+
+
+- [Chapter 1.A](Thesis_JB/Chapter1/Chapter1) : **Introduction**
+<br>
+<br>
+    - 1.1 The Dust cycle in the Galaxy
+<br>
+<br>
+    - 1.2 Synergy Between Experiments, Modelling and Observation in Astronomy through the Prism of Ice
+<br>
+<br>   
+    - 1.3 Amorphous Ices in the Laboratory
+<br>
+<br>
+    - 1.4 Ice Processing in the Context of Planet Formation
+<br>
+<br>
+    - 1.5 Thesis Motivation and Aim
+<br>
+<br>
+    - 1.6 Thesis Outline
+<br>
+<br>
+- [Chapter 2.B](Thesis_JB/Chapter2/Chapter2) : **Method**
+<br>
+<br>
+    - 2.1 The Portable Astrochemistry Chamber (PAC)
+        - 2.1.1 Description
+        - 2.1.2 Experimental procedure
+        - 2.1.3 Experimental limitations
+<br>
+<br>
+    - 2.2 Infrared Spectroscopy
+<br>
+<br>
+- [Chapter 3](Thesis_JB/Chapter3/Chapter3) : **Investigation of Amorphous Solid Water bulk structure**
+<br>
+<br>
+- [Chapter 4](Thesis_JB/Chapter4/Chapter4) : **Crystalisation kinetics of ASW**
+<br>
+<br>
+- [Chapter 5](Thesis_JB/Chapter5/Chapter5) : **Influence of impurity (ethane) on the structure, morphology and crystalisation kinetics of ASW**
+<br>
+<br>
+
+***
+
+<h5>Part 2: Highway to Hell</h5>
+
+- [Chapter 1.B]() : **Introduction**
+<br>
+<br>
+    - 1.1 A brief history of planet formation
+<br>
+<br>
+    - 1.2 Ice Processing in the Context of Planet Formation
+<br>
+<br>
+- [Chapter 2.B]() : **Method**
+<br>
+<br>
+    - 2.1 The Portable Astrochemistry Chamber (PAC)
+        - 2.1.1 Description
+        - 2.1.2 Experimental procedure
+        - 2.1.3 Experimental limitations
+<br>
+<br>
+    - 2.2 Infrared Spectroscopy
+<br>
+<br>
+<br>
+<br>
+- [Chapter 6](Thesis_JB/Chapter4/Chapter4) : **Crystalisation kinetics of ASW**
+<br>
+<br>
+- [Chapter 7](Thesis_JB/Chapter5/Chapter5) : **Influence of impurity (ethane) on the structure, morphology and crystalisation kinetics of ASW**
+<br>
+<br>
+
+
+***
+<br>
+<br>
+- [Discussion](Thesis_JB/Discussion) : **Discussion**
+<br>
+<br>
+- [Conclusion](Thesis_JB/Chapter8/Chapter8) : **Conclusion**
+<br>
+<br>
+  
+<h4><strong>Extra Material</strong></h4>
+
+
+<article id="P1">
     
-<li> Work on Data Reduction </li> 
-<ul>Split Data_Reduction_Full into 3 (DR1 - DR2 - DR3) </ul>
-<ul>Produce sub_Notebooks for the different samples</ul>
+<div id="subdiv2">
+
+:::{grid-item-card}
+**Data** <span style="float: right">&#128165;</span>
+^^^
     
-<li>Finish Thesis Book skeleton</li>
+Link to figshare (test with DR1_Full)
+
+- DR1_Full
+- DR2_Full
+- DR3_Full
+
+   
+:::
     
-<li>Classify the samples</li>
+
+
+
     
-</div>    
 </div>
+    
+<div id="subdiv2">
+    
 
 
 
-### Project Scheduled
+:::{grid-item-card}
+**Interactive Notebooks** <span style="float: right">&#128165;</span>
+^^^
+    
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Deugz/ASW_Data_Processing/HEAD?labpath=Data_Analysis_Binder.ipynb)
+
+github link ?
+    
+
+   
+:::
+
+    
+</div>
+    
+</article>
+
+
+<h4><strong>Lists </strong></h4>
 
 :::::{div} full-width
+::::{grid} 3
 
-<iframe class="preview-iframe" id="preview-iframe" src="_static/assets/GC/GC6-08-2022.html" width="100%" height="600"></iframe>
+<div>
+    
+<h5><strong>Figures</strong></h5>
+ 
+- {numref}`Figure {number}:<Ice-cycle>` Ice cycle  
 
+</div>
+    
+<div>
+    
+<h5><strong>Tables</strong></h5>
+
+
+- {numref}`example-table`: ASW Experiments
+
+</div>
+
+<div>
+    
+<h5><strong>Equations</strong></h5>
+
+- {eq}`my_label` Equation 1
+
+</div>
+
+::::
 :::::
 
-[Gant chart - online attempt](https://view.officeapps.live.com/op/embed.aspx?src=http://www.learningaboutelectronics.com/Articles/Example.xlsx)
+No lists of abbreviation as will be directly described in the text:
+
+**Exemple:**  <span class="hovertext" data-hover="Amorphous Solid Water">ASW</span>
+    
+
+## Comments
 
 
+<h3><strong>&#187;  <u>Peer Review</u></strong></h3>
 
-## Tools
+<article id="P1">
+    
+<div id="subdiv2">
+
+```{image} Docs/Hypothesis_symbols.png
+:width: 50px
+:class: float
+:align: center
+```
+</div>
+<div id="subdiv2">
+    
+Those buttons located on the <strong>top right corner</strong>, open `Hypothesis` an online commenting tool.
+
+Needs registering (free account)
+
+- Anita
+- Simon
+- Richard
+
+</div>
+   
+</article>
+
+<h3><strong>&#187;  <u>Notes </u></strong></h3>
+
+
+<h4><strong>Communication Post-it</strong></h4>
+
+:::::{div} full-width
+::::{grid} 4
+
+```{admonition} Note / Question
+Notes or questions
+```
 
 ```{warning}
-put: 
-
-- calendar
-- Thesis word counter
-- Astra timer
-
+Warning
 ```
 
-- [Calendar](_static/assets/Calendar/public/index.php)
+`````{admonition} Info / Idea
+:class: tip
+Info and Ideas
+`````
 
-### Data Analysis
-
-````{margin} 
-
-```{note} 
-
-Rajouter dans la marge la photo du padre avec une medaille de marathon ! quote "It's a marathon - Giulia"
+`````{admonition} See also
+:class: seealso
+Reference to other content
+`````
 
 
+::::
+:::::
 
+<h4> <strong>Audiences</strong> </h4>
+
+<article id="P1">
+    
+<div id="subdiv2">
+
+:::{grid-item-card}
+**Legend** <span style="float: right">&#128165;</span>
+^^^
+    
+- ![flag alt >](Docs/Svg_icons/Fish/pieuvre.jpg) <span class="hovertext" data-hover="">Supervision team</span>
+
+- ![flag alt >](Docs/Svg_icons/Fish/shark-svgrepo-com.svg) <span class="hovertext" data-hover="">Researchers (my field)</span> 
+
+- ![flag alt >](Docs/Svg_icons/Fish/turtle-svgrepo-com.svg) <span class="hovertext" data-hover="">Friends/Colleagues</span>
+
+- ![flag alt >](Docs/Svg_icons/Fish/fish-svgrepo-com.svg) <span class="hovertext" data-hover="">Anyone</span>
+
+- ![flag alt >](Docs/Svg_icons/Fish/fish-light-svgrepo-com.svg) <span class="hovertext" data-hover="">Teachers</span> 
+
+
+- ![flag alt >](Docs/Svg_icons/Fish/fish-nemo-svgrepo-com.svg) <span class="hovertext" data-hover="">Researchers (other fields)</span> 
+
+
+   
+:::
+
+    
+</div>
+    
+<div id="subdiv2">
+
+This web-site is an experiment aimed at <strong>communicating research </strong>. Communication involve an audience, and there is a whole diapora of possible audiences for this project: 
+In order to communicate, I will leave notes (4 types, cf below) here and there, sometimes with a tag refering to the audience they are adressed to. Feel free to comment them (like I did) using Hypothesis button (<strong>top right corner</strong>)
+    
+</div>
+    
+</article>
+
+<h3><strong>&#187;  <u>Formatting </u></strong></h3>
+
+formatting is mood dependant and likely to change.
+
+<h4>Maths</h4>
+
+Different methods to write equation, bith can be referred in the following equation list
+
+<h5>Method 1</h5>
+
+$$
+  \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}
+$$
+
+<h5>Method 2</h5>
+
+```{math}
+:label: my_label
+w_{t+1} = (1 + r_{t+1}) s(w_t) + y_{t+1}
 ```
 
-````
+
+<h4>Paper Version</h4>
+
+JupyterBook offer a <strong>pdf build</strong> option. 
+
+- not very good though and will require few changes.
+     
 
 
-- Python tools to produce 
-
-[Productivity](Notes/Analysis/Data_Analysis.md)
-
-Located in Script/Bonus
-
-## La Famille
-
-````{margin} 
-
-[Source](https://codepen.io/acriollo/pen/yrxLxR)
-
-````
-
-
-
-
-<div class="slider" id="main-slider"><!-- outermost container element -->
-<div class="slider-wrapper"><!-- innermost wrapper element -->
-<img src="_static/assets/Docs/ngc6357.jpg" alt="First" class="slide" /><!-- slides -->
-<img src="_static/assets/Docs/ProtoPDisk.jpg" alt="Second" class="slide" />
-<img src="http://lorempixel.com/1024/400/city" alt="Third" class="slide" />
-</div>
-</div>

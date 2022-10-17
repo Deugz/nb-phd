@@ -1,4 +1,6 @@
-# Overview
+# Management plan
+
+
 
 ````{margin} 
 
@@ -23,9 +25,12 @@ to cite: {cite}`Oberg2007`
 
 ````
 
-## What do I have
+## Data Overview
 
-### Consistent naming convention
+
+### Naming convention
+
+#### Samples
 
 From Omnic I obtain individual .spa scans named: 
 <br><br>$\color{red}{\text{ASW_}}$_$\color{blue}{\text{2020_09_15_}}$_$\color{green}{\text{0001}}$.spa<br>
@@ -34,8 +39,20 @@ From Omnic I obtain individual .spa scans named:
 - $\color{blue}{\text{Sample date}}$ : format yyyy_mm_dd (is the id of every sample).
 - $\color{green}{\text{Scan number}}$ : is allocate incrementaly and represent each scan.
 
+The Data is quickly processsed using Omnic (Smoothing with a window of (15)) and finally a collection of .CSV files of shape (ASW_2020_09_15_0001_smooth.CSV, ASW_2020_09_15_0002_smooth.CSV, ...) is exported within a **dated** folder of shape
+- 2020_09_15
+- 2020_09_16
+- ...
 
-### Consistent Data-Management Plan
+#### Storage
+
+The exported data is considered Raw and the dated folder containing the data is located in a hardrive uner the location
+
+
+![flag alt >](../../Documents/SVG_icons/folder-svgrepo-com.svg) 
+
+
+### Data-Management Plan
 
 ::::{grid} 2
 :::{grid-item-card}

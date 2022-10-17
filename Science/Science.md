@@ -1,8 +1,10 @@
 # Science
 
-## Overview
+I guess the best place to start is by looking at ice &#10052; , 
 
-Systematic study of Amorphous Solid Water
+- <span class="hovertext" data-hover="">Amorphous Solid Water</span> Ice (ASW)
+
+- shema dust grain
 
 ```{figure} Docs/Interstellar_dust.png
 :width: 700px
@@ -19,11 +21,22 @@ The launch of JWST will open a new era for Astrochemistry.
 
 Ice age program - link to JWST course upstream
 
+
+
+
+
 ## Example
 
 Use alexi code with Spitzer Data
 
-## Ice Databases
+## Aim
+
+Systematic study of Amorphous Solid Water
+
+
+**Ice Databases**
+
+margin
 
 [Leiden Ice Database](https://icedb.strw.leidenuniv.nl/)
 

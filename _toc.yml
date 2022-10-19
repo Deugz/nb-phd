@@ -10,9 +10,8 @@ parts:
     - file: Science/Science
       sections:
       - file: Science/Water
-      - file: Science/Ice
-      - file: Science/Amorphous
-      - file: Science/Space   
+      - file: Science/Space
+      - file: Science/Amorphous   
   - caption: Methods
     chapters:
     - file: Thesis_JB/Chapter2/Chapter2

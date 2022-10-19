@@ -1,86 +1,179 @@
 # Reduction
 
-## Notebooks
+## Reduction pipeline
 
-::::{grid} 3
+***
+**3 steps**:
+- DR1
+- DR2
+- DR3
+***
+
+<h3><strong>&#187;  <u>STEP 1: Sanity Check, Merging</u></strong></h3>
+
+<h4><strong>DR1 </strong></h4>
+
+````{margin} 
+**Outputs**
+
+- DR1_Date
+- Date_data Annex
+
+````
+
+<article id="P1">
+
+<div id="subdiv1-3">    
+    
 :::{grid-item-card}
 :link: Step1.html
-**Step 1**
+**DR1 Notebook**
 ^^^
 **Sanity Check Merging**
 
 2 Notebooks
 - DR1
 - DR1.1
+:::
+
+
+</div>
+    
+<div id="subdiv2-3"> 
+
+This reduction step is done **per sample** 
+    
+</div>
+    
+</article>
+
+<h4><strong>DR1.1  </strong></h4>
+
+<article id="P1">
+
+<div id="subdiv1-3">    
+    
+:::{grid-item-card}
+:link: Step1.html
+**DR1.1 Notebook**
+^^^
+**Sanity Check Merging**
+
+2 Notebooks
+- DR1
+- DR1.1
+:::
+
+
+</div>
+    
+<div id="subdiv2-3"> 
+    
+- **Explanation**
+    
+Merge all the sample together into one big dataframe
+    
+</div>
+    
+</article>
+
+
+<h3><strong>&#187;  <u>STEP 2: Baseline Correction</u></strong></h3>
+
+<h4><strong>DR2  </strong></h4>
+
+:::::{div} full-width
+
+::::{grid} 3
+:::{grid-item-card}
+:link: Step1.html
+**DR2_ASW**
+^^^
+
+range:
+- 1
+- 2
+- 3
 
 :::
 
 :::{grid-item-card}
 :link: Step2.html
-**Step 2**
+**DR2_C2H6**
 ^^^
-**Baseline Correction**
 
-3 Notebooks
-- DR2_ASW
-- DR2_C2H6
-- DR2_C2H6_ASW
+different range for ethane ?
 
 :::
 
 :::{grid-item-card}
 :link: Step3.html
-**Step 3**
+**DR2_C2H6_ASW**
 ^^^
-**Integration/ Normalisation**
 
-More complex, for ASW, 20K samples and higher deposited samples have to be reduced separately (20K first and High T depo later on using the average Integrated value at the T for the deposited T samples) 
-
+- first baseline correct ASW 
+- then substract for ethane ?
 :::
 ::::
+:::::
 
-### Analysis
+```{warning}
 
-Purpose is to criticize and find some improvements points
+During the baseline correction reduction step, we extract the max absorbance and the associated wavenumber position. those would be different for the different sample (more max A peaks to extract for ethane) leading to different **data_annex** files. 
 
-## Done
+- Would that create problems
 
-## To Do
+```
 
-- Ethane Data
+<h4><strong>DR2.1  </strong></h4>
 
+Similar to DR_1.1, once all the samples have been reduced, they all be grabbed and put into a single dataframe and then exported as a csv
+
+<h3><strong>&#187;  <u>STEP 3: Integration / Normalisation</u></strong></h3>
+
+<h4><strong>DR3 </strong></h4>
+
+````{margin} 
+**Outputs**
+
+- DR1_Date
+- Date_data Annex
+
+````
+
+<article id="P1">
+
+<div id="subdiv1-3">    
+    
+:::{grid-item-card}
+:link: Step1.html
+**DR3 Notebook**
+^^^
+**Integration Normalisation**
+
+:::
+
+
+</div>
+    
+<div id="subdiv2-3"> 
+
+This reduction step is done **per sample** 
+
+```{note}
+    
 - Compare the sample thickness w/ Integration value for all samples
     - Does they match ?
+    
+```
+    
+</div>
+    
+</article>
 
-## Data Reduction 1
+# Reduction Table
 
-***
-**Title**: Sanity Check Merging
-**Link**: Create link toward Notebook
-***
-
-## Data Reduction 2
-
-***
-<p class="emphase">Baseline Correction</p>
-
-**Link**: Create link toward Notebook
-
-***
-
-### Overview
-
-3 different Notebooks
-
-### Step by Step Analysis
-
-## Data Reduction 3
-
-
-
-## Reduction Table
-
-### XP 1_1
+## XP 1_1
 
 |    Samples        |   Page                                    |    Tdep        |    Isotherm  |   DR1          |   DR2          |  DR3          |
 | :---------------- | :---------------------------------------  | :------------  | :------------  | -------------: | -------------: |-------------: |
@@ -109,4 +202,4 @@ Purpose is to criticize and find some improvements points
 
 
 
-### XP 1_2
+## XP 1_2

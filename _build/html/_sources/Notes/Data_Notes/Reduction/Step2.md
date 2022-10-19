@@ -12,6 +12,23 @@ The purpose of this Reduction step is to substract the baseline contribution. Th
 - DR2_C2H6
 - DR2_C2H6_ASW
 
+***
+**Plan**:
+- Load data
+    - 1
+    - 2
+- T Ramp for reduction
+- Chop the Data
+    - A: 4000 - 2800
+    - B: 2800 - 1900
+    - C: 1900 - 800
+- Background function definition
+- Baseline correction
+- Max Absorbance
+- Plotting
+
+***
+
 ### Plots
 
 ```{note}

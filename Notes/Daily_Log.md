@@ -1,6 +1,25 @@
 # Daily Log
 
 
+## 18/10/2022
+
+- Update Data_Analysis_Binder 
+    - New link toward DR1_Full.csv
+    - Updated XP_list_test.csv
+    
+Tried to launch the Binder link but Widgets doesn't work with JupyterLab
+
+- Try to launch using Jupyter Notebook instead (local).
+
+Need to update the Notebook to work with a Local or Online configuration 
+
+Widgets are working with local Jupyter Notebook configuration
+
+Need to update Notebook to construct the name with 3 possible options 
+- ASW
+- C2H6
+- C2H6_ASW
+
 
 # Anita Meeting
 

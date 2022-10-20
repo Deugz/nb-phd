@@ -13,7 +13,7 @@
 
 :::{grid-item}
 
-Ice form around <span class="hovertext" data-hover="Description">interstellar dust grains</span> that are less than 1 &micro;m in size. Let's pause for a second and have a closer look at those because despite their size, they play a gigantic role in the story of the universe.
+Ice form around <span class="hovertext" data-hover="Description">interstellar dust grains</span> that are less than 1 &micro;m in size like shown in figure X. Let's pause for a second and have a closer look at those because despite their size, they play a gigantic role in the story of the universe.
 
 :::
 

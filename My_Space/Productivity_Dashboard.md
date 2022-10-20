@@ -24,13 +24,13 @@
 <div class="blackboard">
 <div class="form">
     
-<li> Work on Data Reduction </li> 
-<ul>Split Data_Reduction_Full into 3 (DR1 - DR2 - DR3) </ul>
-<ul>Produce sub_Notebooks for the different samples</ul>
+<li> Extract vibration mode of ethane from litterature - Done: <a href="https://deugz.github.io/nb-phd/_build/html/Science/Space.html">here</a> </li> 
+
+<li>Plot ethane + water spectra -> Is there a change in water absorbance</li>
+<ul><strong>Yes</strong> - to discuss</ul>
     
-<li>Finish Thesis Book skeleton</li>
-    
-<li>Classify the samples</li>
+<li>DR2_C2H6 - ready to perform</li>
+<ul>Not ready yet ...</ul>
     
 </div>    
 </div>

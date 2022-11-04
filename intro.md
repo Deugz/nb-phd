@@ -1,4 +1,4 @@
-```{image} Documents/3Dsuccess.png
+```{image} Docs/3Dsuccess.png
 :alt: 3D cool plot
 :width: 650px
 :align: center
@@ -9,7 +9,7 @@
 :::::{margin} 
 ::::{grid} 1
 :::{grid-item-card} 
-:img-top: Documents/SFP-logo.png
+:img-top: Docs/SFP-logo.png
 :link: https://deugz.github.io/nb-master/_build/html/intro.html
 ^^^
 **Vincent Deguin**
@@ -49,6 +49,9 @@ Water ice is ubiquitously present on the surface of interstellar dust grains and
 - New methodology - long isotherm scan to resolve subtle changes, kinetics over an extended period of time
 
 - Presence of impurities will be investigated
+
+
+**Tags**: (insert)
 
 
 
@@ -188,6 +191,17 @@ Chapters in bold (+ &#9999;) on the left menu are **Thesis Chapters**, Other pag
 
 ***
 
+:::::{margin} 
+::::{grid} 1
+:::{grid-item-card} 
+:img-top: Docs/OU_Logo.svg
+:link: https://deugz.github.io/nb-museum/_build/html/intro.html
+^^^
+**PhD Part 2**
+:::
+::::
+:::::
+
 <h5>Part 2: Highway to Hell</h5>
 
 - [Chapter 1.B]() : **Introduction**
@@ -222,8 +236,7 @@ Chapters in bold (+ &#9999;) on the left menu are **Thesis Chapters**, Other pag
 
 
 ***
-<br>
-<br>
+
 - [Discussion](Thesis_JB/Discussion) : **Discussion**
 <br>
 <br>
@@ -318,14 +331,32 @@ No lists of abbreviation as will be directly described in the text:
 **Exemple:**  <span class="hovertext" data-hover="Amorphous Solid Water">ASW</span>
     
 
-## Comments
+## Why an Online thesis ?
 
+<h3><strong>&#187;<u> Aligned with my Principles </u></strong></h3>
 
-<h3><strong>&#187;  <u>Peer Review</u></strong></h3>
-
-<article id="P1">
+I think research is gangrened by the commercial scientific publication system and an alternative to that is <strong>self-publication</strong> (cf Manifesto). Being a student from the Open University (OU), that is a values-led institution which seeks to be 
     
-<div id="subdiv2">
+<p class="emphase">“Open to people, places, methods and ideas”</p>
+    
+The University champions openly shared, engaged research of all kinds alongside its world-leading approach to online teaching ([Source](https://www.open.ac.uk/research/support-researchers/open-university-statement-responsible-use-research-metrics)).
+
+
+    
+<h3><strong>&#187;  <u>Science communication</u></strong></h3>
+
+<h4> <strong>Peer Review</strong> </h4>
+    
+<article id="P1">
+ 
+<div id="subdiv2-3">
+    
+Those buttons located on the <strong>top right corner</strong>, open `Hypothesis` an online commenting tool.
+- Needs registering (free account)
+
+</div>
+    
+<div id="subdiv1-3">
 
 ```{image} Docs/Hypothesis_symbols.png
 :width: 50px
@@ -333,24 +364,11 @@ No lists of abbreviation as will be directly described in the text:
 :align: center
 ```
 </div>
-<div id="subdiv2">
-    
-Those buttons located on the <strong>top right corner</strong>, open `Hypothesis` an online commenting tool.
 
-Needs registering (free account)
-
-- Anita
-- Simon
-- Richard
-
-</div>
    
 </article>
-
-<h3><strong>&#187;  <u>Notes </u></strong></h3>
-
-
-<h4><strong>Communication Post-it</strong></h4>
+    
+<h4><strong>Interaction Post-it</strong></h4>
 
 :::::{div} full-width
 ::::{grid} 4

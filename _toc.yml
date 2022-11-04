@@ -7,18 +7,20 @@ parts:
   - caption: Introduction
     chapters:
     - file: Thesis_JB/Chapter1/Chapter1
-    - file: Science/Science
+    - file: Notes/Science_Notes/Science
       sections:
-      - file: Science/Water
-      - file: Science/Space
-      - file: Science/Amorphous   
+      - file: Notes/Science_Notes/Water
+      - file: Notes/Science_Notes/Space
+      - file: Notes/Science_Notes/Amorphous
+      - file: Notes/Science_Notes/Mixed
+      - file: Notes/Science_Notes/Questions 
   - caption: Methods
     chapters:
     - file: Thesis_JB/Chapter2/Chapter2
-    - file: Method/Method
+    - file: Notes/Method_Notes/Method
       sections:
-      - file: Method/IR
-      - file: Method/Spectroscopy
+      - file: Notes/Method_Notes/PAC
+      - file: Notes/Method_Notes/Spectroscopy
   - caption: Data
     chapters:
     - file: Notes/Data_Notes/Data_Main
@@ -83,24 +85,18 @@ parts:
     - file: Dissemination/Outreach
       sections:
       - file: Dissemination/Outreach/Outreach1
-  - caption: Scripts
-    chapters:
-    - file: Script_Copie/Data_Reduction_Full_07-22
-    - file: Script_Copie/Data_Processing_Full_07-22
-    - file: Script_Copie/Data_Analysis_Full_07-22
-    - file: Script_Copie/Data_Analysis_Binder_07-22
   - caption: My Corner
     chapters:
     - file: My_Space/Productivity_Dashboard
-    - file: Notes/Organisation
+    - file: My_Space/Organisation
       sections:
-      - file: Notes/Daily_Log
-      - file: Notes/Monthly_Dashbord
-      - file: Notes/Archives/Archive_Main
+      - file: My_Space/Daily_Log
+      - file: My_Space/Monthly_Dashbord
+      - file: My_Space/Archives/Archive_Main
     - file: Thesis_JB/Biblio/Litterature_Review
   - caption: Appendix
     chapters:
-    - file: Appendix/How_do_I 
-    - file: Appendix/Style_guide 
-    - file: Appendix/Help
+    - file: My_Space/How_do_I 
+    - file: My_Space/Style_guide 
+    - file: My_Space/Help
     

@@ -13,7 +13,12 @@
 
 <h4><strong>DR1 </strong></h4>
 
-````{margin} 
+````{margin}
+
+**Inputss**
+
+- All individual smoothed scans
+
 **Outputs**
 
 - DR1_Date
@@ -41,11 +46,11 @@
     
 <div id="subdiv2-3"> 
 
-This reduction step is done **per sample** 
-    
+This reduction step is done **per sample**. 
 </div>
     
 </article>
+
 
 <h4><strong>DR1.1  </strong></h4>
 

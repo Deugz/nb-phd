@@ -53,9 +53,27 @@ Ice doesn't form in space like on Earth. Actually the type of ice we will speak 
 
 ## Molecules in space
 
+- insert list of molecules detected
+
+
+- Different space environments (scope is within the galaxy)
+    - Circumstellar shells
+    - ISM
+        - Diffuse ISM
+        - Molecular clouds
+    - Protoplanetary Disk
+    - Comets
+    - Planets and solar system icy bodies
+    
+Some molecules have been detected in comets but not in the ISM.
+    
+- Insert table of space conditions in the ISM environments
 
 
 
+Most of them have been detected into the gas phase (from radio astronomy: ALMA) but **How do they form**
+
+- At the surface of micrometer dust 
 
 
 ## Interstellar Dust
@@ -159,9 +177,10 @@ Ice form around <span class="hovertext" data-hover="Description">interstellar du
 ::::
 :::::
 
-<h3><strong>&#187;  <u> Observation </u></strong></h3>
 
-<h4><strong>Infrared telescope</strong></h4>
+## Observation
+
+<h3><strong>&#187;  <u> Infrared telescope</u></strong></h3>
 
 Spatial telescopes to avoid atmosphere absorbtion. Target the <strong>3&micro;m ice band </strong>.
 
@@ -282,15 +301,25 @@ Blabla
 More Spectrum (Amorphous Crystaline)
 
 
-## Where ?
+## Molecular synthesis 
+
+<h3><strong>&#187;  <u> In space </u></strong></h3>
+
 
 We stated on the previous chapter (link) that ASW doesn't occure naturally on earth but can we find it in space ? Yes, here is where
 
-<h3><strong>&#187;  <u> Protoplanetary Disks </u></strong></h3>
+
+<h4><strong> Molecular Clouds</strong></h4>
+
+
+
+
+<h4><strong> Protoplanetary Disks</strong></h4>
+
 
 Temperature gradient (mxture). Evolution with time (energetic events - Star Outburst ...)
 
-<h4><strong>Snow line</strong></h4>
+<h5><strong>Snow line</strong></h5>
 
 <h3><strong>&#187;  <u> Solar Systems </u></strong></h3>
 

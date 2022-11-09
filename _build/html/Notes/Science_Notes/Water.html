@@ -145,14 +145,7 @@ const thebe_selector_output = ".output, .cell_output"
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="../../intro.html">
-   Stairway to Heaven
-  </a>
- </li>
-</ul>
-<p aria-level="2" class="caption" role="heading">
+        <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Introduction
  </span>
@@ -547,10 +540,32 @@ const thebe_selector_output = ".output, .cell_output"
    Productivity
   </a>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../../My_Space/Organisation.html">
    Notes
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+  <label for="toctree-checkbox-9">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../My_Space/Daily_Log.html">
+     Daily Log
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../My_Space/Monthly_Dashbord.html">
+     Monthly Dashboard
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../My_Space/Archives/Archive_Main.html">
+     Archives
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../../Thesis_JB/Biblio/Litterature_Review.html">
@@ -747,7 +762,14 @@ const thebe_selector_output = ".output, .cell_output"
                 
   <div class="tex2jax_ignore mathjax_ignore section" id="water-ice">
 <h1>Water Ice<a class="headerlink" href="#water-ice" title="Permalink to this headline">¶</a></h1>
-<p>Even though water is a relatively simple molecule, the third most abundant molecule in the Universe (after H2 and CO), and the most abundant molecule on Earth it not yet and far from being completely understood.</p>
+<p>We are all familiar with water. Even though water is a relatively simple molecule, the third most abundant molecule in the Universe (after H2 and CO), and the most abundant molecule on Earth it not yet and far from being completely understood.</p>
+<div class="admonition-writing-9999 admonition">
+<p class="admonition-title">writing ✏</p>
+<p>Some general comments about water</p>
+<ul class="simple">
+<li><p>Why we are interested in it</p></li>
+</ul>
+</div>
 <hr class="docutils" />
 <div class="full-width docutils">
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
@@ -806,15 +828,15 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
 <p><strong>Key Litterature</strong>:</p>
 <ul class="simple">
-<li><p>1</p></li>
+<li><p><span id="id1">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id12" title="missing journal in Walrafen1972">Walrafen, 1972</a>]</span></p></li>
 <li><p>2</p></li>
 </ul>
 <br>
 <br>
 <p><strong>Links</strong></p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Physics/Water/Water.html">Teaching</a> <em>Water</em></p></li>
 <li><p><a class="reference external" href="https://water.lsbu.ac.uk/water/water_structure_science.html">lsbcu</a> <em>Martin Chaplin</em></p></li>
+<li><p><a class="reference external" href="https://materialsproject.org/">materialprojects.org</a></p></li>
 </ul>
 </div>
 <div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
@@ -826,11 +848,13 @@ const thebe_selector_output = ".output, .cell_output"
 <p class="emphase">Water</p>
 <a class="reference internal image-reference" href="../../_images/animated_water.gif"><img alt="Water_moleucule" class="align-center" src="../../_images/animated_water.gif" style="width: 60px;" /></a>
 <br>
+<p class="sd-card-text"><strong>Link</strong>:</p>
+<p class="sd-card-text"><a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Physics/Water/Water.html"><img src="https://img.shields.io/badge/Teaching-Bitesize/Physic/Water-purple.svg?logo=data:Docs/SFP-logo.png"></a></p>
 <br>
-<p class="sd-card-text"><strong>Link</strong>: create specific button</p>
 </div>
 <div class="sd-card-footer docutils">
 <p class="sd-card-text"><strong>Audience</strong>: <span class="hovertext" data-hover=""> <img alt="flag alt &gt;" src="../../_images/fish-nemo-svgrepo-com.svg" /></span></p>
+<p class="sd-card-text"><span class="hovertext" data-hover=""> </span></p>
 </div>
 <img alt="card-img-bottom" class="sd-card-img-bottom" src="../../_images/fish_bkg.png" />
 </div>
@@ -840,23 +864,110 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 <div class="section" id="water-molecule">
 <h2><strong>Water molecule</strong><a class="headerlink" href="#water-molecule" title="Permalink to this headline">¶</a></h2>
-<p>Water is …</p>
+<p>Water is … very important:</p>
+<ul class="simple">
+<li><p>Solar radiation absorbed by the Earth atmosphere is mostly due to water vapour absorption. <span id="id2">[]</span></p></li>
+<li><p>Key molecule for life …</p></li>
+</ul>
 <h3><strong>&#187;  <u> Properties </u></strong></h3>
 <h4><strong> Anomalous behaviour </strong></h4>
-<h4><strong> Dipole moment and Vibrational modes </strong></h4>
+<p>Water molecules are symetric (point group C<sub>2V</sub> - two mirror planes of symmetry and a 2-fold rotation axis).</p>
 <ul class="simple">
-<li><p>ν<sub>1</sub>: symmmetric stretch</p></li>
-<li><p>ν<sub>2</sub>: bending</p></li>
-<li><p>ν<sub>3</sub>: asymmetric stretch</p></li>
+<li><p>Is it important ?</p></li>
 </ul>
+<div class="admonition-writing-9999 admonition">
+<p class="admonition-title">writing ✏</p>
+<p>Geometry,</p>
+</div>
+<p>H atoms could have paralell or antiparallel nuclear spin</p>
+<ul class="simple">
+<li><p>OK, why bother ?</p></li>
+</ul>
+<h4><strong>Polarity, Dipole moment and Vibrational modes </strong></h4>
+<div class="margin sidebar">
+<p class="sidebar-title"></p>
+<div class="seealso admonition">
+<p class="admonition-title">Litterature</p>
+<p><strong>rotational-vibrational spectra of water vapor</strong></p>
+<br>
+<br>
+<ul class="simple">
+<li><p>H<sub>2</sub><sup>17</sup>O and H<sub>2</sub><sup>18</sup>O
+<br>
+<span id="id3">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id17" title="Jonathan Tennyson, Peter F. Bernath, Linda R. Brown, Alain Campargue, Michel R. Carleer, Attila G. Császár, Robert R. Gamache, Joseph T. Hodges, Alain Jenouvrier, Olga V. Naumenko, Oleg L. Polyansky, Laurence S. Rothman, Robert A. Toth, Ann Carine Vandaele, Nikolai F. Zobov, Ludovic Daumont, Alexander Z. Fazliev, Tibor Furtenbacher, Iouli E. Gordon, Semen N. Mikhailenko, and Sergei V. Shirin. Iupac critical evaluation of the rotational-vibrational spectra of water vapor. part i-energy levels and transition wavenumbers for h217o and h218o. Journal of Quantitative Spectroscopy and Radiative Transfer, 110:573-596, 2009. doi:10.1016/j.jqsrt.2009.02.014.">Tennyson <em>et al.</em>, 2009</a>]</span></p></li>
+</ul>
+<br>
+<br>
+<ul class="simple">
+<li><p>HD<sup>16</sup>O, HD<sup>17</sup>O and HD<sup>18</sup>O
+<br>
+<span id="id4">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id16" title="Jonathan Tennyson, Peter F. Bernath, Linda R. Brown, Alain Campargue, Attila G. Császár, Ludovic Daumont, Robert R. Gamache, Joseph T. Hodges, Olga V. Naumenko, Oleg L. Polyansky, Laurence S. Rothman, Robert A. Toth, Ann Carine Vandaele, Nikolai F. Zobov, Sophie Fally, Alexander Z. Fazliev, Tibor Furtenbacher, Iouli E. Gordon, Shui Ming Hu, Semen N. Mikhailenko, and Boris A. Voronin. Iupac critical evaluation of the rotational-vibrational spectra of water vapor. part ii. energy levels and transition wavenumbers for hd16o, hd17o, and hd18o. Journal of Quantitative Spectroscopy and Radiative Transfer, 111:2160-2184, 2010. doi:10.1016/j.jqsrt.2010.06.012.">Tennyson <em>et al.</em>, 2010</a>]</span></p></li>
+</ul>
+<br>
+<br>
+<ul class="simple">
+<li><p>D<sub>2</sub><sup>16</sup>O, D<sub>2</sub><sup>17</sup>O and D<sub>2</sub><sup>18</sup>O
+<br>
+<span id="id5">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id19" title="Jonathan Tennyson, Peter F. Bernath, Linda R. Brown, Alain Campargue, Attila G. Császár, Ludovic Daumont, Robert R. Gamache, Joseph T. Hodges, Olga V. Naumenko, Oleg L. Polyansky, Laurence S. Rothman, Ann Carine Vandaele, Nikolai F. Zobov, Nóra Dénes, Alexander Z. Fazliev, Tibor Furtenbacher, Iouli E. Gordon, Shui Ming Hu, Tamás Szidarovszky, and Irina A. Vasilenko. Iupac critical evaluation of the rotational-vibrational spectra of water vapor. part iv. energy levels and transition wavenumbers for d216o, d217o, and d218o. Journal of Quantitative Spectroscopy and Radiative Transfer, 142:93-108, 2014. doi:10.1016/j.jqsrt.2014.03.019.">Tennyson <em>et al.</em>, 2014</a>]</span></p></li>
+</ul>
+</div>
+</div>
+<p><strong>Monomer band assignment</strong> from <span id="id6">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id18" title="Jonathan Tennyson, Peter F. Bernath, Linda R. Brown, Alain Campargue, Attila G. Császár, Ludovic Daumont, Robert R. Gamache, Joseph T. Hodges, Olga V. Naumenko, Oleg L. Polyansky, Laurence S. Rothman, Ann Carine Vandaele, Nikolai F. Zobov, Afaf R. Al Derzi, Csaba Fábri, Alexander Z. Fazliev, Tibor Furtenbacher, Iouli E. Gordon, Lorenzo Lodi, and Irina I. Mizus. Iupac critical evaluation of the rotational-vibrational spectra of water vapor, part iii: energy levels and transition wavenumbers for h216o. Journal of Quantitative Spectroscopy and Radiative Transfer, 117:29-58, 2013. doi:10.1016/j.jqsrt.2012.10.002.">Tennyson <em>et al.</em>, 2013</a>]</span></p>
+<ul class="simple">
+<li><p>ν<sub>1</sub>: symmmetric stretch, 3657 cm<sup>-1</sup></p></li>
+<li><p>ν<sub>2</sub>: bending, 1595 cm<sup>-1</sup></p></li>
+<li><p>ν<sub>3</sub>: asymmetric stretch, 3756 cm<sup>-1</sup></p></li>
+</ul>
+<h5>Isotopologues</h5>
+<p>Isotopologues are a great investigation tool to unveil the various processes that a molecular species has had to overcome over it’s existence.</p>
 <h4><strong> Hydrogen bonding </strong></h4>
+<h5><strong> Definition </strong></h5>
+<div class="full-width docutils">
+<blockquote class="epigraph">
+<div><p>The hydrogen bond is an attractive interaction between a hydrogen atom from a molecule or a molecular fragment X–H in which X is more electronegative than H, and an atom or a group of atoms in the same or a different molecule, in which there is evidence of bond formation.</p>
+<p class="attribution">—IUPAC definition, 2011 (to cite)</p>
+</div></blockquote>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<p>Hydrogen bonds are the most important stabilizing interaction in nature, playing a key role in the structure of proteins and DNA. First described by Linus Pauling in a letter to William Bragg in 1929.</p>
+<ul class="simple">
+<li><p>copy pasted (rewrite)</p></li>
+</ul>
+<p>The potential energy function of the free AH
+group is thus modified by the potential B; it becomes broader and the
+vibrational levels become closer as reflected by the shift of the AH
+stretching band toward lower frequencies shown by infrared and Raman
+spectroscopy. At the same time, the proton of the AH group shifts toward
+B and the equilibrium r (A–H) distance increases while the intermolecular
+R (A.. B) distance decreases to a value less than the sum of the Van
+der Waals radii of the A and B atoms. The geometrical changes have been
+detected by neutron and X-ray diffraction methods (1–4).</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<div class="figure align-default" id="mc-x">
+<a class="reference internal image-reference" href="../../_images/Novak_potential.PNG"><img alt="../../_images/Novak_potential.PNG" src="../../_images/Novak_potential.PNG" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">source: <span id="id7">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id5" title="A Novak. Hydrogen bonding in solids. correlation of spectroscopic and crystallographic data*. Plenary lecture, 1973.">Novak, 1973</a>]</span></span><a class="headerlink" href="#mc-x" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h6><strong> Different types of Hydrogen bonds ?</strong></h6>
+<ul class="simple">
+<li><p>linear</p></li>
+<li><p>bifurcated - <span id="id8">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id4" title="Paul A Giguere. Bifurcated hydrogen bonds in water. Journal of Raman Spectroscopy, 1984.">Giguere, 1984</a>]</span></p></li>
+</ul>
+<h5><strong> Molecular interaction </strong></h5>
+<h6><strong> Geometry </strong></h6>
+<p>Best way to study intermolecular interaction is in the solid phase, at low temerature (reduce molecular movement ….)</p>
 <p>The basic principles that govern the arrangement of atoms in water ice are called the ice rules (or Bernal–Fowler rules) and they state that each oxygen is covalently bonded to two hydrogen atoms and that the oxygen atom in each water molecule forms two hydrogen bonds with other water molecules. As a result, each water molecule is embeded in a teraedron formed by four neighbouring molecules, called a <strong>Walrafen pentamer</strong></p>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
 <div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
-<div class="figure align-default" id="mc-x">
+<div class="figure align-default" id="id9">
 <a class="reference internal image-reference" href="../../_images/Walf_tetra_MC.PNG"><img alt="../../_images/Walf_tetra_MC.PNG" src="../../_images/Walf_tetra_MC.PNG" style="width: 400px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">Explain: source MC</span><a class="headerlink" href="#mc-x" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Explain: source MC</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
@@ -865,9 +976,31 @@ const thebe_selector_output = ".output, .cell_output"
 <li><p>2 donors (D) from the 2 hydrogens</p></li>
 <li><p>2 acceptors (A) from the Oxygen lone pairs of electrons</p></li>
 </ul>
+<p><strong>Different forms of Hydrogen bonds</strong></p>
+<p><strong>Van der Walls interaction / distances</strong></p>
 <p><strong>Proton order/disorder ?</strong></p>
 </div>
 </div>
+</div>
+<h6><strong> Intermolecular coupling </strong></h6>
+<div class="margin sidebar">
+<p class="sidebar-title"></p>
+<div class="figure align-default" id="id10">
+<a class="reference internal image-reference" href="../../_images/Coupling.PNG"><img alt="../../_images/Coupling.PNG" src="../../_images/Coupling.PNG" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 5 </span><span class="caption-text">Source: <a class="reference external" href="https://sci-hub.ru/10.1063/1.3516460">link</a> - to redo
+black: OH of interest
+red:intramolecular coupling
+blue: strong intermolecular coupling
+green: weak intermolecular coupling</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<ul class="simple">
+<li><p>Strong / Weak</p></li>
+<li><p>Effect on the IR vibrations</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Does it strenghten, weaken the bonds?</p>
 </div>
 <h3><strong>&#187;  <u> Investigation techniques  </u></strong></h3>
 <p>One of the major issue in obtaining a consensus about water structure is the broad range of technique that are used to investigate it’s properties.</p>
@@ -880,7 +1013,7 @@ const thebe_selector_output = ".output, .cell_output"
 </thead>
 <tbody>
 <tr class="row-even"><td class="text-align:center"><p>Instantaneous</p></td>
-<td class="text-align:center"><p>X-ray absorption</p></td>
+<td class="text-align:center"><p><span class="hovertext" data-hover=""> X-ray absorption  </span></p></td>
 <td class="text-align:center"><p>10<sup>-15</sup> s, single molecule</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:center"><p>Almost instantaneous</p></td>
@@ -913,27 +1046,15 @@ const thebe_selector_output = ".output, .cell_output"
 <p class="admonition-title">Note</p>
 <p>orto vs para water - <a class="reference external" href="https://water.lsbu.ac.uk/water/ortho_para_water.html">lsbcu</a></p>
 </div>
-<h3><strong>&#187;  <u> Molecular interaction </u></strong></h3>
-<h4><strong> Intermolecular coupling </strong></h4>
-<div class="margin sidebar">
-<p class="sidebar-title"></p>
-<div class="figure align-default" id="id1">
-<a class="reference internal image-reference" href="../../_images/Coupling.PNG"><img alt="../../_images/Coupling.PNG" src="../../_images/Coupling.PNG" style="width: 400px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Source: <a class="reference external" href="https://sci-hub.ru/10.1063/1.3516460">link</a> - to redo
-black: OH of interest
-red:intramolecular coupling
-blue: strong intermolecular coupling
-green: weak intermolecular coupling</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
-</div>
-</div>
-<ul class="simple">
-<li><p>Strong / Weak</p></li>
-<li><p>Effect on the IR vibrations</p></li>
-</ul>
+<h5>IR vs Raman</h5>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Does it strenghten, wiken the bonds?</p>
+<p>What is the difference</p>
 </div>
+<p><span class="hovertext" data-hover="A Fermi resonance is the shifting of the energies and intensities of absorption bands in an infrared or Raman spectrum"> <strong>Fermi Resonnances** ? </strong> </span></p>
+<ul class="simple">
+<li><p>Two-dimensional Raman spectroscopy (?) - <span id="id11">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id7" title="Shinji Saito and Iwao Ohmine. Fifth-order two-dimensional raman spectroscopy of liquid water, crystalline ice lh and amorphous ices: sensitivity to anharmonic dynamics and local hydrogen bond network structure. Journal of Chemical Physics, 2006. doi:10.1063/1.2232254.">Saito and Ohmine, 2006</a>]</span></p></li>
+</ul>
 </div>
 <div class="section" id="water-in-the-condensed-phase">
 <h2><strong>Water in the condensed phase</strong><a class="headerlink" href="#water-in-the-condensed-phase" title="Permalink to this headline">¶</a></h2>
@@ -950,13 +1071,13 @@ green: weak intermolecular coupling</span><a class="headerlink" href="#id1" titl
 <div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
 <div class="figure align-default" id="phase-diagram">
 <a class="reference internal image-reference" href="../../_images/Phase_diagram_of_water.svg"><img alt="../../_images/Phase_diagram_of_water.svg" src="../../_images/Phase_diagram_of_water.svg" width="600px" /></a>
-<p class="caption"><span class="caption-number">Fig. 5 </span><span class="caption-text">Explain: source MC</span><a class="headerlink" href="#phase-diagram" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">Explain: source MC</span><a class="headerlink" href="#phase-diagram" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
 <div class="figure align-default" id="phase-diagram-2">
 <a class="reference internal image-reference" href="../../_images/Phase_diagram_2.PNG"><img alt="../../_images/Phase_diagram_2.PNG" src="../../_images/Phase_diagram_2.PNG" style="width: 380px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">Explain: source MC</span><a class="headerlink" href="#phase-diagram-2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 7 </span><span class="caption-text">Explain: source MC</span><a class="headerlink" href="#phase-diagram-2" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -969,53 +1090,41 @@ green: weak intermolecular coupling</span><a class="headerlink" href="#id1" titl
 <p>IR Spectra of the different phases</p>
 </div>
 <h5><strong> Gas spectra</strong></h5>
-<p>Solar radiation absorbed by the Earth atmosphere is mostly due to water vapour absorption.</p>
-<ul class="simple">
-<li><p><span id="id2">[]</span></p></li>
-</ul>
-<h5>Isotopologues</h5>
-<div class="margin sidebar">
-<p class="sidebar-title"></p>
-<div class="seealso admonition">
-<p class="admonition-title">Litterature</p>
-<p><strong>rotational-vibrational spectra of water vapor</strong></p>
-<br>
-<br>
-<ul class="simple">
-<li><p>H<sub>2</sub><sup>17</sup>O and H<sub>2</sub><sup>18</sup>O
-<br>
-<span id="id3">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id50" title="Jonathan Tennyson, Peter F. Bernath, Linda R. Brown, Alain Campargue, Michel R. Carleer, Attila G. Császár, Robert R. Gamache, Joseph T. Hodges, Alain Jenouvrier, Olga V. Naumenko, Oleg L. Polyansky, Laurence S. Rothman, Robert A. Toth, Ann Carine Vandaele, Nikolai F. Zobov, Ludovic Daumont, Alexander Z. Fazliev, Tibor Furtenbacher, Iouli E. Gordon, Semen N. Mikhailenko, and Sergei V. Shirin. Iupac critical evaluation of the rotational-vibrational spectra of water vapor. part i-energy levels and transition wavenumbers for h217o and h218o. Journal of Quantitative Spectroscopy and Radiative Transfer, 110:573-596, 2009. doi:10.1016/j.jqsrt.2009.02.014.">Tennyson <em>et al.</em>, 2009</a>]</span></p></li>
-</ul>
-<br>
-<br>
-<ul class="simple">
-<li><p>HD<sup>16</sup>O, HD<sup>17</sup>O and HD<sup>18</sup>O
-<br>
-<span id="id4">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id51" title="Jonathan Tennyson, Peter F. Bernath, Linda R. Brown, Alain Campargue, Attila G. Császár, Ludovic Daumont, Robert R. Gamache, Joseph T. Hodges, Olga V. Naumenko, Oleg L. Polyansky, Laurence S. Rothman, Robert A. Toth, Ann Carine Vandaele, Nikolai F. Zobov, Sophie Fally, Alexander Z. Fazliev, Tibor Furtenbacher, Iouli E. Gordon, Shui Ming Hu, Semen N. Mikhailenko, and Boris A. Voronin. Iupac critical evaluation of the rotational-vibrational spectra of water vapor. part ii. energy levels and transition wavenumbers for hd16o, hd17o, and hd18o. Journal of Quantitative Spectroscopy and Radiative Transfer, 111:2160-2184, 2010. doi:10.1016/j.jqsrt.2010.06.012.">Tennyson <em>et al.</em>, 2010</a>]</span></p></li>
-</ul>
-<br>
-<br>
-<ul class="simple">
-<li><p>H<sub>2</sub><sup>16</sup>O
-<br>
-<span id="id5">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id49" title="Jonathan Tennyson, Peter F. Bernath, Linda R. Brown, Alain Campargue, Attila G. Császár, Ludovic Daumont, Robert R. Gamache, Joseph T. Hodges, Olga V. Naumenko, Oleg L. Polyansky, Laurence S. Rothman, Ann Carine Vandaele, Nikolai F. Zobov, Afaf R. Al Derzi, Csaba Fábri, Alexander Z. Fazliev, Tibor Furtenbacher, Iouli E. Gordon, Lorenzo Lodi, and Irina I. Mizus. Iupac critical evaluation of the rotational-vibrational spectra of water vapor, part iii: energy levels and transition wavenumbers for h216o. Journal of Quantitative Spectroscopy and Radiative Transfer, 117:29-58, 2013. doi:10.1016/j.jqsrt.2012.10.002.">Tennyson <em>et al.</em>, 2013</a>]</span></p></li>
-</ul>
-<br>
-<br>
-<ul class="simple">
-<li><p>D<sub>2</sub><sup>16</sup>O, D<sub>2</sub><sup>17</sup>O and D<sub>2</sub><sup>18</sup>O
-<br>
-<span id="id6">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id48" title="Jonathan Tennyson, Peter F. Bernath, Linda R. Brown, Alain Campargue, Attila G. Császár, Ludovic Daumont, Robert R. Gamache, Joseph T. Hodges, Olga V. Naumenko, Oleg L. Polyansky, Laurence S. Rothman, Ann Carine Vandaele, Nikolai F. Zobov, Nóra Dénes, Alexander Z. Fazliev, Tibor Furtenbacher, Iouli E. Gordon, Shui Ming Hu, Tamás Szidarovszky, and Irina A. Vasilenko. Iupac critical evaluation of the rotational-vibrational spectra of water vapor. part iv. energy levels and transition wavenumbers for d216o, d217o, and d218o. Journal of Quantitative Spectroscopy and Radiative Transfer, 142:93-108, 2014. doi:10.1016/j.jqsrt.2014.03.019.">Tennyson <em>et al.</em>, 2014</a>]</span></p></li>
-</ul>
-</div>
-</div>
-<p>Isotopologues are a great investigation tool to unveil the various processes that a molecular species has had to overcome over it’s existence.</p>
 <h5><strong> Absorption spectra of liquid and solid water</strong></h5>
 <h3><strong>&#187;  <u> Cluster </u></strong></h3>
+<h4><strong> Water dimer </strong></h4>
+<p><strong>History Review</strong></p>
+<ul class="simple">
+<li><p>Exp <span id="id12">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id2" title="Anamika Mukhopadhyay, William T.S. Cole, and Richard J. Saykally. The water dimer i: experimental characterization. Chemical Physics Letters, 633:13-26, 5 2015. doi:10.1016/j.cplett.2015.04.016.">Mukhopadhyay <em>et al.</em>, 2015</a>]</span></p></li>
+<li><p>Model <span id="id13">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id3" title="Anamika Mukhopadhyay, Sotiris S. Xantheas, and Richard J. Saykally. The water dimer ii: theoretical investigations. Chemical Physics Letters, 700:163-175, 5 2018. doi:10.1016/j.cplett.2018.03.057.">Mukhopadhyay <em>et al.</em>, 2018</a>]</span></p></li>
+</ul>
+<h5>Influence on the IR bands</h5>
 <h4><strong> Cooperative Hydrogen Bonding </strong></h4>
+<p>increase in dipole moment with the increase in hydrogen bonding coordination</p>
 <h5>Effect on the IR vibrations</h5>
 <ul class="simple">
-<li><p><span id="id7">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id53" title="Keiichi Ohno, Mari Okimura, Nobuyuki Akai, and Yukiteru Katsumoto. The effect of cooperative hydrogen bonding on the oh stretching-band shift for water clusters studied by matrix-isolation infrared spectroscopy and density functional theory. Physical Chemistry Chemical Physics, 7:3005-3014, 8 2005. doi:10.1039/b506641g.">Ohno <em>et al.</em>, 2005</a>]</span></p></li>
+<li><p><span id="id14">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id14" title="Keiichi Ohno, Mari Okimura, Nobuyuki Akai, and Yukiteru Katsumoto. The effect of cooperative hydrogen bonding on the oh stretching-band shift for water clusters studied by matrix-isolation infrared spectroscopy and density functional theory. Physical Chemistry Chemical Physics, 7:3005-3014, 8 2005. doi:10.1039/b506641g.">Ohno <em>et al.</em>, 2005</a>]</span></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>what these underlying absorption peaks represent?</p>
+<ul class="simple">
+<li><p>Is it the number of H bonds that is important <span id="id15">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id12" title="missing journal in Walrafen1972">Walrafen, 1972</a>]</span></p></li>
+<li><p>the <strong>Type of H bonds</strong> (single, bifurcated, trifurcated) ?</p></li>
+<li><p>HB bending angle ? <span id="id16">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id11" title="Klaus B. Møller, Rossend Rey, and James T. Hynes. Hydrogen bond dynamics in water and ultrafast infrared spectroscopy: a theoretical study. Journal of Physical Chemistry A, 108:1275-1289, 2 2004. doi:10.1021/jp035935r.">Møller <em>et al.</em>, 2004</a>]</span></p></li>
+<li><p>Nature of the formed or broken donor and acceptor hydrogen bonds <span id="id17">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id10" title="Arnon Millo, Yosef Raichlin, and Abraham Katzir. Mid-infrared fiber-optic attenuated total reflection spectroscopy of the solid-liquid phase transition of water. APPLIED SPECTROSCOPY, 2005.">Millo <em>et al.</em>, 2005</a>]</span></p></li>
+<li><p>length of the hydrogen bonds <span id="id18">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id9" title="Diedrich A. Schmidt and Kazushi Miki. Structural correlations in liquid water: a new interpretation of ir spectroscopy. Journal of Physical Chemistry A, 111:10119-10122, 10 2007. doi:10.1021/jp074737n.">Schmidt and Miki, 2007</a>]</span></p></li>
+</ul>
+</div>
+<p>The absorption bands also reflect <strong>coherent vibrational transfer</strong> involving several to many water molecules - <span id="id19">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id13" title="Mino Yang and J. L. Skinner. Signatures of coherent vibrational energy transfer in ir and raman line shapes for liquid water. Physical Chemistry Chemical Physics, 12:982-991, 2010. doi:10.1039/b918314k.">Yang and Skinner, 2010</a>]</span> (liquid water work)</p>
+<h5>Fitting method</h5>
+<ul class="simple">
+<li><p><span id="id20">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id8" title="Robert J. Meier. On art and science in curve-fitting vibrational spectra. Vibrational Spectroscopy, 39:266-269, 10 2005. doi:10.1016/j.vibspec.2005.03.003.">Meier, 2005</a>]</span></p></li>
+</ul>
+<p>OH stretch is big <em>potato</em>, sum of multiple subfeature (peaks)</p>
+<h6>Gaussian or Lorentzian ?</h6>
+<ul class="simple">
+<li><p>Voight profile ? (combination of both)</p></li>
 </ul>
 <h3><strong>&#187;  <u>Crystalisation</u></strong></h3>
 <p>At molecular scales (few molecules up to 100 ?) - Matrix isolation techniques</p>
@@ -1054,11 +1163,11 @@ green: weak intermolecular coupling</span><a class="headerlink" href="#id1" titl
 <p>lattice</p>
 <h4><strong>Infrared Spectra </strong></h4>
 <ul class="simple">
-<li><p><span id="id8">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id45" title="F. Li and J. L. Skinner. Infrared and raman line shapes for ice ih. ii. h2o and d 2o. Journal of Chemical Physics, 12 2010. doi:10.1063/1.3516460.">Li and Skinner, 2010</a>]</span></p></li>
+<li><p><span id="id21">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id22" title="F. Li and J. L. Skinner. Infrared and raman line shapes for ice ih. ii. h2o and d 2o. Journal of Chemical Physics, 12 2010. doi:10.1063/1.3516460.">Li and Skinner, 2010</a>]</span></p></li>
 </ul>
 <h5><strong> Raman </strong></h5>
 <ul class="simple">
-<li><p><span id="id9">[]</span></p></li>
+<li><p><span id="id22">[]</span></p></li>
 </ul>
 <h5><strong> Molecular arrangements </strong></h5>
 <ul class="simple">

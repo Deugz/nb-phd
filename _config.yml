@@ -40,7 +40,7 @@ html:
   extra_navbar              : ""
   extra_footer              : ""  # Will be displayed underneath the footer.
   google_analytics_id       : G-EQV9FEH9JF   
-  home_page_in_navbar       : true
+  home_page_in_navbar       : false
   baseurl                   : "https://deugz.github.io/nb-phd/_build/html/"
   comments:
     hypothesis              : true

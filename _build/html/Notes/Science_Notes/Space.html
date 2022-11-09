@@ -145,14 +145,7 @@ const thebe_selector_output = ".output, .cell_output"
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="../../intro.html">
-   Stairway to Heaven
-  </a>
- </li>
-</ul>
-<p aria-level="2" class="caption" role="heading">
+        <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Introduction
  </span>
@@ -547,10 +540,32 @@ const thebe_selector_output = ".output, .cell_output"
    Productivity
   </a>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../../My_Space/Organisation.html">
    Notes
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+  <label for="toctree-checkbox-9">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../My_Space/Daily_Log.html">
+     Daily Log
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../My_Space/Monthly_Dashbord.html">
+     Monthly Dashboard
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../My_Space/Archives/Archive_Main.html">
+     Archives
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../../Thesis_JB/Biblio/Litterature_Review.html">
@@ -675,8 +690,13 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#where">
-   Where ?
+  <a class="reference internal nav-link" href="#observation">
+   Observation
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#molecular-synthesis">
+   Molecular synthesis
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -715,8 +735,13 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#where">
-   Where ?
+  <a class="reference internal nav-link" href="#observation">
+   Observation
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#molecular-synthesis">
+   Molecular synthesis
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -790,6 +815,31 @@ const thebe_selector_output = ".output, .cell_output"
 <hr class="docutils" />
 <div class="section" id="molecules-in-space">
 <h2>Molecules in space<a class="headerlink" href="#molecules-in-space" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>insert list of molecules detected</p></li>
+<li><p>Different space environments (scope is within the galaxy)</p>
+<ul>
+<li><p>Circumstellar shells</p></li>
+<li><p>ISM</p>
+<ul>
+<li><p>Diffuse ISM</p></li>
+<li><p>Molecular clouds</p></li>
+</ul>
+</li>
+<li><p>Protoplanetary Disk</p></li>
+<li><p>Comets</p></li>
+<li><p>Planets and solar system icy bodies</p></li>
+</ul>
+</li>
+</ul>
+<p>Some molecules have been detected in comets but not in the ISM.</p>
+<ul class="simple">
+<li><p>Insert table of space conditions in the ISM environments</p></li>
+</ul>
+<p>Most of them have been detected into the gas phase (from radio astronomy: ALMA) but <strong>How do they form</strong></p>
+<ul class="simple">
+<li><p>At the surface of micrometer dust</p></li>
+</ul>
 </div>
 <div class="section" id="interstellar-dust">
 <h2>Interstellar Dust<a class="headerlink" href="#interstellar-dust" title="Permalink to this headline">¶</a></h2>
@@ -848,7 +898,7 @@ const thebe_selector_output = ".output, .cell_output"
 <h4><strong> The Dust cycle in the galaxy </strong></h4>
 <p><strong>Is it a layerd system or is the ice and dust mixed ?</strong></p>
 <ul class="simple">
-<li><p><span id="id1">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id43" title="Alexey Potapov, Jeroen Bouwman, Cornelia Jäger, and Thomas Henning. Dust/ice mixing in cold regions and solid-state water in the diffuse interstellar medium. Nature Astronomy, 5:78-85, 1 2021. doi:10.1038/s41550-020-01214-x.">Potapov <em>et al.</em>, 2021</a>]</span></p></li>
+<li><p><span id="id1">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id24" title="Alexey Potapov, Jeroen Bouwman, Cornelia Jäger, and Thomas Henning. Dust/ice mixing in cold regions and solid-state water in the diffuse interstellar medium. Nature Astronomy, 5:78-85, 1 2021. doi:10.1038/s41550-020-01214-x.">Potapov <em>et al.</em>, 2021</a>]</span></p></li>
 </ul>
 <h4><strong> Grain growth </strong></h4>
 <p>Check P.M. Bellan group papers (Caltech)</p>
@@ -869,8 +919,10 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 </div>
 </div>
-<h3><strong>&#187;  <u> Observation </u></strong></h3>
-<h4><strong>Infrared telescope</strong></h4>
+</div>
+<div class="section" id="observation">
+<h2>Observation<a class="headerlink" href="#observation" title="Permalink to this headline">¶</a></h2>
+<h3><strong>&#187;  <u> Infrared telescope</u></strong></h3>
 <p>Spatial telescopes to avoid atmosphere absorbtion. Target the <strong>3µm ice band </strong>.</p>
 <div class="full-width docutils">
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
@@ -913,7 +965,7 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="sd-card-body docutils">
 <p class="sd-card-text"><span class="hovertext" data-hover="Describe">Description</span></p>
 <p class="sd-card-text"><strong>Results</strong></p>
-<p class="sd-card-text"><span id="id2">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id36" title="A C A Boogert, K M Pontoppidan, C Knez, F Lahuis, J Kessler-Silacci, E F Van Dishoeck, G A Blake, J.-C Augereau, S E Bisschop, S Bottinelli, T Y Brooke, J Brown, A Crapsi, N J Evans Ii, H J Fraser, V Geers, T L Huard, J K Jørgensen, L E Allen, P M Harvey, D W Koerner, L G Mundy, D L Padgett, A I Sargent, and K R Stapelfeldt. The c2d spitzer spectroscopic survey of ices around low-mass young stellar objects. i. h 2 o and the 5y8 m bands 1,2. The Astrophysical Journal, 2008. URL: http://ssc.spitzer.caltech.edu.">Boogert <em>et al.</em>, 2008</a>]</span></p>
+<p class="sd-card-text"><span id="id2">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id31" title="A C A Boogert, K M Pontoppidan, C Knez, F Lahuis, J Kessler-Silacci, E F Van Dishoeck, G A Blake, J.-C Augereau, S E Bisschop, S Bottinelli, T Y Brooke, J Brown, A Crapsi, N J Evans Ii, H J Fraser, V Geers, T L Huard, J K Jørgensen, L E Allen, P M Harvey, D W Koerner, L G Mundy, D L Padgett, A I Sargent, and K R Stapelfeldt. The c2d spitzer spectroscopic survey of ices around low-mass young stellar objects. i. h 2 o and the 5y8 m bands 1,2. The Astrophysical Journal, 2008. URL: http://ssc.spitzer.caltech.edu.">Boogert <em>et al.</em>, 2008</a>]</span></p>
 </div>
 </div>
 </div>
@@ -975,15 +1027,17 @@ const thebe_selector_output = ".output, .cell_output"
 <h4><strong>&#187; The 3&micro;m Ice band</strong></h4>
 <p>More Spectrum (Amorphous Crystaline)</p>
 </div>
-<div class="section" id="where">
-<h2>Where ?<a class="headerlink" href="#where" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="molecular-synthesis">
+<h2>Molecular synthesis<a class="headerlink" href="#molecular-synthesis" title="Permalink to this headline">¶</a></h2>
+<h3><strong>&#187;  <u> In space </u></strong></h3>
 <p>We stated on the previous chapter (link) that ASW doesn’t occure naturally on earth but can we find it in space ? Yes, here is where</p>
-<h3><strong>&#187;  <u> Protoplanetary Disks </u></strong></h3>
+<h4><strong> Molecular Clouds</strong></h4>
+<h4><strong> Protoplanetary Disks</strong></h4>
 <p>Temperature gradient (mxture). Evolution with time (energetic events - Star Outburst …)</p>
-<h4><strong>Snow line</strong></h4>
+<h5><strong>Snow line</strong></h5>
 <h3><strong>&#187;  <u> Solar Systems </u></strong></h3>
 <ul class="simple">
-<li><p>ASW or crystaline ice on Ganymede <span id="id3">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id29" title="Gary B. Hansen and Thomas B. McCord. Amorphous and crystalline ice on the galilean satellites: a balance between thermal and radiolytic processes. Journal of Geophysical Research: Planets, 1 2004. doi:10.1029/2003je002149.">Hansen and McCord, 2004</a>]</span></p></li>
+<li><p>ASW or crystaline ice on Ganymede <span id="id3">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id38" title="Gary B. Hansen and Thomas B. McCord. Amorphous and crystalline ice on the galilean satellites: a balance between thermal and radiolytic processes. Journal of Geophysical Research: Planets, 1 2004. doi:10.1029/2003je002149.">Hansen and McCord, 2004</a>]</span></p></li>
 </ul>
 <h3><strong>&#187;  <u> ISM </u></strong></h3>
 </div>

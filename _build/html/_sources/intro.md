@@ -4,7 +4,12 @@
 :align: center
 ```
 
-# Stairway to Heaven
+<br>
+<br>
+
+# <u>Thesis</u>  .A
+
+
 
 :::::{margin} 
 ::::{grid} 1
@@ -27,11 +32,10 @@
 
 - **Topics**: Experimental Astrophysics, Astrochemistry
 - **Techniques**: mid-IR Spectroscopy
-- **Job**: PhD Part II
+- **Job**: PhD Part II - Stairway to Heaven
 <br>
 <br>
 - **Info**: ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-phd?color=green&style=plastic) - ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-phd?color=yellow&style=plastic) - ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-phd/_build/html/intro.html) - ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/nb-phd?color=red&style=plastic)
-
 
 ***
 
@@ -137,7 +141,7 @@ or
 ``````
 
 
-<h3><strong>&#187;  <u>Thesis </u></strong></h3>
+### <strong>&#187;  <u>Thesis </u></strong>
 
 Chapters in bold (+ &#9999;) on the left menu are **Thesis Chapters**, Other pages in the relevant sections are secoundary materials. Chapter 6 and 7 are located in another book (differrent project). 
 
@@ -246,10 +250,9 @@ Chapters in bold (+ &#9999;) on the left menu are **Thesis Chapters**, Other pag
   
 <h4><strong>Extra Material</strong></h4>
 
+:::::{div} full-width
 
-<article id="P1">
-    
-<div id="subdiv2">
+::::{grid} 3
 
 :::{grid-item-card}
 **Data** <span style="float: right">&#128165;</span>
@@ -266,15 +269,6 @@ Link to figshare (test with DR1_Full)
     
 
 
-
-    
-</div>
-    
-<div id="subdiv2">
-    
-
-
-
 :::{grid-item-card}
 **Interactive Notebooks** <span style="float: right">&#128165;</span>
 ^^^
@@ -287,15 +281,40 @@ github link ?
    
 :::
 
+:::{grid-item-card}
+**Teaching** <span style="float: right">&#128165;</span>
+^^^
     
-</div>
-    
-</article>
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Deugz/ASW_Data_Processing/HEAD?labpath=Data_Analysis_Binder.ipynb)
 
+    
+
+   
+:::
+
+
+
+::::
+
+:::::
 
 <h4><strong>Lists </strong></h4>
 
-:::::{div} full-width
+````{margin}
+
+```{note}
+
+No lists of abbreviation as will be directly described in the text:
+
+**Exemple:**  <span class="hovertext" data-hover="Amorphous Solid Water">ASW</span>
+
+<br>
+<br>
+
+```
+
+````
+
 ::::{grid} 3
 
 <div>
@@ -324,78 +343,162 @@ github link ?
 </div>
 
 ::::
-:::::
-
-No lists of abbreviation as will be directly described in the text:
-
-**Exemple:**  <span class="hovertext" data-hover="Amorphous Solid Water">ASW</span>
     
+<br>
+<br>
 
 ## Why an Online thesis ?
-
-<h3><strong>&#187;<u> Aligned with my Principles </u></strong></h3>
-
-I think research is gangrened by the commercial scientific publication system and an alternative to that is <strong>self-publication</strong> (cf Manifesto). Being a student from the Open University (OU), that is a values-led institution which seeks to be 
     
-<p class="emphase">“Open to people, places, methods and ideas”</p>
     
-The University champions openly shared, engaged research of all kinds alongside its world-leading approach to online teaching ([Source](https://www.open.ac.uk/research/support-researchers/open-university-statement-responsible-use-research-metrics)).
+``````{margin} 
 
+`````{admonition} **See also**
+:class: seealso
 
+<br>
+
+![flag alt >](Docs/Svg_icons/fist-svgrepo-com.svg)[Manifesto](https://deugz.github.io/nb-master/_build/html/Projects/Manifesto.html)
     
-<h3><strong>&#187;  <u>Science communication</u></strong></h3>
+![flag alt >](Docs/Svg_icons/book-svgrepo-com.svg)[Turing Way](https://the-turing-way.netlify.app/welcome)
 
-<h4> <strong>Peer Review</strong> </h4>
+<br>    
+<br>
+   
+**Jupyter Book**
+
+<br>
     
-<article id="P1">
+- Website <a href="https://jupyterbook.org/intro.html" target="blank"> Here </a>
+- ![flag alt >](Docs/Svg_icons/youtube-svgrepo-com.svg) Intro tuto <a href="https://www.youtube.com/watch?v=lZ2FHTkyaMU&list=PLyI6N-dg7IpHaWwVjZa1nB86vWlvY9PdV&index=7&t=1201s" target="blank"> Here </a>
  
-<div id="subdiv2-3">
-    
-Those buttons located on the <strong>top right corner</strong>, open `Hypothesis` an online commenting tool.
-- Needs registering (free account)
 
-</div>
     
-<div id="subdiv1-3">
+`````      
+``````
+    
+There is a need for the scientific community to overcome it's relience on commercial publication. Lots of tools and guidances have been developped over the past few years, like the excellent *Turing way* {cite:p}`Community2022`, to help researcher find their way into Open Science. It is time to put those practices in operation and that is the aim of this online thesis which is a
+    
+<p class="emphase">Proof of concept that science can be self-published and delivered online as a <br>Research <span class="hovertext" data-hover="a comprehensive collection of information and analysis pertaining to a body of knowledge"><strong>compendium</strong></span></p>
 
+<br>
+<br>
+    
+::::{grid}
+:gutter: 2
+
+:::{grid-item-card} 
+:class-header: bg-light
+<span style="float: right">![flag alt >](Docs/Svg_icons/fist-svgrepo-com.svg)</span><h3><strong>&#187;  <u>Good values</u></strong></h3>   
+^^^
+    
+I think research is gangrened by the commercial scientific publication system and an alternative to that is <strong>self-publication</strong> (cf Manifesto). 
+
+<h4><strong>The Open University</strong></h4>    
+    
+The Open University (OU) is a values-led institution which seeks to be *“Open to people, places, methods and ideas”*. It also says to champions openly shared, engaged research of all kinds alongside its world-leading approach to online teaching ([Source](https://www.open.ac.uk/research/support-researchers/open-university-statement-responsible-use-research-metrics)).
+
+<h4><strong>The scientific community</strong></h4>    
+    
+Open Research, more collaboration and less relience on the commercial scientific publication system
+    
+:::
+
+:::{grid-item-card} 
+:class-header: bg-light
+<h3><strong>&#187;  <u>1 tool </u></strong></h3>   
+^^^  
+<h4><strong>Jupyter Book</strong></h4>
+
+Jupyter Book is an open source project for building beautiful, publication-quality books and documents from computational material. 
+- Easy 
+- Interactive
+- ...
+In summary much better than writing pdfs with latex. 
+
+<span style="float: right"><br>![flag alt >](Docs/Svg_icons/solar-system-orbit-svgrepo-com.svg)</span><h5><strong>+ Ecocystem of open softwares</strong></h5>
+    
+- Binder
+- Figshare
+    
+<h5><strong>Paper Version</strong></h5>
+
+Jupyter Book allow the generation of 2 types of output, html (here) and pdf (there)    
+    
+```{warning}
+A paper version is to be produced and can be made accessible upon request.    
+```
+    
+
+
+<h6>Documentation</h6> 
+
+
+
+<h6>Examples</h6>
+
+- Python tuto <a href="https://www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter9-wrangling-advanced.html" target="blank"> Here </a>
+    
+:::
+
+::::
+    
+
+<h3><strong>&#187;  <u>Greater Impact </u></strong></h3> 
+    
+Hell yeah !!
+    
+    
+```{admonition} Take home message
+Hi !
+```
+    
+## Enhanced science communication 
+    
+<h3><strong>&#187;  <u>Peer Review</u></strong></h3>
+
+
+    
+<h4><strong>How to</strong></h4>
+
+    
+````{margin}    
 ```{image} Docs/Hypothesis_symbols.png
 :width: 50px
 :class: float
 :align: center
 ```
-</div>
+````
 
-   
-</article>
     
-<h4><strong>Interaction Post-it</strong></h4>
+::::{grid}
 
-:::::{div} full-width
-::::{grid} 4
+:::{grid-item}
+:columns: 7
+    
+I am using `Hypothesis` as a Peer Review tool. Just higlight any word, sentense or paragraph of this website and you will see apeearing two buttons as shown in the image. If you click on the **annotate button**, you will be able to write your comment directly on the web-page.     
 
-```{admonition} Note / Question
-Notes or questions
+- Needs registering (free account)
+:::
+:::{grid-item}
+:columns: 5
+    
+```{image} Docs/Coment_capture.PNG
+:width: 400px
+:class: float
+:align: center
 ```
-
-```{warning}
-Warning
-```
-
-`````{admonition} Info / Idea
-:class: tip
-Info and Ideas
-`````
-
-`````{admonition} See also
-:class: seealso
-Reference to other content
-`````
+    
+:::
 
 
 ::::
-:::::
+    
+    
+<h3><strong>&#187;  <u>Create a dialogue ...</u></strong></h3>
+    
+I aim to deliver the scientific knowledge that I produced using a **conversational tone**. I think it can help attracting a much wider audience without doing any harm to the scientific content itself. A website offer a limitless set of tools to achieve that goal.  
 
-<h4> <strong>Audiences</strong> </h4>
+<h4> <strong>... with all kind of audiences</strong> </h4>
 
 <article id="P1">
     
@@ -433,34 +536,33 @@ In order to communicate, I will leave notes (4 types, cf below) here and there, 
 </div>
     
 </article>
+    
+<h4><strong>Interaction Post-it</strong></h4>
 
-<h3><strong>&#187;  <u>Formatting </u></strong></h3>
+:::::{div} full-width
+::::{grid} 4
 
-formatting is mood dependant and likely to change.
-
-<h4>Maths</h4>
-
-Different methods to write equation, bith can be referred in the following equation list
-
-<h5>Method 1</h5>
-
-$$
-  \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}
-$$
-
-<h5>Method 2</h5>
-
-```{math}
-:label: my_label
-w_{t+1} = (1 + r_{t+1}) s(w_t) + y_{t+1}
+```{admonition} Note / Question
+Sometimes, for the purpose of interactivity, I will ask you some questions, feel free to comment your answers &#128521;
 ```
 
+```{warning}
+I would &#10084; you to comment every word of this website. But please be **mindfull** of the &#9999; pages that are formal thesis pages. 
+```
 
-<h4>Paper Version</h4>
+`````{admonition} Info / Idea
+:class: tip
+Info and Ideas
+`````
 
-JupyterBook offer a <strong>pdf build</strong> option. 
+`````{admonition} See also
+:class: seealso
+The best advantage of a web-site is that you can link to various other pages or documents, so go check those out!
+`````
 
-- not very good though and will require few changes.
-     
+
+::::
+:::::
+
 
 

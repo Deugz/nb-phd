@@ -78,37 +78,6 @@ Most of them have been detected into the gas phase (from radio astronomy: ALMA) 
 
 ## Interstellar Dust
 
-``````{margin} 
-`````{admonition} **Definitions**
-:class: note
-
-<span class="hovertext" data-hover="Yep, like that!">Hover</span> the term to see definition appear or click on the link to be directed toward Teaching. Classified per difficulty (&#11088;)
-<br>
-<br>
-
-&#11088;
-
-- <span class="hovertext" data-hover="Definition">Atoms</span>  &#x2192; &#128064; [Link](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Astronomy_101.html)
-- <span class="hovertext" data-hover="Definition">Molecules</span>
-
-<br>
-<br>
-
-&#11088; &#11088;
-
-- <span class="hovertext" data-hover="Definition">Polarisability </span>
-<br>
-<br>
-
-&#11088; &#11088; &#11088;
-
-- <span class="hovertext" data-hover="Definition">Polarisability </span>
-
-<br>
-<br>
-
-`````
-``````
 
 
 <h3><strong>&#187;  <u> Formation </u></strong></h3>

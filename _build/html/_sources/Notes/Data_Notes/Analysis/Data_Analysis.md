@@ -1,6 +1,23 @@
 # Analysis
 
+
+
+
 ## Notebook Analysis
+
+````{margin} 
+**litterature Data**
+- XP 1.1
+    - [Leiden Database](https://icedb.strw.leidenuniv.nl/)
+2 water spectra with different thickness (4 temperatures each)
+
+to cite: {cite}`Oberg2007`
+- XP 1.2
+
+    - Dartois
+    - Nasa, hudson
+````
+
 
 ::::{grid} 2
 :::{grid-item-card}

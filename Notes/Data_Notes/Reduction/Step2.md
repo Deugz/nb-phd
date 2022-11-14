@@ -121,6 +121,66 @@ XP_Ramp_df from XP_list_test.csv
     - Plots related to plot of max A
 
 ```
+
+#### Data Annex format
+
+
+```{note}
+Insert table in Reduction step 2
+```
+
+**Data Annex**
+
+|Name              |   ASW_2020_09_16_1|
+| :-------------   |    :------------- |
+|min1              |         -0.0188444|
+|index1            |               6636|
+|min2              |        -0.00846373|
+|index2            |               4235|
+|min3              |        -0.00836861|
+|index3            |               4139|
+|min4              |        -0.00141767|
+|index4            |               2403|
+|min5              |       -0.000785604|
+|index5            |               2269|
+|min6              |         0.00514518|
+|index6            |                530|
+|max               |           0.278402|
+|max_index         |               5120|
+|maxAi_x           |               5120|
+|maxA_x            |           0.290691|
+|maxAw_x           |            3268.32|
+|scan_number_x     |                  1|
+|maxA0i_x          |               5120|
+|maxA0_x           |           0.278402|
+|maxA0w_x          |            3268.32|
+|maxBi_x           |               2945|
+|maxB_x            |         0.00928422|
+|maxBw_x           |             2219.7|
+|maxCi_x           |               1773|
+|maxC_x            |          0.0235572|
+|maxCw_x           |            1654.65|
+|Int_A             |            95.9131|
+|Int_C             |            6.95224|
+|Int_N_A           |                100|
+|maxAi_y           |               5120|
+|maxA_y            |           0.290691|
+|maxAw_y           |            3268.32|
+|scan_number_y     |                  1|
+|maxA0i_y          |               5120|
+|maxA0_y           |           0.278402|
+|maxA0w_y          |            3268.32|
+|maxBi_y           |               2945|
+|maxB_y            |         0.00928422|
+|maxBw_y           |             2219.7|
+|maxCi_y           |               1773|
+|maxC_y            |          0.0235572|
+|maxCw_y           |            1654.65|
+
+```{note}
+Even if columns doesn't match between ethane and water, doesn't really matter because we can have an if/else statement for comparison
+```
+
     
 
 ## DR2_C2H6

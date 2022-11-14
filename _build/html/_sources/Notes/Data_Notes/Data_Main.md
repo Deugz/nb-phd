@@ -1,57 +1,144 @@
 # Management plan
 
 
-## Introduction
+## Samples Overview
 
 
-````{margin} 
-**litterature Data**
-- XP 1.1
-    - [Leiden Database](https://icedb.strw.leidenuniv.nl/)
-2 water spectra with different thickness (4 temperatures each)
-
-to cite: {cite}`Oberg2007`
-- XP 1.2
-
-    - Dartois
-    - Nasa, hudson
-````
+:::::{div} full-width
+<iframe class="preview-iframe" id="preview-iframe" src="../../_static/assets/Sample_list/Sample_list.html" width="100%" height="600"></iframe>
+:::::
 
 
+## Data
+
+### Experimental
+
+Data from IR spectroscopy (Absorbance - wavenumber) 
+- csv files
+
+
+### Pipeline
+
+:::::{div} full-width
+
+::::{grid} 1 1 2 4
+:class-container: text-center
+:gutter: 3
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: Reduction/Data_Reduction.html
+**Reduction** 
+^^^
+
+- DR1 Sanity chenck / Merging
+- DR2 Baseline correction
+- DR3 Normalisation
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: Processing/Data_Processing_Main.html
+**Processing** 
+^^^
+- DP1
+- DP2
+
+:::
+:::{grid-item-card}
+:class-header: bg-light
+:link: Analysis/Data_Analysis.html
+**Analysis** 
+^^^
+
+- Binder
+- PCA
+
+:::
+::::
+:::::
 
 
 
 
 
 
-## Data Overview
+## Workflow
+
+### Reduction
+
+#### Steps
+
+::::{grid} 3
+:::{grid-item-card}
+:class-header: bg-light
+:link: Reduction/Step1.html
+**DR1** 
+^^^
 
 
-### Naming convention
 
-#### Samples
+:::
+:::{grid-item-card}
+:class-header: bg-light
+:link: Reduction/Step2.html
+**DR2** 
+^^^
 
-From Omnic I obtain individual .spa scans named: 
-<br><br>$\color{red}{\text{ASW_}}$_$\color{blue}{\text{2020_09_15_}}$_$\color{green}{\text{0001}}$.spa<br>
+For each sample - All outputs generated
 
-- $\color{red}{\text{Sample type}}$ : can take value : ASW, C2H6, C2H6_ASW
-- $\color{blue}{\text{Sample date}}$ : format yyyy_mm_dd (is the id of every sample).
-- $\color{green}{\text{Scan number}}$ : is allocate incrementaly and represent each scan.
+:::
 
-The Data is quickly processsed using Omnic (Smoothing with a window of (15)) and finally a collection of .CSV files of shape (ASW_2020_09_15_0001_smooth.CSV, ASW_2020_09_15_0002_smooth.CSV, ...) is exported within a **dated** folder of shape
-- 2020_09_15
-- 2020_09_16
-- ...
-
-#### Storage
-
-The exported data is considered Raw and the dated folder containing the data is located in a hardrive uner the location
+:::{grid-item-card}
+:class-header: bg-light
+:link: Reduction/Step3.html
+**DR3**
+^^^
 
 
-![flag alt >](../../Documents/SVG_icons/folder-svgrepo-com.svg) 
+:::
+::::
+
+#### Overview 
+
+```{figure} Docs/DR_workflow_02_08_21.png
+---
+name: MC_X
+width: 1000px
+---
+Reduction Workflow
+```
+
+Each sample is reduced individually going through each reduction steps. Once a reduction step is achieved for all the samples, the samples are merged together to produce a **single data file, uploaded on Zenodo**.
 
 
-### Data-Management Plan
+#### Data Accessibility 
+
+- Include figshare link
+
+### Processing
+
+
+### Analysis
+
+#### Steps
+
+
+#### Stories
+
+I intend to perform the anysis by chunck of samples that relate to one another. I have created one page per stories those samples told me.
+
+
+
+
+## Progress
+
+```{note}
+
+Make note of progress and **deadlines**
+
+```
 
 ::::{grid} 2
 :::{grid-item-card}
@@ -136,52 +223,3 @@ The exported data is considered Raw and the dated folder containing the data is 
 
 :::
 ::::
-
-
-Implement web_version of Sample_list
-
-<iframe class="preview-iframe" id="preview-iframe" src="../../_static/assets/Sample_list/Sample_list.html" width="100%" height="400"></iframe>
-
-
-
-### Reduction routine
-
-
-## Data Handling
-
-
-::::{grid} 3
-:::{grid-item-card}
-:link: Reduction/Data_Reduction.html
-**Reduction** 
-^^^
-
-Check what samples are still to be reduced
-
-:::
-:::{grid-item-card}
-:link: Processing/Data_Processing_Main.html
-**Processing** 
-^^^
-
-For each sample - All outputs generated
-
-:::
-
-:::{grid-item-card}
-:link: Analysis/Data_Analysis.html
-**Analysis**
-^^^
-
-Comparison between samples
-
-:::
-::::
-
-## Workflow
-
-What Data, how is it processed Workflow ...
-
-## Sample list
-
-Create card like template of all samples, their information classified by categories.

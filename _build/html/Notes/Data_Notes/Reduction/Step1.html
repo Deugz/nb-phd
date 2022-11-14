@@ -95,6 +95,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../../../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="canonical" href="https://deugz.github.io/nb-phd/_build/html/Notes/Data_Notes/Reduction/Step1.html" />
     <link rel="shortcut icon" href="../../../_static/OU_Logo.svg"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
@@ -688,6 +690,25 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal nav-link" href="#dr1">
    DR1
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#naming-convention">
+     Naming convention
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#samples">
+       Samples
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#storage">
+       Storage
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -718,6 +739,25 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal nav-link" href="#dr1">
    DR1
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#naming-convention">
+     Naming convention
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#samples">
+       Samples
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#storage">
+       Storage
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -760,6 +800,30 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">All_data_frame</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
 </pre></div>
+</div>
+<div class="section" id="naming-convention">
+<h3>Naming convention<a class="headerlink" href="#naming-convention" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="samples">
+<h4>Samples<a class="headerlink" href="#samples" title="Permalink to this headline">¶</a></h4>
+<p>From Omnic I obtain individual .spa scans named:
+<br><br><span class="math notranslate nohighlight">\(\color{red}{\text{ASW_}}\)</span><em><span class="math notranslate nohighlight">\(\color{blue}{\text{2020_09_15_}}\)</span></em><span class="math notranslate nohighlight">\(\color{green}{\text{0001}}\)</span>.spa<br></p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\color{red}{\text{Sample type}}\)</span> : can take value : ASW, C2H6, C2H6_ASW</p></li>
+<li><p><span class="math notranslate nohighlight">\(\color{blue}{\text{Sample date}}\)</span> : format yyyy_mm_dd (is the id of every sample).</p></li>
+<li><p><span class="math notranslate nohighlight">\(\color{green}{\text{Scan number}}\)</span> : is allocate incrementaly and represent each scan.</p></li>
+</ul>
+<p>The Data is quickly processsed using Omnic (Smoothing with a window of (15)) and finally a collection of .CSV files of shape (ASW_2020_09_15_0001_smooth.CSV, ASW_2020_09_15_0002_smooth.CSV, …) is exported within a <strong>dated</strong> folder of shape</p>
+<ul class="simple">
+<li><p>2020_09_15</p></li>
+<li><p>2020_09_16</p></li>
+<li><p>…</p></li>
+</ul>
+</div>
+<div class="section" id="storage">
+<h4>Storage<a class="headerlink" href="#storage" title="Permalink to this headline">¶</a></h4>
+<p>The exported data is considered Raw and the dated folder containing the data is located in a hardrive uner the location</p>
+<p><img alt="flag alt &gt;" src="Notes/Documents/SVG_icons/folder-svgrepo-com.svg" /></p>
+</div>
 </div>
 </div>
 </div>

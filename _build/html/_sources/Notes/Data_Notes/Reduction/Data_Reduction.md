@@ -1,17 +1,41 @@
 # Reduction
 
-## Reduction pipeline
-
-***
 **3 steps**:
-- DR1
-- DR2
-- DR3
+
+
+::::{grid} 3
+:::{grid-item-card}
+:class-header: bg-light
+:link: Step1.html
+**DR1** 
+^^^
+
+
+
+:::
+:::{grid-item-card}
+:class-header: bg-light
+:link: Step2.html
+**DR2** 
+^^^
+
+For each sample - All outputs generated
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: Step3.html
+**DR3**
+^^^
+
+
+:::
+::::
+
 ***
 
-<h3><strong>&#187;  <u>STEP 1: Sanity Check, Merging</u></strong></h3>
-
-<h4><strong>DR1 </strong></h4>
+## STEP 1: Sanity Check, Merging
 
 ````{margin}
 
@@ -26,66 +50,68 @@
 
 ````
 
-<article id="P1">
+This reduction step is ...
 
-<div id="subdiv1-3">    
-    
+- Merge all the individual scans together
+- Implement the Temperature Ramp
+
+<br>
+<br>
+
+:::::::{div} full-width
+::::::{grid} 2
+:::::{grid-item}
+
+<h3><strong>&#187;  <u>DR1 </u></strong></h3>
+
+::::{grid} 2
+
 :::{grid-item-card}
+:class-header: bg-light
 :link: Step1.html
-**DR1 Notebook**
+<span style="float: right">![flag alt >](../../../Docs/Svg_icons/jupyter-svgrepo-com.svg)</span>**DR1 Notebook**
 ^^^
-**Sanity Check Merging**
 
-2 Notebooks
-- DR1
-- DR1.1
 :::
 
+:::{grid-item}
 
-</div>
-    
-<div id="subdiv2-3"> 
+This reduction step is done per sample and the same notebook is used to process all the samples.
 
-This reduction step is done **per sample**. 
-</div>
-    
-</article>
+:::
+::::
+:::::
+:::::{grid-item}
 
+<h3><strong>&#187;  <u>DR1.1 </u></strong></h3>
 
-<h4><strong>DR1.1  </strong></h4>
+::::{grid} 2
 
-<article id="P1">
-
-<div id="subdiv1-3">    
-    
 :::{grid-item-card}
+:class-header: bg-light
 :link: Step1.html
-**DR1.1 Notebook**
+<span style="float: right">![flag alt >](../../../Docs/Svg_icons/jupyter-svgrepo-com.svg)</span>**DR1.1 Notebook**
 ^^^
-**Sanity Check Merging**
 
-2 Notebooks
-- DR1
-- DR1.1
+
+
 :::
 
+:::{grid-item}
 
-</div>
-    
-<div id="subdiv2-3"> 
-    
-- **Explanation**
-    
 Merge all the sample together into one big dataframe
-    
-</div>
-    
-</article>
 
 
-<h3><strong>&#187;  <u>STEP 2: Baseline Correction</u></strong></h3>
+:::
+::::
+:::::
+::::::
+:::::::
 
-<h4><strong>DR2  </strong></h4>
+## STEP 2: Baseline Correction
+
+<h3><strong>&#187;  <u>DR2</u></strong></h3>
+
 
 :::::{div} full-width
 

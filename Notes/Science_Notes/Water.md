@@ -57,6 +57,9 @@ Some general comments about water
 **Links**
 - [lsbcu](https://water.lsbu.ac.uk/water/water_structure_science.html) *Martin Chaplin*
 - [materialprojects.org](https://materialsproject.org/) 
+- [Rcsr](http://rcsr.net/nets) *Not sure what to do with this*
+- [Youtube cool video](https://www.youtube.com/watch?v=9VIRtyKSNVI)
+- [Water journal](https://waterjournal.org/)
 :::
 :::{grid-item-card}
 :class-header: bg-light
@@ -102,11 +105,16 @@ Water is ... very important:
 - Solar radiation absorbed by the Earth atmosphere is mostly due to water vapour absorption. {cite:p}`Lechevalier2018`
 - Key molecule for life ...
 
+It is commonly stated that the presence of liquid water is a necessary condition for the appearance of life:
+- Hydratation properties for biological macromolecules
+    - determine their 3D structures and biological functions in solutions (sol-gel phase transition ?)
+- ...
 
+**Water is more than just a solvent**
 
 <h3><strong>&#187;  <u> Properties </u></strong></h3>
 
-<h4><strong> Anomalous behaviour </strong></h4>
+<h4><strong> Anomalous macroscopic behaviour </strong></h4>
 
 Water molecules are symetric (point group C<sub>2V</sub> - two mirror planes of symmetry and a 2-fold rotation axis).
 - Is it important ?
@@ -115,10 +123,77 @@ Water molecules are symetric (point group C<sub>2V</sub> - two mirror planes of 
 Geometry, 
 ```
 
-H atoms could have paralell or antiparallel nuclear spin
+H atoms could have paralell or antiparallel nuclear spin (orto vs para)
+- [Article to download](https://pubs.acs.org/doi/10.1021/acs.jpclett.2c02665)
+- [Article to download](https://aip.scitation.org/doi/10.1063/5.0102279)
 - OK, why bother ?
 
-<h4><strong>Polarity, Dipole moment and Vibrational modes </strong></h4>
+
+
+- [Other articles](https://sci-hub.ru/10.1038/35053024)
+
+<h4><strong> Microscopic properties</strong></h4>
+
+
+<h5><strong>Polarity, Dipole moment and Vibrational modes </strong></h5>
+
+Polarity makes water an excellent solvent
+
+The dipole moment of a **free** water molecule is 1.86 D (Debye) {cite:p}`Aida2019` (ref 22) - {cite:p}`Akase2014`
+- How is it measured, calculated
+
+
+**Monomer band assignment** from {cite:p}`Tennyson2013`
+
+::::{grid} 3
+:::{grid-item}
+**Symetric**
+^^^
+
+```{image} Docs/Symmetric_stretching_mode-16a3xrc.gif
+:alt: sym stretch
+:width: 150px
+:align: center
+```
+
+- &nu;<sub>1</sub>: symmmetric stretch, 3657 cm<sup>-1</sup>
+
+:::
+:::{grid-item}
+**Asymetric**
+^^^
+
+```{image} Docs/Antisymmetric_stretching_mode-24emuh4.gif
+:alt: sym stretch
+:width: 150px
+:align: center
+```
+
+- &nu;<sub>3</sub>: asymmetric stretch, 3756 cm<sup>-1</sup> 
+
+:::
+
+:::{grid-item}
+**Bending**
+^^^
+
+```{image} Docs/Bending_mode-1nyjjth.gif
+:alt: sym stretch
+:width: 150px
+:align: center
+```
+
+- &nu;<sub>2</sub>: bending, 1595 cm<sup>-1</sup>
+
+:::
+::::
+
+
+
+
+
+
+<h5>Isotopologues</h5>
 
 ````{margin}
 ```{admonition} Litterature
@@ -150,15 +225,6 @@ H atoms could have paralell or antiparallel nuclear spin
 
 ```
 ````
-
-**Monomer band assignment** from {cite:p}`Tennyson2013`
-
-- &nu;<sub>1</sub>: symmmetric stretch, 3657 cm<sup>-1</sup>
-- &nu;<sub>2</sub>: bending, 1595 cm<sup>-1</sup>
-- &nu;<sub>3</sub>: asymmetric stretch, 3756 cm<sup>-1</sup> 
-
-<h5>Isotopologues</h5>
-
 
 Isotopologues are a great investigation tool to unveil the various processes that a molecular species has had to overcome over it's existence.
 
@@ -422,6 +488,11 @@ OH stretch is big *potato*, sum of multiple subfeature (peaks)
 <h6>Gaussian or Lorentzian ?</h6>
 
 - Voight profile ? (combination of both)
+
+
+<h4><strong> Other clusters</strong></h4>
+    
+{cite:p}`Aida2019`
 
 
 

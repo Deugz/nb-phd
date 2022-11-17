@@ -57,6 +57,12 @@ img[alt$=">"] {
   margin: 5px !important;
 }
 
+img[alt$=">>"] {
+  width: 60px !important;
+  text-align: center !important; 
+  margin: 5px !important;
+}
+
 .small {
   width: 20px !important;
   margin: 5px !important;

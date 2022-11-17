@@ -270,6 +270,10 @@ Blabla
 More Spectrum (Amorphous Crystaline)
 
 
+#### Water as a tracer of Interstellar processes
+
+- [UV photodissociation](https://arxiv.org/pdf/2208.13619.pdf)
+
 ## Molecular synthesis 
 
 <h3><strong>&#187;  <u> In space </u></strong></h3>
@@ -303,6 +307,15 @@ Yes, we can produce little volume of space in my lab. Using a high vaccum chambe
 
 - link to method
 
+
+
+## The ice today
+
+### Link between Astro and Cosmo Chemistry
+
+
+- {cite:p}`Danger2022` 
+    - Accessible article about the technique: [link](https://nationalmaglab.org/education/magnet-academy/learn-the-basics/stories/what-s-in-an-oil-drop)
 
 
 

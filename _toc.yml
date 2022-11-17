@@ -34,6 +34,7 @@ parts:
       - file: Notes/Data_Notes/Analysis/Data_Analysis
         sections:
         - file: Notes/Data_Notes/Analysis/Control_Experiments/Control_experiments
+        - file: Notes/Data_Notes/Analysis/Ethane_Samples/Ethane_analysis
         - file: Notes/Data_Notes/Analysis/2OK_ASW
     - file: Notes/Data_Notes/XP-1_1/XP-1_1
       sections:

@@ -1,5 +1,22 @@
 # Daily Log
 
+## 21/11/2022
+
+***
+**Focus**
+
+- Modify DR2_C2H6 to have 3 different baseline (like ASW actually)
+    - Include Rolling average,
+
+- Continue and finish DR2_C2H6_ASW Notebook
+
+**Objectif**:
+
+    
+**Good day?**
+   
+***
+
 ## 16/11/2022
 
 ***

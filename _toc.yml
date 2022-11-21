@@ -27,9 +27,9 @@ parts:
       sections:
       - file: Notes/Data_Notes/Reduction/Data_Reduction
         sections:
-        - file: Notes/Data_Notes/Reduction/Step1
-        - file: Notes/Data_Notes/Reduction/Step2
-        - file: Notes/Data_Notes/Reduction/Step3
+          - file: Notes/Data_Notes/Reduction/Step1/Step1
+          - file: Notes/Data_Notes/Reduction/Step2/Step2
+          - file: Notes/Data_Notes/Reduction/Step3/Step3
       - file: Notes/Data_Notes/Processing/Data_Processing_Main
       - file: Notes/Data_Notes/Analysis/Data_Analysis
         sections:
@@ -62,8 +62,26 @@ parts:
       - file: Notes/Data_Notes/XP-1_1/2021_07_13/2021_07_13
     - file: Notes/Data_Notes/XP-1_2/XP-1_2
       sections:
-      - file: Notes/Data_Notes/Processing/2020_10_14/2020_10_14
-      - file: Notes/Data_Notes/Processing/2020_10_15/2020_10_15
+        - file: Notes/Data_Notes/XP-1_2/2020_12_03/2020_12_03
+        - file: Notes/Data_Notes/XP-1_2/2021_01_29/2021_01_29
+        - file: Notes/Data_Notes/XP-1_2/2021_02_24/2021_02_24
+        - file: Notes/Data_Notes/XP-1_2/2021_03_08/2021_03_08
+        - file: Notes/Data_Notes/XP-1_2/2021_03_24/2021_03_24
+        - file: Notes/Data_Notes/XP-1_2/2021_07_16/2021_07_16
+        - file: Notes/Data_Notes/XP-1_2/2021_08_16/2021_08_16
+        - file: Notes/Data_Notes/XP-1_2/2021_09_15/2021_09_15
+        - file: Notes/Data_Notes/XP-1_2/2021_09_18/2021_09_18
+        - file: Notes/Data_Notes/XP-1_2/2021_09_19/2021_09_19
+        - file: Notes/Data_Notes/XP-1_2/2021_09_20/2021_09_20
+        - file: Notes/Data_Notes/XP-1_2/2021_09_23/2021_09_23
+        - file: Notes/Data_Notes/XP-1_2/2021_09_27/2021_09_27
+        - file: Notes/Data_Notes/XP-1_2/2021_10_04/2021_10_04
+        - file: Notes/Data_Notes/XP-1_2/2021_10_07/2021_10_07
+        - file: Notes/Data_Notes/XP-1_2/2021_10_11/2021_10_11
+        - file: Notes/Data_Notes/XP-1_2/2021_10_18/2021_10_18
+        - file: Notes/Data_Notes/XP-1_2/2021_10_22/2021_10_22
+        - file: Notes/Data_Notes/XP-1_2/2021_10_24/2021_10_24
+        - file: Notes/Data_Notes/XP-1_2/2021_10_28/2021_10_28
   - caption: Results
     chapters:
     - file: Thesis_JB/Chapter3/Chapter3

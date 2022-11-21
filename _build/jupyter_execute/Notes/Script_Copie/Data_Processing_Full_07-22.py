@@ -22,7 +22,7 @@
 
 # ### Libraries
 
-# In[1]:
+# In[2]:
 
 
 import numpy 
@@ -45,7 +45,7 @@ import pylab
 from lmfit.models import ExponentialModel, GaussianModel
 
 
-# In[2]:
+# In[3]:
 
 
 get_ipython().run_line_magic('matplotlib', '')
@@ -59,7 +59,7 @@ get_ipython().run_line_magic('matplotlib', '')
 
 # ## Sample  type
 
-# In[3]:
+# In[4]:
 
 
 # 0.1 Date
@@ -81,7 +81,7 @@ spl = "ASW"
 
 # For quick sample comparison (max 3 sample named 2-3-4)
 
-# In[4]:
+# In[5]:
 
 
 date2 = "2020_09_28"
@@ -116,7 +116,7 @@ date4 = "2020_09_21"
 
 # ## 1.1.1 XP-Ramp
 
-# In[5]:
+# In[6]:
 
 
 XP_Ramp_df = pd.read_csv('D:\DATA-Processing\PAC\XP_list_test.csv')

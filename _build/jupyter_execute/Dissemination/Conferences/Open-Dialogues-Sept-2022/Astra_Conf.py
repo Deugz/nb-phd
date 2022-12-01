@@ -3,7 +3,7 @@
 
 # # Open dialogue in Physics and Astronomy
 
-# In[1]:
+# In[ ]:
 
 
 ## Need to insert this in Notebook metadata

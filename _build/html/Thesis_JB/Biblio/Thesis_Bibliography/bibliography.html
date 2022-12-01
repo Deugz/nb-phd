@@ -145,7 +145,14 @@ const thebe_selector_output = ".output, .cell_output"
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <p aria-level="2" class="caption" role="heading">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../../content.html">
+   Why an online Thesis?
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Introduction
  </span>
@@ -243,7 +250,7 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../../../Notes/Data_Notes/Data_Main.html">
-   Management plan
+   Overview
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
   <label for="toctree-checkbox-3">
@@ -252,38 +259,77 @@ const thebe_selector_output = ".output, .cell_output"
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/Reduction/Data_Reduction.html">
-     Reduction
+    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/XP-1_1.html">
+     XP 1-1
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/Processing/Data_Processing_Main.html">
-     Processing
+    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_2/XP-1_2.html">
+     XP 1-2
     </a>
    </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../../Notes/Data_Notes/Pipeline.html">
+   Pipeline
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../../../Notes/Data_Notes/Analysis/Data_Analysis.html">
-     Analysis
+    <a class="reference internal" href="../../../Notes/Data_Notes/DR/DR_Overview.html">
+     Reduction
     </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
-    <label for="toctree-checkbox-4">
+    <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+    <label for="toctree-checkbox-5">
      <i class="fas fa-chevron-down">
      </i>
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../../Notes/Data_Notes/Analysis/Control_Experiments/Control_experiments.html">
-       Control experiments
+      <a class="reference internal" href="../../../Notes/Data_Notes/DR/Sample_thickness.html">
+       Sample thickness
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../../Notes/Data_Notes/Analysis/Ethane_Samples/Ethane_analysis.html">
-       Ethane analysis
+      <a class="reference internal" href="../../../Notes/Data_Notes/DR/DR1.html">
+       DR1
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../../Notes/Data_Notes/Analysis/2OK_ASW.html">
-       ASW 20K Deposition
+      <a class="reference internal" href="../../../Notes/Data_Notes/DR/DR2.html">
+       DR2
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../Notes/Data_Notes/DR/DR3.html">
+       DR3
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../../Notes/Data_Notes/Processing/Data_Processing_Main.html">
+     Processing
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+    <label for="toctree-checkbox-6">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../Notes/Data_Notes/Processing/Step1.html">
+       Substraction
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../Notes/Data_Notes/Processing/Step2.html">
+       Gaussian fitting
       </a>
      </li>
     </ul>
@@ -291,131 +337,31 @@ const thebe_selector_output = ".output, .cell_output"
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/XP-1_1.html">
-   XP 1-1
+  <a class="reference internal" href="../../../Notes/Data_Notes/Analysis/Data_Analysis.html">
+   Analysis
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
-  <label for="toctree-checkbox-5">
+  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+  <label for="toctree-checkbox-7">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2020_09_15/2020_09_15.html">
-     2020/09/15
+    <a class="reference internal" href="../../../Notes/Data_Notes/Analysis/Control_Experiments/Control_experiments.html">
+     Control experiments
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2020_09_16/2020_09_16.html">
-     2020/09/16
+    <a class="reference internal" href="../../../Notes/Data_Notes/Analysis/Ethane_Samples/Ethane_analysis.html">
+     Ethane analysis
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2020_09_17/2020_09_17.html">
-     2020/09/17
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2020_09_21/2020_09_21.html">
-     2020/09/21
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2020_09_24/2020_09_24.html">
-     2020/09/24
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2020_09_28/2020_09_28.html">
-     2020/09/28
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2020_10_14/2020_10_14.html">
-     2020/10/14
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2020_10_15/2020_10_15.html">
-     2020/10/15
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2020_10_22/2020_10_22.html">
-     2020/10/22
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2020_10_30/2020_10_30.html">
-     2020/10/30
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2020_11_16/2020_11_16.html">
-     2020/11/16
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2020_11_19/2020_11_19.html">
-     2020/11/19
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2020_11_23/2020_11_23.html">
-     2020/11/23
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2020_11_26/2020_11_26.html">
-     2020/11/26
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2020_11_30/2020_11_30.html">
-     2020/11/30
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2021_01_21/2021_01_21.html">
-     2021/01/21
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2021_01_25/2021_01_25.html">
-     2021/01/25
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2021_02_09/2021_02_09.html">
-     2021/02/09
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2021_04_26/2021_04_26.html">
-     2021/04/26
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2021_05_13/2021_05_13.html">
-     2021/05/13
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2021_05_24/2021_05_24.html">
-     2021/05/24
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_1/2021_07_13/2021_07_13.html">
-     2021/07/13
+    <a class="reference internal" href="../../../Notes/Data_Notes/Analysis/2OK_ASW.html">
+     ASW 20K Deposition
     </a>
    </li>
   </ul>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../../../Notes/Data_Notes/XP-1_2/XP-1_2.html">
-   XP 1-2
-  </a>
  </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
@@ -501,8 +447,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../../Dissemination/Conference.html">
    Conferences
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
-  <label for="toctree-checkbox-6">
+  <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
+  <label for="toctree-checkbox-8">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -513,8 +459,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../../Dissemination/Outreach.html">
    Outreach
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
-  <label for="toctree-checkbox-7">
+  <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+  <label for="toctree-checkbox-9">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -542,8 +488,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../../My_Space/Organisation.html">
    Notes
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
-  <label for="toctree-checkbox-8">
+  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+  <label for="toctree-checkbox-10">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -816,49 +762,67 @@ const thebe_selector_output = ".output, .cell_output"
 <dt class="label" id="id45"><span class="brackets">41</span></dt>
 <dd><p>F. Li and J. L. Skinner. Infrared and raman line shapes for ice ih. ii. h2o and d 2o. <em>Journal of Chemical Physics</em>, 12 2010. <a class="reference external" href="https://doi.org/10.1063/1.3516460">doi:10.1063/1.3516460</a>.</p>
 </dd>
-<dt class="label" id="id43"><span class="brackets">42</span></dt>
+<dt class="label" id="id70"><span class="brackets">42</span></dt>
+<dd><p>E. Dartois, J.A. Noble, N. Ysard, K. Demyk, and M. Chabot. Influence of grain growth on co2 ice spectroscopic profiles. modelling for dense cores and disks. <em>Astronomy &amp; Astrophysics</em>, 10 2022. <a class="reference external" href="https://doi.org/10.1051/0004-6361/202243929">doi:10.1051/0004-6361/202243929</a>.</p>
+</dd>
+<dt class="label" id="id43"><span class="brackets">43</span></dt>
 <dd><p>Alexey Potapov, Jeroen Bouwman, Cornelia Jäger, and Thomas Henning. Dust/ice mixing in cold regions and solid-state water in the diffuse interstellar medium. <em>Nature Astronomy</em>, 5:78–85, 1 2021. <a class="reference external" href="https://doi.org/10.1038/s41550-020-01214-x">doi:10.1038/s41550-020-01214-x</a>.</p>
 </dd>
-<dt class="label" id="id36"><span class="brackets">43</span></dt>
+<dt class="label" id="id36"><span class="brackets">44</span></dt>
 <dd><p>A C A Boogert, K M Pontoppidan, C Knez, F Lahuis, J Kessler-Silacci, E F Van Dishoeck, G A Blake, J.-C Augereau, S E Bisschop, S Bottinelli, T Y Brooke, J Brown, A Crapsi, N J Evans Ii, H J Fraser, V Geers, T L Huard, J K Jørgensen, L E Allen, P M Harvey, D W Koerner, L G Mundy, D L Padgett, A I Sargent, and K R Stapelfeldt. The c2d spitzer spectroscopic survey of ices around low-mass young stellar objects. i. h 2 o and the 5y8 m bands 1,2. <em>The Astrophysical Journal</em>, 2008. URL: <a class="reference external" href="http://ssc.spitzer.caltech.edu">http://ssc.spitzer.caltech.edu</a>.</p>
 </dd>
-<dt class="label" id="id29"><span class="brackets">44</span></dt>
+<dt class="label" id="id29"><span class="brackets">45</span></dt>
 <dd><p>Gary B. Hansen and Thomas B. McCord. Amorphous and crystalline ice on the galilean satellites: a balance between thermal and radiolytic processes. <em>Journal of Geophysical Research: Planets</em>, 1 2004. <a class="reference external" href="https://doi.org/10.1029/2003je002149">doi:10.1029/2003je002149</a>.</p>
 </dd>
-<dt class="label" id="id30"><span class="brackets">45</span></dt>
+<dt class="label" id="id69"><span class="brackets">46</span></dt>
+<dd><p>G. Danger, A. Ruf, T. Javelle, J. Maillard, V. Vinogradoff, C. Afonso, I. Schmitz-Afonso, L. Remusat, Z. Gabelica, and P. Schmitt-Kopplin. The transition from soluble to insoluble organic matter in interstellar ice analogs and meteorites. <em>Astronomy &amp; Astrophysics</em>, 9 2022. <a class="reference external" href="https://doi.org/10.1051/0004-6361/202244191">doi:10.1051/0004-6361/202244191</a>.</p>
+</dd>
+<dt class="label" id="id76"><span class="brackets">47</span></dt>
+<dd><p>A. H. Narten, C. G. Venkatesh, and S. A. Rice. Diffraction pattern and structure of amorphous solid water at 10 and 77 °k. <em>The Journal of Chemical Physics</em>, 64:1106–1121, 1976. <a class="reference external" href="https://doi.org/10.1063/1.432298">doi:10.1063/1.432298</a>.</p>
+</dd>
+<dt class="label" id="id72"><span class="brackets">48</span></dt>
+<dd><p>P Jenniskens and D F Blake. Crystallization of amorphous water ice in the solar system. <em>THE ASTROPHYSICAL JOURNAL</em>, 473:1104–1113, 1996.</p>
+</dd>
+<dt class="label" id="id75"><span class="brackets">49</span></dt>
+<dd><p>D. J. Safarik, R. J. Meyer, and C. B. Mullins. Thickness dependent crystallization kinetics of sub-micron amorphous solid water films. <em>Journal of Chemical Physics</em>, 118:4660–4671, 3 2003. <a class="reference external" href="https://doi.org/10.1063/1.1543980">doi:10.1063/1.1543980</a>.</p>
+</dd>
+<dt class="label" id="id74"><span class="brackets">50</span></dt>
+<dd><p>R Scott Smith, C Huang, E K L Wong, and Bruce D Kay. Desorption and crystallization kinetics in nanoscale thin films of amorphous water ice. <em>Surface Science</em>, pages 13–18, 1996.</p>
+</dd>
+<dt class="label" id="id73"><span class="brackets">51</span></dt>
+<dd><p>Z. Dohnálek, Greg A. Kimmel, Ryan L. Ciolli, K. P. Stevenson, R. Scott Smith, and Bruce D. Kay. The effect of the underlying substrate on the crystallization kinetics of dense amorphous solid water films. <em>Journal of Chemical Physics</em>, 112:5932–5941, 4 2000. <a class="reference external" href="https://doi.org/10.1063/1.481166">doi:10.1063/1.481166</a>.</p>
+</dd>
+<dt class="label" id="id30"><span class="brackets">52</span></dt>
 <dd><p>A H Hardin and K B rvey. Temperature dependences of the ice i hydrogen bond spectzal shifts-i. the vitreous to cubic ice i phase transformation. <em>Spectr himka Acta</em>, 296:1139–1151, 1973.</p>
 </dd>
-<dt class="label" id="id31"><span class="brackets">46</span></dt>
+<dt class="label" id="id31"><span class="brackets">53</span></dt>
 <dd><p>Nathan Ockman. The infra-red and raman spectra of ice. <em>Advances in Physics</em>, 7:199–220, 1958. <a class="reference external" href="https://doi.org/10.1080/00018735800101227">doi:10.1080/00018735800101227</a>.</p>
 </dd>
-<dt class="label" id="id32"><span class="brackets">47</span></dt>
+<dt class="label" id="id32"><span class="brackets">54</span></dt>
 <dd><p><strong>missing journal in Whalley1977</strong></p>
 </dd>
-<dt class="label" id="id44"><span class="brackets">48</span></dt>
+<dt class="label" id="id44"><span class="brackets">55</span></dt>
 <dd><p>Alexander Rosu-Finsen, Bharvi Chikani, and Christoph G Salzmann. Thermal desorption of h2o ice: from nanoscale films to the bulk. <em>Monthly Notices of the Royal Astronomical Society</em>, 517:1919–1927, 10 2022. URL: <a class="reference external" href="https://academic.oup.com/mnras/article/517/2/1919/6747155">https://academic.oup.com/mnras/article/517/2/1919/6747155</a>, <a class="reference external" href="https://doi.org/10.1093/mnras/stac2803">doi:10.1093/mnras/stac2803</a>.</p>
 </dd>
-<dt class="label" id="id47"><span class="brackets">49</span></dt>
+<dt class="label" id="id47"><span class="brackets">56</span></dt>
 <dd><p>Ryutaro Souda and Tadaaki Nagao. A temperature programmed desorption study of interactions between water and hydrophobes at cryogenic temperatures. <em>Physical Chemistry Chemical Physics</em>, 24:16900–16907, 7 2022. <a class="reference external" href="https://doi.org/10.1039/d2cp01580c">doi:10.1039/d2cp01580c</a>.</p>
 </dd>
-<dt class="label" id="id33"><span class="brackets">50</span></dt>
+<dt class="label" id="id33"><span class="brackets">57</span></dt>
 <dd><p>R. L. Hudson, M. H. Moore, and L. L. Raines. Ethane ices in the outer solar system: spectroscopy and chemistry. <em>Icarus</em>, 203:677–680, 10 2009. <a class="reference external" href="https://doi.org/10.1016/j.icarus.2009.06.026">doi:10.1016/j.icarus.2009.06.026</a>.</p>
 </dd>
-<dt class="label" id="id34"><span class="brackets">51</span></dt>
+<dt class="label" id="id34"><span class="brackets">58</span></dt>
 <dd><p>R. L. Hudson, P. A. Gerakines, and M. H. Moore. Infrared spectra and optical constants of astronomical ices: ii. ethane and ethylene. <em>Icarus</em>, 243:148–157, 11 2014. <a class="reference external" href="https://doi.org/10.1016/j.icarus.2014.09.001">doi:10.1016/j.icarus.2014.09.001</a>.</p>
 </dd>
-<dt class="label" id="id35"><span class="brackets">52</span></dt>
+<dt class="label" id="id35"><span class="brackets">59</span></dt>
 <dd><p>Emmanuel Dartois and François Langlet. Ethane clathrate hydrate infrared signatures for solar system remote sensing. <em>Icarus</em>, 3 2021. <a class="reference external" href="https://doi.org/10.1016/j.icarus.2020.114255">doi:10.1016/j.icarus.2020.114255</a>.</p>
 </dd>
-<dt class="label" id="id38"><span class="brackets">53</span></dt>
+<dt class="label" id="id38"><span class="brackets">60</span></dt>
 <dd><p>Hugh H. Richardson, Paul J. Wooldridge, and J. Paul Devlin. Ft-ir spectra of vacuum deposited clathrate hydrates of oxirane h 2s, thf, and ethane. <em>The Journal of Chemical Physics</em>, 83:4387–4394, 1985. <a class="reference external" href="https://doi.org/10.1063/1.449055">doi:10.1063/1.449055</a>.</p>
 </dd>
-<dt class="label" id="id70"><span class="brackets">54</span></dt>
-<dd><p>K. I. Öberg, H. J. Fraser, A. C.A. Boogert, S. E. Bisschop, G. W. Fuchs, E. F. Van Dishoeck, and H. Linnartz. Effects of co2 on h2o band profiles and band strengths in mixed h2o:co2 ices. <em>Astronomy and Astrophysics</em>, 462:1187–1198, 2 2007. <a class="reference external" href="https://doi.org/10.1051/0004-6361:20065881">doi:10.1051/0004-6361:20065881</a>.</p>
-</dd>
-<dt class="label" id="id68"><span class="brackets">55</span></dt>
+<dt class="label" id="id68"><span class="brackets">61</span></dt>
 <dd><p>M Hepp and M Herman. Effective rotation-vibration parameters for the 8 and 4 12 bands of ethane. <em>Journal of Molecular Spectroscopy</em>, 194:87–94, 1999. URL: <a class="reference external" href="http://www.idealibrary.com">http://www.idealibrary.com</a>.</p>
 </dd>
-<dt class="label" id="id69"><span class="brackets">56</span></dt>
+<dt class="label" id="id77"><span class="brackets">62</span></dt>
 <dd><p>Ellen H.G. Backus, Mihail L. Grecea, Aart W. Kleyn, and Mischa Bonn. Surface crystallization of amorphous solid water. <em>Physical Review Letters</em>, 6 2004. <a class="reference external" href="https://doi.org/10.1103/PhysRevLett.92.236101">doi:10.1103/PhysRevLett.92.236101</a>.</p>
 </dd>
 </dl>

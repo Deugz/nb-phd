@@ -400,6 +400,7 @@ The earth is the only planet of our solar system that can sustain water in it's 
 
 - supercooled liquid water
 - High density vs low density liquid
+    - [Scihub link](https://sci-hub.ru/10.1103/PhysRevE.67.020201) - Structure and phase diagram of high-density water: The role of interstitial molecules - *Molecular dynamics paper but interesting*
 
 
 

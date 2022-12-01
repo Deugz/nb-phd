@@ -1,7 +1,38 @@
 # Analysis
 
+```{margin}
 
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets5.lottiefiles.com/packages/lf20_X8wA00rqrk.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
 
+```
+
+***
+
+::::{grid} 2
+:::{card} 
+:link: ../Blog/Posts/Scientific_Publication.html
+:class-header: bg-light
+:column: 4
+
+**Analysis**
+^^^
+
+span alt Rocket
+Interactive Notebook
+
+:::
+
+:::{grid-item}
+:column: 8
+
+Description
+
+:::
+
+::::
+
+***
 
 ## Notebook Analysis
 

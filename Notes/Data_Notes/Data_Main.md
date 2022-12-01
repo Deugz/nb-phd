@@ -1,11 +1,6 @@
-# Management plan
+# Overview
 
-
-
-
-## Overview
-
-### Experiments
+## Experiments
 
 :::::{div} full-width
 ::::{grid} 3
@@ -93,126 +88,117 @@
 
 ## Data
 
-### Experimental
+### RAW
 
-Data from IR spectroscopy (Absorbance - wavenumber) 
-- csv files
+Data from ice films deposited at various conditions is obtained from **IR spectroscopy** (absorbance). We obtain a multitude of scans (Absorbance vs wavenumber) that are saved and stored in a `csv` format under a *dated folder*. Before we can compare the different samples, the data has to undergo various reduction and processing steps that I referred as data **pipeline** 
 
 
 ### Pipeline
+
+```{margin}
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets6.lottiefiles.com/packages/lf20_KXdLRdwnM5.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
+```
+
+::::{grid} 2
+:::{grid-item-card}
+:link: XP-1_1/XP-1_1.html
+:text-align: center
+:columns: 4
+Interactive Notebook
+^^^
+
+Data Binder Notebook
+
+:::
+
+
+
+:::{grid-item}
+:link: XP-1_2/XP-1_2.html
+:text-align: center
+:columns: 8
+
+One of the aim of my PhD is to deliver a software for scientist to "play" with the data and plot it within their browser (cf link left). But between the RAW data and the data tht would appear on your screen there is a long and tedious pathway (which you can take as well, may you wish)  
+
+:::
+::::
+
+#### Reduction
+
+The Reduction pipeline is made of 4 steps.
 
 :::::{div} full-width
 
 ::::{grid} 1 1 2 4
 :class-container: text-center
-:gutter: 3
+:gutter: 4
 
 :::{grid-item-card}
 :class-header: bg-light
-:link: Reduction/Data_Reduction.html
-**Reduction** 
+:link: DR/Sample_thickness.html
+**Sample Thickness** 
 ^^^
-
-- DR1 Sanity chenck / Merging
-- DR2 Baseline correction
-- DR3 Normalisation
 
 :::
 
 :::{grid-item-card}
 :class-header: bg-light
-:link: Processing/Data_Processing_Main.html
-**Processing** 
-^^^
-- DP1
-- DP2
-
-:::
-:::{grid-item-card}
-:class-header: bg-light
-:link: Analysis/Data_Analysis.html
-**Analysis** 
-^^^
-
-- Binder
-- PCA
-
-:::
-::::
-:::::
-
-
-
-
-
-
-## Workflow
-
-### Reduction
-
-#### Steps
-
-::::{grid} 3
-:::{grid-item-card}
-:class-header: bg-light
-:link: Reduction/Step1.html
+:link: DR/DR1.html
 **DR1** 
 ^^^
 
 
-
 :::
 :::{grid-item-card}
 :class-header: bg-light
-:link: Reduction/Step2.html
+:link: DR/DR2.html
 **DR2** 
 ^^^
 
-For each sample - All outputs generated
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: DR/DR1.html
+**DR3** 
+^^^
+
+:::
+
+::::
+:::::
+
+#### Processing
+
+Once all the samples have been reduced and are comparable, we have two more steps to increase the information we extract about our samples
+
+::::{grid} 1 1 2 4
+:class-container: text-center
+:gutter: 2
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: Processing/Step1.html
+**Substraction** 
+^^^
 
 :::
 
 :::{grid-item-card}
 :class-header: bg-light
-:link: Reduction/Step3.html
-**DR3**
+:link: Processing/Step2.html
+**Gaussian fitting** 
 ^^^
 
 
 :::
 ::::
 
-#### Overview 
 
-```{figure} Docs/DR_workflow_02_08_21.png
----
-name: MC_X
-width: 1000px
----
-Reduction Workflow
-```
+#### Analysis 
 
-Each sample is reduced individually going through each reduction steps. Once a reduction step is achieved for all the samples, the samples are merged together to produce a **single data file, uploaded on Zenodo**.
-
-
-#### Data Accessibility 
-
-- Include figshare link
-
-### Processing
-
-
-### Analysis
-
-#### Steps
-
-
-#### Stories
-
-I intend to perform the anysis by chunck of samples that relate to one another. I have created one page per stories those samples told me.
-
-
-
+The Analysis of the data is performed in a rather creative fashion. Indeed, I intend to perform the anysis by chunck of samples that relate to one another and write stories about them. I have created one page per stories those samples told me.
 
 ## Progress
 

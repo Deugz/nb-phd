@@ -35,7 +35,7 @@
 
 # $\color{blue}{\text{One of the greatest strength of Python reside in it`s collaborative nature ...}}$
 
-# In[1]:
+# In[2468]:
 
 
 import numpy 
@@ -65,7 +65,7 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 
 # ### Date
 
-# In[2]:
+# In[2469]:
 
 
 date_jour = "2022_02_25"
@@ -73,7 +73,7 @@ date_jour = "2022_02_25"
 
 # ### Experiment
 
-# In[3]:
+# In[2470]:
 
 
 # 0.1 Date
@@ -99,13 +99,13 @@ spl = "ASW"
 
 # $\color{red}{\text{Implement manually !}}$
 
-# In[4]:
+# In[2471]:
 
 
 T_ramp = []
 
 
-# In[5]:
+# In[2472]:
 
 
 T_ramp.append(
@@ -144,7 +144,7 @@ T_ramp.append(
             })
 
 
-# In[6]:
+# In[2473]:
 
 
 #T_ramp
@@ -152,7 +152,7 @@ T_ramp.append(
 
 # $\color{blue}{\text{Pandas library}}$
 
-# In[7]:
+# In[2474]:
 
 
 T_ramp_df = pd.DataFrame(T_ramp)
@@ -166,7 +166,7 @@ T_ramp_df
 
 # Open XP_Ramp csv and create a df
 
-# In[8]:
+# In[2475]:
 
 
 XP_Ramp_df = pd.read_csv('D:\DATA-Processing\PAC\XP_list_test.csv')

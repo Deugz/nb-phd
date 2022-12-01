@@ -145,7 +145,14 @@ const thebe_selector_output = ".output, .cell_output"
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <p aria-level="2" class="caption" role="heading">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../content.html">
+   Why an online Thesis?
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Introduction
  </span>
@@ -243,7 +250,7 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../Data_Notes/Data_Main.html">
-   Management plan
+   Overview
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
   <label for="toctree-checkbox-3">
@@ -252,38 +259,77 @@ const thebe_selector_output = ".output, .cell_output"
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/Reduction/Data_Reduction.html">
-     Reduction
+    <a class="reference internal" href="../Data_Notes/XP-1_1/XP-1_1.html">
+     XP 1-1
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/Processing/Data_Processing_Main.html">
-     Processing
+    <a class="reference internal" href="../Data_Notes/XP-1_2/XP-1_2.html">
+     XP 1-2
     </a>
    </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Data_Notes/Pipeline.html">
+   Pipeline
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../Data_Notes/Analysis/Data_Analysis.html">
-     Analysis
+    <a class="reference internal" href="../Data_Notes/DR/DR_Overview.html">
+     Reduction
     </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
-    <label for="toctree-checkbox-4">
+    <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+    <label for="toctree-checkbox-5">
      <i class="fas fa-chevron-down">
      </i>
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../Data_Notes/Analysis/Control_Experiments/Control_experiments.html">
-       Control experiments
+      <a class="reference internal" href="../Data_Notes/DR/Sample_thickness.html">
+       Sample thickness
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../Data_Notes/Analysis/Ethane_Samples/Ethane_analysis.html">
-       Ethane analysis
+      <a class="reference internal" href="../Data_Notes/DR/DR1.html">
+       DR1
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../Data_Notes/Analysis/2OK_ASW.html">
-       ASW 20K Deposition
+      <a class="reference internal" href="../Data_Notes/DR/DR2.html">
+       DR2
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../Data_Notes/DR/DR3.html">
+       DR3
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../Data_Notes/Processing/Data_Processing_Main.html">
+     Processing
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+    <label for="toctree-checkbox-6">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../Data_Notes/Processing/Step1.html">
+       Substraction
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../Data_Notes/Processing/Step2.html">
+       Gaussian fitting
       </a>
      </li>
     </ul>
@@ -291,131 +337,31 @@ const thebe_selector_output = ".output, .cell_output"
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../Data_Notes/XP-1_1/XP-1_1.html">
-   XP 1-1
+  <a class="reference internal" href="../Data_Notes/Analysis/Data_Analysis.html">
+   Analysis
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
-  <label for="toctree-checkbox-5">
+  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+  <label for="toctree-checkbox-7">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2020_09_15/2020_09_15.html">
-     2020/09/15
+    <a class="reference internal" href="../Data_Notes/Analysis/Control_Experiments/Control_experiments.html">
+     Control experiments
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2020_09_16/2020_09_16.html">
-     2020/09/16
+    <a class="reference internal" href="../Data_Notes/Analysis/Ethane_Samples/Ethane_analysis.html">
+     Ethane analysis
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2020_09_17/2020_09_17.html">
-     2020/09/17
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2020_09_21/2020_09_21.html">
-     2020/09/21
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2020_09_24/2020_09_24.html">
-     2020/09/24
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2020_09_28/2020_09_28.html">
-     2020/09/28
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2020_10_14/2020_10_14.html">
-     2020/10/14
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2020_10_15/2020_10_15.html">
-     2020/10/15
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2020_10_22/2020_10_22.html">
-     2020/10/22
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2020_10_30/2020_10_30.html">
-     2020/10/30
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2020_11_16/2020_11_16.html">
-     2020/11/16
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2020_11_19/2020_11_19.html">
-     2020/11/19
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2020_11_23/2020_11_23.html">
-     2020/11/23
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2020_11_26/2020_11_26.html">
-     2020/11/26
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2020_11_30/2020_11_30.html">
-     2020/11/30
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2021_01_21/2021_01_21.html">
-     2021/01/21
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2021_01_25/2021_01_25.html">
-     2021/01/25
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2021_02_09/2021_02_09.html">
-     2021/02/09
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2021_04_26/2021_04_26.html">
-     2021/04/26
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2021_05_13/2021_05_13.html">
-     2021/05/13
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2021_05_24/2021_05_24.html">
-     2021/05/24
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Data_Notes/XP-1_1/2021_07_13/2021_07_13.html">
-     2021/07/13
+    <a class="reference internal" href="../Data_Notes/Analysis/2OK_ASW.html">
+     ASW 20K Deposition
     </a>
    </li>
   </ul>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../Data_Notes/XP-1_2/XP-1_2.html">
-   XP 1-2
-  </a>
  </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
@@ -501,8 +447,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../Dissemination/Conference.html">
    Conferences
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
-  <label for="toctree-checkbox-6">
+  <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
+  <label for="toctree-checkbox-8">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -513,8 +459,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../Dissemination/Outreach.html">
    Outreach
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
-  <label for="toctree-checkbox-7">
+  <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+  <label for="toctree-checkbox-9">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -542,8 +488,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../My_Space/Organisation.html">
    Notes
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
-  <label for="toctree-checkbox-8">
+  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+  <label for="toctree-checkbox-10">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -678,10 +624,47 @@ const thebe_selector_output = ".output, .cell_output"
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#amorphous-ice">
-   Amorphous Ice
+  <a class="reference internal nav-link" href="#amorphous-ices">
+   Amorphous Ices
   </a>
   <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#strong-u-discovery-and-early-history-u-strong">
+     <strong>
+      »
+      <u>
+       Discovery and early history
+      </u>
+     </strong>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#strong-u-polyamorphism-u-strong">
+     <strong>
+      »
+      <u>
+       Polyamorphism
+      </u>
+     </strong>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#asw">
+     ASW
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#other-preparation-techniques">
+       Other preparation techniques
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#influence-of-the-substrate">
+       Influence of the Substrate
+      </a>
+     </li>
+    </ul>
+   </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#amorphous-vs-crystaline-ice">
      Amorphous vs Crystaline Ice
@@ -692,6 +675,11 @@ const thebe_selector_output = ".output, .cell_output"
      ASW Properties
     </a>
     <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#vibrational-dynamics">
+       Vibrational dynamics
+      </a>
+     </li>
      <li class="toc-h4 nav-item toc-entry">
       <a class="reference internal nav-link" href="#bulk-organisation">
        Bulk Organisation
@@ -715,12 +703,12 @@ const thebe_selector_output = ".output, .cell_output"
       </a>
       <ul class="nav section-nav flex-column">
        <li class="toc-h5 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#id2">
+        <a class="reference internal nav-link" href="#id9">
          Definition
         </a>
        </li>
        <li class="toc-h5 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#id3">
+        <a class="reference internal nav-link" href="#id10">
          Experiments
         </a>
        </li>
@@ -783,10 +771,47 @@ const thebe_selector_output = ".output, .cell_output"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#amorphous-ice">
-   Amorphous Ice
+  <a class="reference internal nav-link" href="#amorphous-ices">
+   Amorphous Ices
   </a>
   <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#strong-u-discovery-and-early-history-u-strong">
+     <strong>
+      »
+      <u>
+       Discovery and early history
+      </u>
+     </strong>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#strong-u-polyamorphism-u-strong">
+     <strong>
+      »
+      <u>
+       Polyamorphism
+      </u>
+     </strong>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#asw">
+     ASW
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#other-preparation-techniques">
+       Other preparation techniques
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#influence-of-the-substrate">
+       Influence of the Substrate
+      </a>
+     </li>
+    </ul>
+   </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#amorphous-vs-crystaline-ice">
      Amorphous vs Crystaline Ice
@@ -797,6 +822,11 @@ const thebe_selector_output = ".output, .cell_output"
      ASW Properties
     </a>
     <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#vibrational-dynamics">
+       Vibrational dynamics
+      </a>
+     </li>
      <li class="toc-h4 nav-item toc-entry">
       <a class="reference internal nav-link" href="#bulk-organisation">
        Bulk Organisation
@@ -820,12 +850,12 @@ const thebe_selector_output = ".output, .cell_output"
       </a>
       <ul class="nav section-nav flex-column">
        <li class="toc-h5 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#id2">
+        <a class="reference internal nav-link" href="#id9">
          Definition
         </a>
        </li>
        <li class="toc-h5 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#id3">
+        <a class="reference internal nav-link" href="#id10">
          Experiments
         </a>
        </li>
@@ -888,8 +918,8 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="sd-col sd-d-flex-column docutils">
 <p><strong>Key Litterature</strong>:</p>
 <ul class="simple">
-<li><p><span id="id1">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id19" title="Hailong Li, Aigerim Karina, Marjorie Ladd-Parada, Alexander Späh, Fivos Perakis, Chris Benmore, and Katrin Amann-Winkel. Long-range structures of amorphous solid water. Journal of Physical Chemistry B, 125:13320-13328, 12 2021. doi:10.1021/acs.jpcb.1c06899.">Li <em>et al.</em>, 2021</a>]</span></p></li>
-<li><p>2</p></li>
+<li><p><span id="id1">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id76" title="A. H. Narten, C. G. Venkatesh, and S. A. Rice. Diffraction pattern and structure of amorphous solid water at 10 and 77 °k. The Journal of Chemical Physics, 64:1106-1121, 1976. doi:10.1063/1.432298.">Narten <em>et al.</em>, 1976</a>]</span></p></li>
+<li><p><a class="reference external" href="https://sci-hub.ru/10.1146/annurev.physchem.55.091602.094156">Scihub link - review Angell</a></p></li>
 </ul>
 <br>
 <br>
@@ -928,11 +958,194 @@ const thebe_selector_output = ".output, .cell_output"
 <br>
 </div>
 </div>
-<div class="section" id="amorphous-ice">
-<h2>Amorphous Ice<a class="headerlink" href="#amorphous-ice" title="Permalink to this headline">¶</a></h2>
-<p>Amorphous Solid Water</p>
+<div class="section" id="amorphous-ices">
+<h2>Amorphous Ices<a class="headerlink" href="#amorphous-ices" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="strong-u-discovery-and-early-history-u-strong">
+<h3><strong>»  <u> Discovery and early history </u></strong><a class="headerlink" href="#strong-u-discovery-and-early-history-u-strong" title="Permalink to this headline">¶</a></h3>
+<p>The first experimental description of amorphous water ice has been achieved in 1935 by <span id="id2">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id12" title="missing journal in Burton1935">BURTON and OLIVER, 1935</a>]</span> that deposited water vapor on a copper rod maintained at -155 ℃. It has since been an intense subject of research</p>
+<ul class="simple">
+<li><p>Why ?</p></li>
+<li><p>…</p></li>
+</ul>
+<div class="admonition-questions admonition">
+<p class="admonition-title">Questions</p>
+<ul class="simple">
+<li><p>difference between vitreous material and amorphous solid ?</p></li>
+<li><p>Glassy vs vitreous ?</p></li>
+</ul>
+</div>
+<p><span id="id3">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id76" title="A. H. Narten, C. G. Venkatesh, and S. A. Rice. Diffraction pattern and structure of amorphous solid water at 10 and 77 °k. The Journal of Chemical Physics, 64:1106-1121, 1976. doi:10.1063/1.432298.">Narten <em>et al.</em>, 1976</a>]</span> showed that different deposition temperatures using the same vapor deposition setup and methodology would lead to two different forms of amorphous ice, where those differences are inferred from diffraction data (both Neutron and X-Ray):</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text">Ice deposited at 77K is <strong>low density</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text">Diffraction pattern consistent with a structure that has oxygen-oxygen nearest-neighbor tetrahedral symmetry on average, and a  nearest neighbor 0-0 separation of 2.76 &amp;#8491 with <strong>small dispersion</strong>; -&gt; <em>What is meant by this ?</em></p></li>
+<li><p class="sd-card-text">Density estimated 0.94 g.cm<sup>-3</sup></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text">Ice deposited at 10K is <strong>high density</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text">Diffraction pattern similar to, yet distinctively different from, that of the high temperature deposit. The 0-0 nearest neighbor distance is the same. 2.76 &amp;#8491 but the <strong>dispersion in this separation is larger in the low temperature form</strong>.</p></li>
+<li><p class="sd-card-text">Diffraction pattern shows an extra peak at 3.3 &amp;#8491. corresponding to about 1.4 molecules. the existence of which is responsible for the <strong>estimated</strong> higher density, namely 1.1 g.cm<sup>-3</sup></p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="admonition-question admonition">
+<p class="admonition-title">Question</p>
+<p>How is the density determined from Diffraction data</p>
+</div>
+</div>
+<div class="section" id="strong-u-polyamorphism-u-strong">
+<h3><strong>»  <u> Polyamorphism </u></strong><a class="headerlink" href="#strong-u-polyamorphism-u-strong" title="Permalink to this headline">¶</a></h3>
+<p><span id="id4">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id23" title="Thomas Loerting, Katrin Winkel, Markus Seidl, Marion Bauer, Christian Mitterdorfer, Philip H. Handle, Christoph G. Salzmann, Erwin Mayer, John L. Finney, and Daniel T. Bowron. How many amorphous ices are there? Physical Chemistry Chemical Physics, 13:8783-8794, 5 2011. doi:10.1039/c0cp02600j.">Loerting <em>et al.</em>, 2011</a>]</span> 5 main categories of Amorphous ice</p>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-5 sd-row-cols-xs-5 sd-row-cols-sm-5 sd-row-cols-md-5 sd-row-cols-lg-5 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>ASW</strong></p>
+</div>
+<div class="sd-card-body docutils">
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>HGW</strong></p>
+</div>
+<div class="sd-card-body docutils">
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>LDA</strong></p>
+</div>
+<div class="sd-card-body docutils">
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>HDA</strong></p>
+</div>
+<div class="sd-card-body docutils">
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>vHDA</strong></p>
+</div>
+<div class="sd-card-body docutils">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>When subject to increasing pressure, amorphous ice <strong>soften (what is meant by this ?)</strong> and then suddenly collapse to a denser but still amorphous phase. This result is verified by computer simulations where density and structure of the high density amorphous form depends on the <strong>potential function</strong> chosen to represent the water.</p>
+<ul class="simple">
+<li><p>to verify (ref 5 - 7) simulation 8-9</p></li>
+</ul>
+<p>Despite the non-crytalline nature of the molecular arrangements in LDA, both the thermodynamic state and
+the vibrational characteristics are those of a highly ordered substance.  The <strong>heat carrying phonons</strong> of low temperature amorphous water behave like those in a crystal.</p>
+<ul class="simple">
+<li><p>What does this mean, where does it come from ?
+Similar (but less dramatic) behaviour have been observed in other tetrahedrally coordinated solid (SiO2, GeO2, ZNCl2 etc).</p></li>
+</ul>
+</div>
+<div class="section" id="asw">
+<h3>ASW<a class="headerlink" href="#asw" title="Permalink to this headline">¶</a></h3>
+<p>Vapor deposition methods were employed to prepare ASW for the following studies:</p>
+<ul class="simple">
+<li><p>Calorimetry</p></li>
+<li><p>Spectroscopy</p></li>
+<li><p>vapor pressure and free energy</p></li>
+<li><p><strong>Crystalisation</strong> 33,35,34,36</p>
+<ul>
+<li><p><span id="id5">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id72" title="P Jenniskens and D F Blake. Crystallization of amorphous water ice in the solar system. THE ASTROPHYSICAL JOURNAL, 473:1104-1113, 1996.">Jenniskens and Blake, 1996</a>]</span></p></li>
+<li><p><span id="id6">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id75" title="D. J. Safarik, R. J. Meyer, and C. B. Mullins. Thickness dependent crystallization kinetics of sub-micron amorphous solid water films. Journal of Chemical Physics, 118:4660-4671, 3 2003. doi:10.1063/1.1543980.">Safarik <em>et al.</em>, 2003</a>]</span> - Thickness dependance, Investigated by TPD</p></li>
+<li><p>model : 78 - 79</p></li>
+</ul>
+</li>
+<li><p>Dielectric relaxation</p></li>
+<li><p>Neutron and X-ray diffraction structure studies</p></li>
+<li><p>diffusion studies</p></li>
+<li><p>electron microscope</p></li>
+<li><p>vibrational dynamics studies (by neutron scattering)</p></li>
+<li><p>Thermal conductivity studies</p></li>
+</ul>
+<p>The sharp crystallization exotherm commencing in the range of 150–160 K during reheating is the one universal feature of all previous studies of ASW or vitreous water.</p>
+<div class="section" id="other-preparation-techniques">
+<h4>Other preparation techniques<a class="headerlink" href="#other-preparation-techniques" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>cold microtoming method (68)</p></li>
+<li><p>decompression amorphization (73)</p></li>
+<li><p>electron bombardment vitrification (67, 76, 76a) - could be compatible with accoustic levitation</p></li>
+<li><p>radiation damage–induced vitrification (77)</p></li>
+<li><p>phase-separation vitrification (12)</p></li>
+<li><p>plunge freeze (67)</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>strong upswing in heat capacity seen in bulk laboratory supercooling water (81)</p>
+<p>Heat capacity increase is also a main varying parameter obeserved during glass transition (Tg)</p>
+</div>
+<p>Narten et al. (39)</p>
+<ul class="simple">
+<li><p>random structure of ASW.</p></li>
+<li><p>second form of ASW - additional peak at 3.3  ̊Angstrom (interstitial water molecule) - Higher density (observed at 10K)</p></li>
+<li><p>First indication of the existence of polyamorphism</p></li>
+</ul>
+<p>do they coexist in metastable equilibrium Mishima 5-7</p>
+</div>
+<div class="section" id="influence-of-the-substrate">
+<h4>Influence of the Substrate<a class="headerlink" href="#influence-of-the-substrate" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><span id="id7">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id74" title="R Scott Smith, C Huang, E K L Wong, and Bruce D Kay. Desorption and crystallization kinetics in nanoscale thin films of amorphous water ice. Surface Science, pages 13-18, 1996.">Smith <em>et al.</em>, 1996</a>]</span></p>
+<ul>
+<li><p><strong>desorption kinetics</strong> are substrate dependent and suggest strongly that the film morphology is governed by the   hydrophilicity of the substrate.</p></li>
+<li><p><strong>crystallization kinetics</strong> are independent of substrate but depend strongly on both temperature and film thickness and are consistent with a <em>spatially random nucleation and isotropic growth model</em>.</p></li>
+</ul>
+</li>
+<li><p><span id="id8">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id73" title="Z. Dohnálek, Greg A. Kimmel, Ryan L. Ciolli, K. P. Stevenson, R. Scott Smith, and Bruce D. Kay. The effect of the underlying substrate on the crystallization kinetics of dense amorphous solid water films. Journal of Chemical Physics, 112:5932-5941, 4 2000. doi:10.1063/1.481166.">Dohnálek <em>et al.</em>, 2000</a>]</span></p>
+<ul>
+<li><p>dramatic acceleration of the crystallization rate is observed for amorphous films on crystalline ice substrates</p></li>
+<li><p>crystallization-induced cracking of the films</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>To check</strong></p>
+<ul class="simple">
+<li><p>Katrina …</p></li>
+</ul>
+</div>
+</div>
 <div class="section" id="amorphous-vs-crystaline-ice">
 <h3>Amorphous vs Crystaline Ice<a class="headerlink" href="#amorphous-vs-crystaline-ice" title="Permalink to this headline">¶</a></h3>
+<p>How does amorphous ices differs from its crystaline conterpart ? Well it depends on the formation route
+of the amorphous ice.</p>
 <article id="P1">
 <div>
 <h4>Crystaline </h4>
@@ -960,6 +1173,23 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 <div class="section" id="asw-properties">
 <h3>ASW Properties<a class="headerlink" href="#asw-properties" title="Permalink to this headline">¶</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Debye frequency spectrum</p>
+</div>
+<div class="section" id="vibrational-dynamics">
+<h4>Vibrational dynamics<a class="headerlink" href="#vibrational-dynamics" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>2, 28, 30, 31, 61, 82, 91, 105, 107</p></li>
+<li><p>Rice and coworkers (29 - 30b) <strong>review 2</strong></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>Dangling bonds in crystaline solids (106)</p></li>
+</ul>
+</div>
+</div>
 <div class="section" id="bulk-organisation">
 <h4>Bulk Organisation<a class="headerlink" href="#bulk-organisation" title="Permalink to this headline">¶</a></h4>
 <div class="section" id="definition">
@@ -979,14 +1209,14 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 <div class="section" id="porosity">
 <h4>Porosity<a class="headerlink" href="#porosity" title="Permalink to this headline">¶</a></h4>
-<div class="section" id="id2">
-<h5>Definition<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h5>
+<div class="section" id="id9">
+<h5>Definition<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h5>
 <ul class="simple">
 <li><p>Controlling the</p></li>
 </ul>
 </div>
-<div class="section" id="id3">
-<h5>Experiments<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h5>
+<div class="section" id="id10">
+<h5>Experiments<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h5>
 <ul class="simple">
 <li><p>Different types</p></li>
 </ul>
@@ -1014,46 +1244,46 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="simple">
 <li><p>ASW is porous</p></li>
 <li><p>3 µm band is changing when the T is increased</p></li>
-<li><p>Water ice IR Band assignement taken from <span id="id4">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id4" title="R. M. Mastrapa, S. A. Sandford, T. L. Roush, D. P. Cruikshank, and C. M. Dalle Ore. Optical constants of amorphous and crystalline h2o-ice: 2.5-22 μm (4000-455 cm-1) optical constants of h2o-ice. Astrophysical Journal, 701:1347-1356, 2009. doi:10.1088/0004-637X/701/2/1347.">Mastrapa <em>et al.</em>, 2009</a>]</span></p></li>
+<li><p>Water ice IR Band assignement taken from <span id="id11">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id4" title="R. M. Mastrapa, S. A. Sandford, T. L. Roush, D. P. Cruikshank, and C. M. Dalle Ore. Optical constants of amorphous and crystalline h2o-ice: 2.5-22 μm (4000-455 cm-1) optical constants of h2o-ice. Astrophysical Journal, 701:1347-1356, 2009. doi:10.1088/0004-637X/701/2/1347.">Mastrapa <em>et al.</em>, 2009</a>]</span></p></li>
 </ul>
 <div class="full-width docutils">
 <table class="colwidths-auto table">
 <thead>
-<tr class="row-odd"><th class="text-align:left head"><p>Crystaline (cm <sup>-1</sup>) <br> <span id="id5">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id6" title="J. E. Bertie and E. Whalley. Infrared spectra of ices ih and ic in the range 4000 to 350 cm-1. The Journal of Chemical Physics, 40:1637-1645, 1964. doi:10.1063/1.1725373.">Bertie and Whalley, 1964</a>]</span></p></th>
-<th class="text-align:left head"><p>Amorphous (cm <sup>-1</sup>)<br><span id="id6">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id30" title="A H Hardin and K B rvey. Temperature dependences of the ice i hydrogen bond spectzal shifts-i. the vitreous to cubic ice i phase transformation. Spectr himka Acta, 296:1139-1151, 1973.">Hardin and rvey, 1973</a>]</span></p></th>
+<tr class="row-odd"><th class="text-align:left head"><p>Crystaline (cm <sup>-1</sup>) <br> <span id="id12">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id6" title="J. E. Bertie and E. Whalley. Infrared spectra of ices ih and ic in the range 4000 to 350 cm-1. The Journal of Chemical Physics, 40:1637-1645, 1964. doi:10.1063/1.1725373.">Bertie and Whalley, 1964</a>]</span></p></th>
+<th class="text-align:left head"><p>Amorphous (cm <sup>-1</sup>)<br><span id="id13">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id30" title="A H Hardin and K B rvey. Temperature dependences of the ice i hydrogen bond spectzal shifts-i. the vitreous to cubic ice i phase transformation. Spectr himka Acta, 296:1139-1151, 1973.">Hardin and rvey, 1973</a>]</span></p></th>
 <th class="text-align:left head"><p>Assignment</p></th>
-<th class="text-align:left head"><p>A values (cm/molecule)<br><span id="id7">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id13" title="D M Hudgins, S A Sandford, L J Allamandola, and A G G M Tielens. Mid-and far-infrared spectroscopy of ices: optical constants and integrated absorbances. The Astrophysical Journal Supplement Series, 86:713-870, 1993.">Hudgins <em>et al.</em>, 1993</a>]</span></p></th>
+<th class="text-align:left head"><p>A values (cm/molecule)<br><span id="id14">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id13" title="D M Hudgins, S A Sandford, L J Allamandola, and A G G M Tielens. Mid-and far-infrared spectroscopy of ices: optical constants and integrated absorbances. The Astrophysical Journal Supplement Series, 86:713-870, 1993.">Hudgins <em>et al.</em>, 1993</a>]</span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="row-even"><td class="text-align:left"><p>840</p></td>
 <td class="text-align:left"><p>802</p></td>
-<td class="text-align:left"><p>𝜈<sub>R</sub> <span id="id8">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id31" title="Nathan Ockman. The infra-red and raman spectra of ice. Advances in Physics, 7:199-220, 1958. doi:10.1080/00018735800101227.">Ockman, 1958</a>]</span></p></td>
+<td class="text-align:left"><p>𝜈<sub>R</sub> <span id="id15">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id31" title="Nathan Ockman. The infra-red and raman spectra of ice. Advances in Physics, 7:199-220, 1958. doi:10.1080/00018735800101227.">Ockman, 1958</a>]</span></p></td>
 <td class="text-align:left"><p>2.8 × 10<sup>-17</sup></p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>1650</p></td>
 <td class="text-align:left"><p>1660</p></td>
-<td class="text-align:left"><p>𝜈<sub>2</sub> <span id="id9">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id31" title="Nathan Ockman. The infra-red and raman spectra of ice. Advances in Physics, 7:199-220, 1958. doi:10.1080/00018735800101227.">Ockman, 1958</a>]</span></p></td>
+<td class="text-align:left"><p>𝜈<sub>2</sub> <span id="id16">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id31" title="Nathan Ockman. The infra-red and raman spectra of ice. Advances in Physics, 7:199-220, 1958. doi:10.1080/00018735800101227.">Ockman, 1958</a>]</span></p></td>
 <td class="text-align:left"><p>1.0 × 10<sup>-17</sup></p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>2266</p></td>
 <td class="text-align:left"><p>2220</p></td>
-<td class="text-align:left"><p>𝜈<sub>2</sub> + 𝜈<sub>R</sub> <span id="id10">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id32" title="missing journal in Whalley1977">Whalley, 1977</a>]</span></p></td>
+<td class="text-align:left"><p>𝜈<sub>2</sub> + 𝜈<sub>R</sub> <span id="id17">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id32" title="missing journal in Whalley1977">Whalley, 1977</a>]</span></p></td>
 <td class="text-align:left"><p>3.3 × 10<sup>-18</sup></p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>3150</p></td>
 <td class="text-align:left"><p>3191</p></td>
-<td class="text-align:left"><p>𝜈<sub>1</sub> in phase <span id="id11">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id32" title="missing journal in Whalley1977">Whalley, 1977</a>]</span></p></td>
+<td class="text-align:left"><p>𝜈<sub>1</sub> in phase <span id="id18">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id32" title="missing journal in Whalley1977">Whalley, 1977</a>]</span></p></td>
 <td class="text-align:left"><p></p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>3220</p></td>
 <td class="text-align:left"><p>3253</p></td>
-<td class="text-align:left"><p>𝜈<sub>3</sub> TO <span id="id12">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id32" title="missing journal in Whalley1977">Whalley, 1977</a>]</span></p></td>
+<td class="text-align:left"><p>𝜈<sub>3</sub> TO <span id="id19">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id32" title="missing journal in Whalley1977">Whalley, 1977</a>]</span></p></td>
 <td class="text-align:left"><p>1.7 × 10<sup>-16</sup></p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>3380</p></td>
 <td class="text-align:left"><p>3367</p></td>
-<td class="text-align:left"><p>𝜈<sub>3</sub> LO, 𝜈<sub>1</sub> out of phase <span id="id13">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id32" title="missing journal in Whalley1977">Whalley, 1977</a>]</span></p></td>
+<td class="text-align:left"><p>𝜈<sub>3</sub> LO, 𝜈<sub>1</sub> out of phase <span id="id20">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id32" title="missing journal in Whalley1977">Whalley, 1977</a>]</span></p></td>
 <td class="text-align:left"><p></p></td>
 </tr>
 </tbody>
@@ -1061,11 +1291,11 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 <p>to cite:</p>
 <ul class="simple">
-<li><p>a <span id="id14">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id6" title="J. E. Bertie and E. Whalley. Infrared spectra of ices ih and ic in the range 4000 to 350 cm-1. The Journal of Chemical Physics, 40:1637-1645, 1964. doi:10.1063/1.1725373.">Bertie and Whalley, 1964</a>]</span></p></li>
-<li><p>b <span id="id15">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id30" title="A H Hardin and K B rvey. Temperature dependences of the ice i hydrogen bond spectzal shifts-i. the vitreous to cubic ice i phase transformation. Spectr himka Acta, 296:1139-1151, 1973.">Hardin and rvey, 1973</a>]</span></p></li>
-<li><p>c <span id="id16">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id13" title="D M Hudgins, S A Sandford, L J Allamandola, and A G G M Tielens. Mid-and far-infrared spectroscopy of ices: optical constants and integrated absorbances. The Astrophysical Journal Supplement Series, 86:713-870, 1993.">Hudgins <em>et al.</em>, 1993</a>]</span></p></li>
-<li><p>d <span id="id17">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id31" title="Nathan Ockman. The infra-red and raman spectra of ice. Advances in Physics, 7:199-220, 1958. doi:10.1080/00018735800101227.">Ockman, 1958</a>]</span></p></li>
-<li><p>e <span id="id18">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id32" title="missing journal in Whalley1977">Whalley, 1977</a>]</span></p></li>
+<li><p>a <span id="id21">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id6" title="J. E. Bertie and E. Whalley. Infrared spectra of ices ih and ic in the range 4000 to 350 cm-1. The Journal of Chemical Physics, 40:1637-1645, 1964. doi:10.1063/1.1725373.">Bertie and Whalley, 1964</a>]</span></p></li>
+<li><p>b <span id="id22">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id30" title="A H Hardin and K B rvey. Temperature dependences of the ice i hydrogen bond spectzal shifts-i. the vitreous to cubic ice i phase transformation. Spectr himka Acta, 296:1139-1151, 1973.">Hardin and rvey, 1973</a>]</span></p></li>
+<li><p>c <span id="id23">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id13" title="D M Hudgins, S A Sandford, L J Allamandola, and A G G M Tielens. Mid-and far-infrared spectroscopy of ices: optical constants and integrated absorbances. The Astrophysical Journal Supplement Series, 86:713-870, 1993.">Hudgins <em>et al.</em>, 1993</a>]</span></p></li>
+<li><p>d <span id="id24">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id31" title="Nathan Ockman. The infra-red and raman spectra of ice. Advances in Physics, 7:199-220, 1958. doi:10.1080/00018735800101227.">Ockman, 1958</a>]</span></p></li>
+<li><p>e <span id="id25">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id32" title="missing journal in Whalley1977">Whalley, 1977</a>]</span></p></li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -1103,13 +1333,13 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 <div class="section" id="desorption">
 <h2>Desorption<a class="headerlink" href="#desorption" title="Permalink to this headline">¶</a></h2>
-<p><span id="id19">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id44" title="Alexander Rosu-Finsen, Bharvi Chikani, and Christoph G Salzmann. Thermal desorption of h2o ice: from nanoscale films to the bulk. Monthly Notices of the Royal Astronomical Society, 517:1919-1927, 10 2022. URL: https://academic.oup.com/mnras/article/517/2/1919/6747155, doi:10.1093/mnras/stac2803.">Rosu-Finsen <em>et al.</em>, 2022</a>]</span></p>
+<p><span id="id26">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id44" title="Alexander Rosu-Finsen, Bharvi Chikani, and Christoph G Salzmann. Thermal desorption of h2o ice: from nanoscale films to the bulk. Monthly Notices of the Royal Astronomical Society, 517:1919-1927, 10 2022. URL: https://academic.oup.com/mnras/article/517/2/1919/6747155, doi:10.1093/mnras/stac2803.">Rosu-Finsen <em>et al.</em>, 2022</a>]</span></p>
 </div>
 <div class="section" id="is-it-amorphous">
 <h2>Is it Amorphous ?<a class="headerlink" href="#is-it-amorphous" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-default" id="mc-x">
 <a class="reference internal image-reference" href="../../_images/Ice-process-PPD1.PNG"><img alt="../../_images/Ice-process-PPD1.PNG" src="../../_images/Ice-process-PPD1.PNG" style="width: 800px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 8 </span><span class="caption-text">Source</span><a class="headerlink" href="#mc-x" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 9 </span><span class="caption-text">Source</span><a class="headerlink" href="#mc-x" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>

@@ -1,5 +1,20 @@
 # Daily Log
 
+## 28/11/2022
+
+***
+**Focus**
+
+- Implement web-documentation relative to the different reduction steps
+
+**Objectif**:
+
+    
+**Good day?**
+   
+***
+
+
 ## 21/11/2022
 
 ***

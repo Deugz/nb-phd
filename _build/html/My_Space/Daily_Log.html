@@ -145,7 +145,14 @@ const thebe_selector_output = ".output, .cell_output"
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <p aria-level="2" class="caption" role="heading">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../content.html">
+   Why an online Thesis?
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Introduction
  </span>
@@ -243,7 +250,7 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../Notes/Data_Notes/Data_Main.html">
-   Management plan
+   Overview
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
   <label for="toctree-checkbox-3">
@@ -252,38 +259,77 @@ const thebe_selector_output = ".output, .cell_output"
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/Reduction/Data_Reduction.html">
-     Reduction
+    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/XP-1_1.html">
+     XP 1-1
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/Processing/Data_Processing_Main.html">
-     Processing
+    <a class="reference internal" href="../Notes/Data_Notes/XP-1_2/XP-1_2.html">
+     XP 1-2
     </a>
    </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Notes/Data_Notes/Pipeline.html">
+   Pipeline
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../Notes/Data_Notes/Analysis/Data_Analysis.html">
-     Analysis
+    <a class="reference internal" href="../Notes/Data_Notes/DR/DR_Overview.html">
+     Reduction
     </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
-    <label for="toctree-checkbox-4">
+    <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+    <label for="toctree-checkbox-5">
      <i class="fas fa-chevron-down">
      </i>
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../Notes/Data_Notes/Analysis/Control_Experiments/Control_experiments.html">
-       Control experiments
+      <a class="reference internal" href="../Notes/Data_Notes/DR/Sample_thickness.html">
+       Sample thickness
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../Notes/Data_Notes/Analysis/Ethane_Samples/Ethane_analysis.html">
-       Ethane analysis
+      <a class="reference internal" href="../Notes/Data_Notes/DR/DR1.html">
+       DR1
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../Notes/Data_Notes/Analysis/2OK_ASW.html">
-       ASW 20K Deposition
+      <a class="reference internal" href="../Notes/Data_Notes/DR/DR2.html">
+       DR2
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../Notes/Data_Notes/DR/DR3.html">
+       DR3
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../Notes/Data_Notes/Processing/Data_Processing_Main.html">
+     Processing
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+    <label for="toctree-checkbox-6">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../Notes/Data_Notes/Processing/Step1.html">
+       Substraction
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../Notes/Data_Notes/Processing/Step2.html">
+       Gaussian fitting
       </a>
      </li>
     </ul>
@@ -291,131 +337,31 @@ const thebe_selector_output = ".output, .cell_output"
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/XP-1_1.html">
-   XP 1-1
+  <a class="reference internal" href="../Notes/Data_Notes/Analysis/Data_Analysis.html">
+   Analysis
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
-  <label for="toctree-checkbox-5">
+  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+  <label for="toctree-checkbox-7">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2020_09_15/2020_09_15.html">
-     2020/09/15
+    <a class="reference internal" href="../Notes/Data_Notes/Analysis/Control_Experiments/Control_experiments.html">
+     Control experiments
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2020_09_16/2020_09_16.html">
-     2020/09/16
+    <a class="reference internal" href="../Notes/Data_Notes/Analysis/Ethane_Samples/Ethane_analysis.html">
+     Ethane analysis
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2020_09_17/2020_09_17.html">
-     2020/09/17
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2020_09_21/2020_09_21.html">
-     2020/09/21
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2020_09_24/2020_09_24.html">
-     2020/09/24
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2020_09_28/2020_09_28.html">
-     2020/09/28
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2020_10_14/2020_10_14.html">
-     2020/10/14
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2020_10_15/2020_10_15.html">
-     2020/10/15
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2020_10_22/2020_10_22.html">
-     2020/10/22
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2020_10_30/2020_10_30.html">
-     2020/10/30
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2020_11_16/2020_11_16.html">
-     2020/11/16
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2020_11_19/2020_11_19.html">
-     2020/11/19
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2020_11_23/2020_11_23.html">
-     2020/11/23
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2020_11_26/2020_11_26.html">
-     2020/11/26
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2020_11_30/2020_11_30.html">
-     2020/11/30
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2021_01_21/2021_01_21.html">
-     2021/01/21
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2021_01_25/2021_01_25.html">
-     2021/01/25
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2021_02_09/2021_02_09.html">
-     2021/02/09
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2021_04_26/2021_04_26.html">
-     2021/04/26
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2021_05_13/2021_05_13.html">
-     2021/05/13
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2021_05_24/2021_05_24.html">
-     2021/05/24
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Notes/Data_Notes/XP-1_1/2021_07_13/2021_07_13.html">
-     2021/07/13
+    <a class="reference internal" href="../Notes/Data_Notes/Analysis/2OK_ASW.html">
+     ASW 20K Deposition
     </a>
    </li>
   </ul>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../Notes/Data_Notes/XP-1_2/XP-1_2.html">
-   XP 1-2
-  </a>
  </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
@@ -501,8 +447,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../Dissemination/Conference.html">
    Conferences
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
-  <label for="toctree-checkbox-6">
+  <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
+  <label for="toctree-checkbox-8">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -513,8 +459,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../Dissemination/Outreach.html">
    Outreach
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
-  <label for="toctree-checkbox-7">
+  <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+  <label for="toctree-checkbox-9">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -542,8 +488,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="Organisation.html">
    Notes
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
-  <label for="toctree-checkbox-8">
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+  <label for="toctree-checkbox-10">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -679,26 +625,31 @@ const thebe_selector_output = ".output, .cell_output"
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id1">
-   21/11/2022
+   28/11/2022
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id2">
-   16/11/2022
+   21/11/2022
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id3">
-   12/11/2022
+   16/11/2022
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id4">
-   11/11/2022
+   12/11/2022
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id5">
+   11/11/2022
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id6">
    10/11/2022
   </a>
   <ul class="nav section-nav flex-column">
@@ -722,7 +673,7 @@ const thebe_selector_output = ".output, .cell_output"
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#id6">
+  <a class="reference internal nav-link" href="#id7">
    07/11/2022
   </a>
  </li>
@@ -748,26 +699,31 @@ const thebe_selector_output = ".output, .cell_output"
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id1">
-   21/11/2022
+   28/11/2022
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id2">
-   16/11/2022
+   21/11/2022
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id3">
-   12/11/2022
+   16/11/2022
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id4">
-   11/11/2022
+   12/11/2022
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id5">
+   11/11/2022
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id6">
    10/11/2022
   </a>
   <ul class="nav section-nav flex-column">
@@ -791,7 +747,7 @@ const thebe_selector_output = ".output, .cell_output"
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#id6">
+  <a class="reference internal nav-link" href="#id7">
    07/11/2022
   </a>
  </li>
@@ -807,7 +763,18 @@ const thebe_selector_output = ".output, .cell_output"
   <div class="tex2jax_ignore mathjax_ignore section" id="daily-log">
 <h1>Daily Log<a class="headerlink" href="#daily-log" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="id1">
-<h2>21/11/2022<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<h2>28/11/2022<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<hr class="docutils" />
+<p><strong>Focus</strong></p>
+<ul class="simple">
+<li><p>Implement web-documentation relative to the different reduction steps</p></li>
+</ul>
+<p><strong>Objectif</strong>:</p>
+<p><strong>Good day?</strong></p>
+</div>
+<hr class="docutils" />
+<div class="section" id="id2">
+<h2>21/11/2022<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 <hr class="docutils" />
 <p><strong>Focus</strong></p>
 <ul class="simple">
@@ -822,8 +789,8 @@ const thebe_selector_output = ".output, .cell_output"
 <p><strong>Good day?</strong></p>
 </div>
 <hr class="docutils" />
-<div class="section" id="id2">
-<h2>16/11/2022<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id3">
+<h2>16/11/2022<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <hr class="docutils" />
 <p><strong>Focus</strong></p>
 <ul class="simple">
@@ -848,8 +815,8 @@ const thebe_selector_output = ".output, .cell_output"
 <p><strong>Good day?</strong></p>
 </div>
 <hr class="docutils" />
-<div class="section" id="id3">
-<h2>12/11/2022<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id4">
+<h2>12/11/2022<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
 <hr class="docutils" />
 <p><strong>Focus</strong></p>
 <ul class="simple">
@@ -874,8 +841,8 @@ const thebe_selector_output = ".output, .cell_output"
 <p><strong>Good day?</strong></p>
 </div>
 <hr class="docutils" />
-<div class="section" id="id4">
-<h2>11/11/2022<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id5">
+<h2>11/11/2022<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
 <hr class="docutils" />
 <p><strong>Focus</strong></p>
 <ul class="simple">
@@ -941,8 +908,8 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 </div>
 <hr class="docutils" />
-<div class="section" id="id5">
-<h2>10/11/2022<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id6">
+<h2>10/11/2022<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
 <hr class="docutils" />
 <p><strong>Focus</strong></p>
 <ul class="simple">
@@ -994,7 +961,7 @@ const thebe_selector_output = ".output, .cell_output"
 <p>A single baseline correction will be sufficient</p>
 <div class="figure align-default" id="mc-x">
 <a class="reference internal image-reference" href="../_images/DR1_2020_12_03_Full-range.png"><img alt="../_images/DR1_2020_12_03_Full-range.png" src="../_images/DR1_2020_12_03_Full-range.png" style="width: 500px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 228 </span><span class="caption-text">description</span><a class="headerlink" href="#mc-x" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 44 </span><span class="caption-text">description</span><a class="headerlink" href="#mc-x" title="Permalink to this image">¶</a></p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -1047,8 +1014,8 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 </div>
 </div>
-<div class="section" id="id6">
-<h2>07/11/2022<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id7">
+<h2>07/11/2022<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
 <hr class="docutils" />
 <p><strong>Focus</strong></p>
 <ul class="simple">
@@ -1070,9 +1037,9 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
 <div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
-<div class="figure align-default" id="id7">
+<div class="figure align-default" id="id8">
 <a class="reference internal image-reference" href="../_images/DR2_2020_09_16_A.png"><img alt="../_images/DR2_2020_09_16_A.png" src="../_images/DR2_2020_09_16_A.png" style="width: 500px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 229 </span><span class="caption-text">description</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 45 </span><span class="caption-text">description</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
@@ -1086,15 +1053,15 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
 <div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
-<div class="figure align-default" id="id8">
+<div class="figure align-default" id="id9">
 <a class="reference internal image-reference" href="../_images/DR2_2020_09_16_PeakA-frequency_shift.png"><img alt="../_images/DR2_2020_09_16_PeakA-frequency_shift.png" src="../_images/DR2_2020_09_16_PeakA-frequency_shift.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 230 </span><span class="caption-text">description</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 46 </span><span class="caption-text">description</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
-<div class="figure align-default" id="id9">
+<div class="figure align-default" id="id10">
 <a class="reference internal image-reference" href="../_images/DR2_2020_09_16_PeakA-Intensity_shift.png"><img alt="../_images/DR2_2020_09_16_PeakA-Intensity_shift.png" src="../_images/DR2_2020_09_16_PeakA-Intensity_shift.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 231 </span><span class="caption-text">description</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 47 </span><span class="caption-text">description</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>

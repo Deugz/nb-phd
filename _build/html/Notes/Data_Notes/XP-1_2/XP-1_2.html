@@ -99,8 +99,8 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../../../_static/OU_Logo.svg"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="2020/12/03" href="2020_12_03/2020_12_03.html" />
-    <link rel="prev" title="2021/07/13" href="../XP-1_1/2021_07_13/2021_07_13.html" />
+    <link rel="next" title="Pipeline" href="../Pipeline.html" />
+    <link rel="prev" title="XP 1-1" href="../XP-1_1/XP-1_1.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en">
     
@@ -145,7 +145,14 @@ const thebe_selector_output = ".output, .cell_output"
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <p aria-level="2" class="caption" role="heading">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../../content.html">
+   Why an online Thesis?
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Introduction
  </span>
@@ -241,49 +248,88 @@ const thebe_selector_output = ".output, .cell_output"
  </span>
 </p>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1 has-children">
+ <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="../Data_Main.html">
-   Management plan
+   Overview
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
   <label for="toctree-checkbox-3">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul>
+  <ul class="current">
    <li class="toctree-l2">
-    <a class="reference internal" href="../Reduction/Data_Reduction.html">
+    <a class="reference internal" href="../XP-1_1/XP-1_1.html">
+     XP 1-1
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     XP 1-2
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Pipeline.html">
+   Pipeline
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../DR/DR_Overview.html">
      Reduction
     </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Processing/Data_Processing_Main.html">
-     Processing
-    </a>
-   </li>
-   <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../Analysis/Data_Analysis.html">
-     Analysis
-    </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
-    <label for="toctree-checkbox-4">
+    <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+    <label for="toctree-checkbox-5">
      <i class="fas fa-chevron-down">
      </i>
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../Analysis/Control_Experiments/Control_experiments.html">
-       Control experiments
+      <a class="reference internal" href="../DR/Sample_thickness.html">
+       Sample thickness
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../Analysis/Ethane_Samples/Ethane_analysis.html">
-       Ethane analysis
+      <a class="reference internal" href="../DR/DR1.html">
+       DR1
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../Analysis/2OK_ASW.html">
-       ASW 20K Deposition
+      <a class="reference internal" href="../DR/DR2.html">
+       DR2
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../DR/DR3.html">
+       DR3
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../Processing/Data_Processing_Main.html">
+     Processing
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+    <label for="toctree-checkbox-6">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../Processing/Step1.html">
+       Substraction
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../Processing/Step2.html">
+       Gaussian fitting
       </a>
      </li>
     </ul>
@@ -291,131 +337,31 @@ const thebe_selector_output = ".output, .cell_output"
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../XP-1_1/XP-1_1.html">
-   XP 1-1
+  <a class="reference internal" href="../Analysis/Data_Analysis.html">
+   Analysis
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
-  <label for="toctree-checkbox-5">
+  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+  <label for="toctree-checkbox-7">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2020_09_15/2020_09_15.html">
-     2020/09/15
+    <a class="reference internal" href="../Analysis/Control_Experiments/Control_experiments.html">
+     Control experiments
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2020_09_16/2020_09_16.html">
-     2020/09/16
+    <a class="reference internal" href="../Analysis/Ethane_Samples/Ethane_analysis.html">
+     Ethane analysis
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2020_09_17/2020_09_17.html">
-     2020/09/17
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2020_09_21/2020_09_21.html">
-     2020/09/21
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2020_09_24/2020_09_24.html">
-     2020/09/24
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2020_09_28/2020_09_28.html">
-     2020/09/28
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2020_10_14/2020_10_14.html">
-     2020/10/14
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2020_10_15/2020_10_15.html">
-     2020/10/15
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2020_10_22/2020_10_22.html">
-     2020/10/22
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2020_10_30/2020_10_30.html">
-     2020/10/30
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2020_11_16/2020_11_16.html">
-     2020/11/16
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2020_11_19/2020_11_19.html">
-     2020/11/19
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2020_11_23/2020_11_23.html">
-     2020/11/23
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2020_11_26/2020_11_26.html">
-     2020/11/26
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2020_11_30/2020_11_30.html">
-     2020/11/30
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2021_01_21/2021_01_21.html">
-     2021/01/21
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2021_01_25/2021_01_25.html">
-     2021/01/25
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2021_02_09/2021_02_09.html">
-     2021/02/09
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2021_04_26/2021_04_26.html">
-     2021/04/26
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2021_05_13/2021_05_13.html">
-     2021/05/13
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2021_05_24/2021_05_24.html">
-     2021/05/24
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../XP-1_1/2021_07_13/2021_07_13.html">
-     2021/07/13
+    <a class="reference internal" href="../Analysis/2OK_ASW.html">
+     ASW 20K Deposition
     </a>
    </li>
   </ul>
- </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   XP 1-2
-  </a>
  </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
@@ -501,8 +447,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../../Dissemination/Conference.html">
    Conferences
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
-  <label for="toctree-checkbox-6">
+  <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
+  <label for="toctree-checkbox-8">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -513,8 +459,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../../Dissemination/Outreach.html">
    Outreach
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
-  <label for="toctree-checkbox-7">
+  <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+  <label for="toctree-checkbox-9">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -542,8 +488,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../../My_Space/Organisation.html">
    Notes
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
-  <label for="toctree-checkbox-8">
+  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+  <label for="toctree-checkbox-10">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -677,134 +623,120 @@ const thebe_selector_output = ".output, .cell_output"
             </div>
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   XP 1-2
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#samples">
+   Samples
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#samples">
-     Samples
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#list">
+     List
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#grouping">
+     Grouping
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#litterature-data">
+     Litterature Data
     </a>
     <ul class="nav section-nav flex-column">
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#list">
-       List
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#hudson">
+       Hudson
       </a>
      </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#grouping">
-       Grouping
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#dartois">
+       Dartois
       </a>
      </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#litterature-data">
-       Litterature Data
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#dr1">
+   DR1
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#dr2">
+   DR2
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#strong-u-band-assignment-and-evolution-with-t-u-strong">
+     <strong>
+      »
+      <u>
+       Band assignment and evolution with T
+      </u>
+     </strong>
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#strong-range-1-strong">
+       <strong>
+        Range 1
+       </strong>
       </a>
       <ul class="nav section-nav flex-column">
-       <li class="toc-h4 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#hudson">
-         Hudson
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#peaks">
+         ♠ Peaks
         </a>
        </li>
-       <li class="toc-h4 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#dartois">
-         Dartois
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#strong-range-2-strong">
+       <strong>
+        Range 2
+       </strong>
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id12">
+         ♠ Peaks
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#strong-range-3-strong">
+       <strong>
+        Range 3
+       </strong>
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id18">
+         ♠ Peaks
         </a>
        </li>
       </ul>
      </li>
     </ul>
    </li>
-  </ul>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#example-2020-12-03">
-   Example: 2020_12_03
-  </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#dr1">
-     DR1
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#dr2">
-     DR2
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#strong-u-adjustments-u-strong">
+     <strong>
+      »
+      <u>
+       Adjustments
+      </u>
+     </strong>
     </a>
     <ul class="nav section-nav flex-column">
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#strong-u-band-assignment-and-evolution-with-t-u-strong">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#strong-bc-lower-range-strong">
        <strong>
-        »
-        <u>
-         Band assignment and evolution with T
-        </u>
+        BC lower range
        </strong>
       </a>
-      <ul class="nav section-nav flex-column">
-       <li class="toc-h4 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#strong-range-1-strong">
-         <strong>
-          Range 1
-         </strong>
-        </a>
-        <ul class="nav section-nav flex-column">
-         <li class="toc-h5 nav-item toc-entry">
-          <a class="reference internal nav-link" href="#peaks">
-           ♠ Peaks
-          </a>
-         </li>
-        </ul>
-       </li>
-       <li class="toc-h4 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#strong-range-2-strong">
-         <strong>
-          Range 2
-         </strong>
-        </a>
-        <ul class="nav section-nav flex-column">
-         <li class="toc-h5 nav-item toc-entry">
-          <a class="reference internal nav-link" href="#id12">
-           ♠ Peaks
-          </a>
-         </li>
-        </ul>
-       </li>
-       <li class="toc-h4 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#strong-range-3-strong">
-         <strong>
-          Range 3
-         </strong>
-        </a>
-        <ul class="nav section-nav flex-column">
-         <li class="toc-h5 nav-item toc-entry">
-          <a class="reference internal nav-link" href="#id18">
-           ♠ Peaks
-          </a>
-         </li>
-        </ul>
-       </li>
-      </ul>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#strong-u-adjustments-u-strong">
-       <strong>
-        »
-        <u>
-         Adjustments
-        </u>
-       </strong>
-      </a>
-      <ul class="nav section-nav flex-column">
-       <li class="toc-h4 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#strong-bc-lower-range-strong">
-         <strong>
-          BC lower range
-         </strong>
-        </a>
-       </li>
-      </ul>
      </li>
     </ul>
    </li>
@@ -830,134 +762,120 @@ const thebe_selector_output = ".output, .cell_output"
                         </div>
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   XP 1-2
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#samples">
+   Samples
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#samples">
-     Samples
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#list">
+     List
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#grouping">
+     Grouping
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#litterature-data">
+     Litterature Data
     </a>
     <ul class="nav section-nav flex-column">
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#list">
-       List
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#hudson">
+       Hudson
       </a>
      </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#grouping">
-       Grouping
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#dartois">
+       Dartois
       </a>
      </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#litterature-data">
-       Litterature Data
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#dr1">
+   DR1
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#dr2">
+   DR2
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#strong-u-band-assignment-and-evolution-with-t-u-strong">
+     <strong>
+      »
+      <u>
+       Band assignment and evolution with T
+      </u>
+     </strong>
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#strong-range-1-strong">
+       <strong>
+        Range 1
+       </strong>
       </a>
       <ul class="nav section-nav flex-column">
-       <li class="toc-h4 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#hudson">
-         Hudson
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#peaks">
+         ♠ Peaks
         </a>
        </li>
-       <li class="toc-h4 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#dartois">
-         Dartois
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#strong-range-2-strong">
+       <strong>
+        Range 2
+       </strong>
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id12">
+         ♠ Peaks
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#strong-range-3-strong">
+       <strong>
+        Range 3
+       </strong>
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id18">
+         ♠ Peaks
         </a>
        </li>
       </ul>
      </li>
     </ul>
    </li>
-  </ul>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#example-2020-12-03">
-   Example: 2020_12_03
-  </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#dr1">
-     DR1
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#dr2">
-     DR2
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#strong-u-adjustments-u-strong">
+     <strong>
+      »
+      <u>
+       Adjustments
+      </u>
+     </strong>
     </a>
     <ul class="nav section-nav flex-column">
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#strong-u-band-assignment-and-evolution-with-t-u-strong">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#strong-bc-lower-range-strong">
        <strong>
-        »
-        <u>
-         Band assignment and evolution with T
-        </u>
+        BC lower range
        </strong>
       </a>
-      <ul class="nav section-nav flex-column">
-       <li class="toc-h4 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#strong-range-1-strong">
-         <strong>
-          Range 1
-         </strong>
-        </a>
-        <ul class="nav section-nav flex-column">
-         <li class="toc-h5 nav-item toc-entry">
-          <a class="reference internal nav-link" href="#peaks">
-           ♠ Peaks
-          </a>
-         </li>
-        </ul>
-       </li>
-       <li class="toc-h4 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#strong-range-2-strong">
-         <strong>
-          Range 2
-         </strong>
-        </a>
-        <ul class="nav section-nav flex-column">
-         <li class="toc-h5 nav-item toc-entry">
-          <a class="reference internal nav-link" href="#id12">
-           ♠ Peaks
-          </a>
-         </li>
-        </ul>
-       </li>
-       <li class="toc-h4 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#strong-range-3-strong">
-         <strong>
-          Range 3
-         </strong>
-        </a>
-        <ul class="nav section-nav flex-column">
-         <li class="toc-h5 nav-item toc-entry">
-          <a class="reference internal nav-link" href="#id18">
-           ♠ Peaks
-          </a>
-         </li>
-        </ul>
-       </li>
-      </ul>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#strong-u-adjustments-u-strong">
-       <strong>
-        »
-        <u>
-         Adjustments
-        </u>
-       </strong>
-      </a>
-      <ul class="nav section-nav flex-column">
-       <li class="toc-h4 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#strong-bc-lower-range-strong">
-         <strong>
-          BC lower range
-         </strong>
-        </a>
-       </li>
-      </ul>
      </li>
     </ul>
    </li>
@@ -1423,15 +1341,12 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 <div class="section" id="dartois">
 <h4>Dartois<a class="headerlink" href="#dartois" title="Permalink to this headline">¶</a></h4>
-</div>
-</div>
-</div>
-</div>
 <hr class="docutils" />
-<div class="tex2jax_ignore mathjax_ignore section" id="example-2020-12-03">
-<h1>Example: 2020_12_03<a class="headerlink" href="#example-2020-12-03" title="Permalink to this headline">¶</a></h1>
 <p><strong>Typical ethane sample</strong></p>
 <p>The followings is an example of all the outputs generated by the reduction routine. All those results can find for each of the samples by clicking on their respective card above.</p>
+</div>
+</div>
+</div>
 <div class="section" id="dr1">
 <h2>DR1<a class="headerlink" href="#dr1" title="Permalink to this headline">¶</a></h2>
 <div class="full-width docutils">
@@ -1443,7 +1358,7 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
 <div class="figure align-default" id="et1">
 <a class="reference internal image-reference" href="../../../_images/DR1_2020_12_03_Full-range_U.png"><img alt="../../../_images/DR1_2020_12_03_Full-range_U.png" src="../../../_images/DR1_2020_12_03_Full-range_U.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 209 </span><span class="caption-text">Ethane 2020_12_03 DR1 (pre Baseline correction), whole range</span><a class="headerlink" href="#et1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 11 </span><span class="caption-text">Ethane 2020_12_03 DR1 (pre Baseline correction), whole range</span><a class="headerlink" href="#et1" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -1479,7 +1394,7 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
 <div class="figure align-default" id="id6">
 <a class="reference internal image-reference" href="../../../_images/DR2_2020_12_03_sub-range_1.png"><img alt="../../../_images/DR2_2020_12_03_sub-range_1.png" src="../../../_images/DR2_2020_12_03_sub-range_1.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 210 </span><span class="caption-text">description</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 12 </span><span class="caption-text">description</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -1508,13 +1423,13 @@ const thebe_selector_output = ".output, .cell_output"
 <p class="sd-card-text"><strong>Frequency</strong></p>
 <div class="figure align-default" id="id7">
 <a class="reference internal image-reference" href="../../../_images/DR2_2020_12_03_PeakE1-freq.png"><img alt="../../../_images/DR2_2020_12_03_PeakE1-freq.png" src="../../../_images/DR2_2020_12_03_PeakE1-freq.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 211 </span><span class="caption-text">description</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 13 </span><span class="caption-text">description</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
 </div>
 <hr class="docutils" />
 <p class="sd-card-text"><strong>Absorbance</strong></p>
 <div class="figure align-default" id="id8">
 <a class="reference internal image-reference" href="../../../_images/DR2_2020_12_03_PeakE1-Abs.png"><img alt="../../../_images/DR2_2020_12_03_PeakE1-Abs.png" src="../../../_images/DR2_2020_12_03_PeakE1-Abs.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 212 </span><span class="caption-text">description</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 14 </span><span class="caption-text">description</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -1533,13 +1448,13 @@ const thebe_selector_output = ".output, .cell_output"
 <p class="sd-card-text"><strong>Frequency</strong></p>
 <div class="figure align-default" id="id9">
 <a class="reference internal image-reference" href="../../../_images/DR2_2020_12_03_PeakE2-freq.png"><img alt="../../../_images/DR2_2020_12_03_PeakE2-freq.png" src="../../../_images/DR2_2020_12_03_PeakE2-freq.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 213 </span><span class="caption-text">description</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 15 </span><span class="caption-text">description</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
 </div>
 <hr class="docutils" />
 <p class="sd-card-text"><strong>Absorbance</strong></p>
 <div class="figure align-default" id="et2">
 <a class="reference internal image-reference" href="../../../_images/DR2_2020_12_03_PeakE2-Abs.png"><img alt="../../../_images/DR2_2020_12_03_PeakE2-Abs.png" src="../../../_images/DR2_2020_12_03_PeakE2-Abs.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 214 </span><span class="caption-text">description</span><a class="headerlink" href="#et2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 16 </span><span class="caption-text">description</span><a class="headerlink" href="#et2" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -1558,13 +1473,13 @@ const thebe_selector_output = ".output, .cell_output"
 <p class="sd-card-text"><strong>Frequency</strong></p>
 <div class="figure align-default" id="id10">
 <a class="reference internal image-reference" href="../../../_images/DR2_2020_12_03_PeakE3-freq.png"><img alt="../../../_images/DR2_2020_12_03_PeakE3-freq.png" src="../../../_images/DR2_2020_12_03_PeakE3-freq.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 215 </span><span class="caption-text">description</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 17 </span><span class="caption-text">description</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
 </div>
 <hr class="docutils" />
 <p class="sd-card-text"><strong>Absorbance</strong></p>
 <div class="figure align-default" id="et3">
 <a class="reference internal image-reference" href="../../../_images/DR2_2020_12_03_PeakE3-Abs.png"><img alt="../../../_images/DR2_2020_12_03_PeakE3-Abs.png" src="../../../_images/DR2_2020_12_03_PeakE3-Abs.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 216 </span><span class="caption-text">description</span><a class="headerlink" href="#et3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 18 </span><span class="caption-text">description</span><a class="headerlink" href="#et3" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -1601,7 +1516,7 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
 <div class="figure align-default" id="id11">
 <a class="reference internal image-reference" href="../../../_images/DR2_2020_12_03_sub-range_2.png"><img alt="../../../_images/DR2_2020_12_03_sub-range_2.png" src="../../../_images/DR2_2020_12_03_sub-range_2.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 217 </span><span class="caption-text">description</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 19 </span><span class="caption-text">description</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -1643,13 +1558,13 @@ const thebe_selector_output = ".output, .cell_output"
 <p class="sd-card-text"><strong>Frequency</strong></p>
 <div class="figure align-default" id="id13">
 <a class="reference internal image-reference" href="../../../_images/DR2_2020_12_03_PeakE4-freq.png"><img alt="../../../_images/DR2_2020_12_03_PeakE4-freq.png" src="../../../_images/DR2_2020_12_03_PeakE4-freq.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 218 </span><span class="caption-text">description</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 20 </span><span class="caption-text">description</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
 </div>
 <hr class="docutils" />
 <p class="sd-card-text"><strong>Absorbance</strong></p>
 <div class="figure align-default" id="id14">
 <a class="reference internal image-reference" href="../../../_images/DR2_2020_12_03_PeakE4-Abs.png"><img alt="../../../_images/DR2_2020_12_03_PeakE4-Abs.png" src="../../../_images/DR2_2020_12_03_PeakE4-Abs.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 219 </span><span class="caption-text">description</span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 21 </span><span class="caption-text">description</span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -1668,13 +1583,13 @@ const thebe_selector_output = ".output, .cell_output"
 <p class="sd-card-text"><strong>Frequency</strong></p>
 <div class="figure align-default" id="id15">
 <a class="reference internal image-reference" href="../../../_images/DR2_2020_12_03_PeakE5-freq.png"><img alt="../../../_images/DR2_2020_12_03_PeakE5-freq.png" src="../../../_images/DR2_2020_12_03_PeakE5-freq.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 220 </span><span class="caption-text">description</span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 22 </span><span class="caption-text">description</span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
 </div>
 <hr class="docutils" />
 <p class="sd-card-text"><strong>Absorbance</strong></p>
 <div class="figure align-default" id="id16">
 <a class="reference internal image-reference" href="../../../_images/DR2_2020_12_03_PeakE5-Abs.png"><img alt="../../../_images/DR2_2020_12_03_PeakE5-Abs.png" src="../../../_images/DR2_2020_12_03_PeakE5-Abs.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 221 </span><span class="caption-text">description</span><a class="headerlink" href="#id16" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 23 </span><span class="caption-text">description</span><a class="headerlink" href="#id16" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -1707,7 +1622,7 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
 <div class="figure align-default" id="id17">
 <a class="reference internal image-reference" href="../../../_images/DR2_2020_12_03_sub-range_3.png"><img alt="../../../_images/DR2_2020_12_03_sub-range_3.png" src="../../../_images/DR2_2020_12_03_sub-range_3.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 222 </span><span class="caption-text">description</span><a class="headerlink" href="#id17" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 24 </span><span class="caption-text">description</span><a class="headerlink" href="#id17" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -1752,13 +1667,13 @@ const thebe_selector_output = ".output, .cell_output"
 <p class="sd-card-text"><strong>Frequency</strong></p>
 <div class="figure align-default" id="id19">
 <a class="reference internal image-reference" href="../../../_images/DR2_2020_12_03_PeakE6-freq.png"><img alt="../../../_images/DR2_2020_12_03_PeakE6-freq.png" src="../../../_images/DR2_2020_12_03_PeakE6-freq.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 223 </span><span class="caption-text">description</span><a class="headerlink" href="#id19" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 25 </span><span class="caption-text">description</span><a class="headerlink" href="#id19" title="Permalink to this image">¶</a></p>
 </div>
 <hr class="docutils" />
 <p class="sd-card-text"><strong>Absorbance</strong></p>
 <div class="figure align-default" id="id20">
 <a class="reference internal image-reference" href="../../../_images/DR2_2020_12_03_PeakE6-Abs.png"><img alt="../../../_images/DR2_2020_12_03_PeakE6-Abs.png" src="../../../_images/DR2_2020_12_03_PeakE6-Abs.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 224 </span><span class="caption-text">description</span><a class="headerlink" href="#id20" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 26 </span><span class="caption-text">description</span><a class="headerlink" href="#id20" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -1777,13 +1692,13 @@ const thebe_selector_output = ".output, .cell_output"
 <p class="sd-card-text"><strong>Frequency</strong></p>
 <div class="figure align-default" id="id21">
 <a class="reference internal image-reference" href="../../../_images/DR2_2020_12_03_PeakE7-freq.png"><img alt="../../../_images/DR2_2020_12_03_PeakE7-freq.png" src="../../../_images/DR2_2020_12_03_PeakE7-freq.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 225 </span><span class="caption-text">description</span><a class="headerlink" href="#id21" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 27 </span><span class="caption-text">description</span><a class="headerlink" href="#id21" title="Permalink to this image">¶</a></p>
 </div>
 <hr class="docutils" />
 <p class="sd-card-text"><strong>Absorbance</strong></p>
 <div class="figure align-default" id="id22">
 <a class="reference internal image-reference" href="../../../_images/DR2_2020_12_03_PeakE7-Abs.png"><img alt="../../../_images/DR2_2020_12_03_PeakE7-Abs.png" src="../../../_images/DR2_2020_12_03_PeakE7-Abs.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 226 </span><span class="caption-text">description</span><a class="headerlink" href="#id22" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 28 </span><span class="caption-text">description</span><a class="headerlink" href="#id22" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -1801,7 +1716,7 @@ const thebe_selector_output = ".output, .cell_output"
 <p class="sidebar-title"></p>
 <div class="figure align-default" id="id24">
 <a class="reference internal image-reference" href="../../../_images/DR2_2021_09_15_BC_total.png"><img alt="../../../_images/DR2_2021_09_15_BC_total.png" src="../../../_images/DR2_2021_09_15_BC_total.png" style="width: 200px; height: 200px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 227 </span><span class="caption-text">BC 2021_09_15 (click for bigger plot)</span><a class="headerlink" href="#id24" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 29 </span><span class="caption-text">BC 2021_09_15 (click for bigger plot)</span><a class="headerlink" href="#id24" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -1817,8 +1732,6 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 </div>
 </div>
-</div>
-<div class="toctree-wrapper compound">
 </div>
 </div>
 
@@ -1847,17 +1760,17 @@ const thebe_selector_output = ".output, .cell_output"
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="../XP-1_1/2021_07_13/2021_07_13.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="../XP-1_1/XP-1_1.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">2021/07/13</p>
+            <p class="prev-next-title">XP 1-1</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="2020_12_03/2020_12_03.html" title="next page">
+    <a class='right-next' id="next-link" href="../Pipeline.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">2020/12/03</p>
+        <p class="prev-next-title">Pipeline</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

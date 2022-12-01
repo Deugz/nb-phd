@@ -1,0 +1,730 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#"
+     xml:base="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Amorphous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Amorphous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Science_Notes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Biblio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Biblio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Thesis_JB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Chapter1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Chapter1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Thesis_JB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Chapter2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Chapter2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Thesis_JB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Chapter3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Chapter3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Thesis_JB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Chapter4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Chapter4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Thesis_JB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Chapter5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Chapter5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Thesis_JB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Chapter8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Chapter8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Thesis_JB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Conferences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Conferences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Dissemination"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Outreach"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DATA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DATA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#PhD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DATA-Processing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DATA-Processing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DATA"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DATA-RAW"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DATA-RAW -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DATA-RAW">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DATA"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Data_Notes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Updated_Code"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Updated_Code"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR1.1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR1.1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Updated_Code"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR2_ASW -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR2_ASW">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Updated_Code"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR2_C2H6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR2_C2H6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Updated_Code"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR2_C2H6_ASW -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR2_C2H6_ASW">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Updated_Code"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR_Overview -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR_Overview">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Daily_Log -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Daily_Log">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#My_Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Data_Notes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Data_Notes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Notes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Dissemination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Dissemination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#PhD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Docs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Docs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#PhD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Help -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Help">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#My_Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#How_do_I -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#How_do_I">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#My_Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Method -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Method">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Method_Notes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Method_Notes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Method_Notes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Notes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Mixed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Mixed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Science_Notes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Monthly_Dashboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Monthly_Dashboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#My_Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#My_Space -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#My_Space">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#PhD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Notes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Notes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#PhD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Organisation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Organisation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#My_Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Outreach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Outreach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Dissemination"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#PAC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#PAC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Method_Notes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#PhD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#PhD"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Productivity_Dashboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Productivity_Dashboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#My_Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Questions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Questions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Science_Notes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Sample_thickness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Sample_thickness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Science_Notes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Science_Notes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Science_Notes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Notes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Script -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Script">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#PhD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Space -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Space">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Science_Notes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Spectroscopy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Spectroscopy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Method_Notes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Style_guide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Style_guide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#My_Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Thesis_JB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Thesis_JB">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#PhD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Updated_Code -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Updated_Code">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Script"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Science_Notes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#XP-1_1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#XP-1_1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Data_Notes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#XP-1_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#XP-1_2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Data_Notes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#_build -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#_build">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#PhD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#_config -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#_config">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#PhD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#_static -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#_static">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#PhD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#_toc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#_toc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#PhD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#intro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#intro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#PhD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#laser-diode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#laser-diode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Updated_Code"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#... -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#...">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#XP-1_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#XP-1_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_09_15 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_09_15">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#XP-1_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_09_16 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_09_16">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#XP-1_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_09_17 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_09_17">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#XP-1_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_09_21 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_09_21">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#XP-1_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_09_24 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_09_24">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#XP-1_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_09_28 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_09_28">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#XP-1_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_10_14 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_10_14">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#XP-1_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_10_15 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_10_15">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#XP-1_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_10_22 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_10_22">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#XP-1_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_10_30 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_10_30">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#XP-1_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_12_03 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_12_03">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#XP-1_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2021_01_29 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2021_01_29">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#XP-1_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2021_02_24 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2021_02_24">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#XP-1_2"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Amorphous"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Mixed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Questions"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Space"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Water"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Biblio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Chapter1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Chapter2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Chapter3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Chapter4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Chapter5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Chapter8"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DATA"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Dissemination"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Docs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#My_Space"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Notes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Script"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Thesis_JB"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#_build"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#_config"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#_static"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#_toc"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#intro"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR1.1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR2_ASW"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR2_C2H6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR2_C2H6_ASW"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#laser-diode"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#DR_Overview"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Sample_thickness"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Daily_Log"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Help"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#How_do_I"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Monthly_Dashboard"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Organisation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Productivity_Dashboard"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Style_guide"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Data_Notes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Method_Notes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Science_Notes"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Method"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#PAC"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#Spectroscopy"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#..."/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_09_15"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_09_16"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_09_17"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_09_21"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_09_24"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_09_28"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_10_14"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_10_15"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_10_22"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_10_30"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#..."/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2020_12_03"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2021_01_29"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/PHD#2021_02_24"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

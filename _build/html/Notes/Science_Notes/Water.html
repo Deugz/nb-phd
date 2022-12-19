@@ -4,11 +4,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>Water Ice &#8212; PhD</title>
     
-  <link href="../../_static/css/theme.css" rel="stylesheet">
-  <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -18,26 +20,20 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/custom_style.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/.ipynb_checkpoints/custom_style-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/assets/Calendar/public/css/calendar.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/assets/GC/GC6-08-2022_files/stylesheet.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/assets/Sample_list/Sample_list_files/stylesheet.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     
-  <link rel="preload" as="script" href="../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
@@ -45,12 +41,11 @@
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../../_static/togglebutton.js"></script>
-    <script src="../../_static/assets/Picture_display.js"></script>
-    <script src="../../_static/assets/.ipynb_checkpoints/Picture_display-checkpoint.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script kind="utterances">
 
@@ -86,8 +81,8 @@ var addUtterances = () => {
 }
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
+    <script src="../../_static/assets/Picture_display.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script src="../../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
@@ -116,7 +111,21 @@ const thebe_selector_output = ".output, .cell_output"
                 </script>
 
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint">Current Version: 09/09/2022</div>
+<div class="header header-item noprint"></div>
+
     
     <div class="container-fluid" id="banner"></div>
 
@@ -125,9 +134,10 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="container-xl">
       <div class="row">
           
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
-    
-        <div class="navbar-brand-box">
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../../index.html">
       
         <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
@@ -444,11 +454,28 @@ const thebe_selector_output = ".output, .cell_output"
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../../Dissemination/Conference.html">
-   Conferences
+  <a class="reference internal" href="../../Dissemination/Discussions.html">
+   Discussion
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
   <label for="toctree-checkbox-8">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Dissemination/Discussions/Jenny.html">
+     Jenny
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../Dissemination/Conference.html">
+   Conferences
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+  <label for="toctree-checkbox-9">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -459,8 +486,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../Dissemination/Outreach.html">
    Outreach
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
-  <label for="toctree-checkbox-9">
+  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+  <label for="toctree-checkbox-10">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -488,8 +515,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../My_Space/Organisation.html">
    Notes
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
-  <label for="toctree-checkbox-10">
+  <input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
+  <label for="toctree-checkbox-11">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -541,88 +568,193 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 
     </div>
-</nav> <!-- To handle the deprecated key -->
-
-</div>
-
-
-          
-
-
-          
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
-    
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
             
-            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-arrow-left"></i>
-                <i class="fas fa-arrow-up"></i>
-            </button>
-            
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/Notes/Science_Notes/Water.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
-    </div>
-</div>
-
-            <!-- Source interaction buttons -->
-
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/Deugz/nb-phd"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/Deugz/nb-phd/issues/new?title=Issue%20on%20page%20%2FNotes/Science_Notes/Water.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/Deugz/nb-phd/edit/main/_build/html/Notes/Science_Notes/Water.md"><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
-    </div>
-</div>
-
-            <!-- Full screen (wrap in <a> to have style consistency -->
-
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
-            class="fas fa-expand"></i></button></a>
-
-            <!-- Launch buttons -->
-
         </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
 
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
-            
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
-            </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/Deugz/nb-phd"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/Deugz/nb-phd/issues/new?title=Issue%20on%20page%20%2FNotes/Science_Notes/Water.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/Deugz/nb-phd/edit/main/_build/html/Notes/Science_Notes/Water.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Edit this page"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="headerbtn__text-container">suggest edit</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../../_sources/Notes/Science_Notes/Water.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#water-molecule">
    <strong>
@@ -651,12 +783,11 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
 </ul>
 
-            </nav>
-        </div>
-    </div>
+    </nav>
 </div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
                 <h1>Water Ice</h1>
@@ -701,11 +832,12 @@ const thebe_selector_output = ".output, .cell_output"
                     </div>
                 </div>
             </div>
-            
+            <main id="main-content" role="main">
+                
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="water-ice">
-<h1>Water Ice<a class="headerlink" href="#water-ice" title="Permalink to this headline">¶</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="water-ice">
+<h1>Water Ice<a class="headerlink" href="#water-ice" title="Permalink to this headline">#</a></h1>
 <p>We are all familiar with water. Even though water is a relatively simple molecule, the third most abundant molecule in the Universe (after H2 and CO), and the most abundant molecule on Earth it not yet and far from being completely understood.</p>
 <div class="admonition-writing-9999 admonition">
 <p class="admonition-title">writing ✏</p>
@@ -772,7 +904,7 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
 <p><strong>Key Litterature</strong>:</p>
 <ul class="simple">
-<li><p><span id="id1">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id55" title="missing journal in Walrafen1972">Walrafen, 1972</a>]</span></p></li>
+<li><p><span id="id1">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id55">Walrafen, 1972</a>]</span></p></li>
 <li><p>2</p></li>
 </ul>
 <br>
@@ -809,8 +941,8 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 </div>
 </div>
-<div class="section" id="water-molecule">
-<h2><strong>Water molecule</strong><a class="headerlink" href="#water-molecule" title="Permalink to this headline">¶</a></h2>
+<section id="water-molecule">
+<h2><strong>Water molecule</strong><a class="headerlink" href="#water-molecule" title="Permalink to this headline">#</a></h2>
 <p>Water is … very important:</p>
 <ul class="simple">
 <li><p>Solar radiation absorbed by the Earth atmosphere is mostly due to water vapour absorption. <span id="id2">[]</span></p></li>
@@ -846,7 +978,7 @@ const thebe_selector_output = ".output, .cell_output"
 <h4><strong> Microscopic properties</strong></h4>
 <h5><strong>Polarity, Dipole moment and Vibrational modes </strong></h5>
 <p>Polarity makes water an excellent solvent</p>
-<p>The dipole moment of a <strong>free</strong> water molecule is 1.86 D (Debye) <span id="id3">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id66" title="missing booktitle in Aida2019">Aida and Akase, 2019</a>]</span> (ref 22) - <span id="id4">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id67" title="Dai Akase and Misako Aida. Distribution of topologically distinct isomers of water clusters and dipole moments of constituent water molecules at finite atmospheric temperatures. Journal of Physical Chemistry A, 118:7911-7924, 8 2014. doi:10.1021/jp504854f.">Akase and Aida, 2014</a>]</span></p>
+<p>The dipole moment of a <strong>free</strong> water molecule is 1.86 D (Debye) <span id="id3">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id66">Aida and Akase, 2019</a>]</span> (ref 22) - <span id="id4">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id67" title="Dai Akase and Misako Aida. Distribution of topologically distinct isomers of water clusters and dipole moments of constituent water molecules at finite atmospheric temperatures. Journal of Physical Chemistry A, 118:7911-7924, 8 2014. doi:10.1021/jp504854f.">Akase and Aida, 2014</a>]</span></p>
 <ul class="simple">
 <li><p>How is it measured, calculated</p></li>
 </ul>
@@ -880,7 +1012,7 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 </div>
 <h5>Isotopologues</h5>
-<div class="margin sidebar">
+<aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <div class="seealso admonition">
 <p class="admonition-title">Litterature</p>
@@ -907,7 +1039,7 @@ const thebe_selector_output = ".output, .cell_output"
 <span id="id8">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id48" title="Jonathan Tennyson, Peter F. Bernath, Linda R. Brown, Alain Campargue, Attila G. Császár, Ludovic Daumont, Robert R. Gamache, Joseph T. Hodges, Olga V. Naumenko, Oleg L. Polyansky, Laurence S. Rothman, Ann Carine Vandaele, Nikolai F. Zobov, Nóra Dénes, Alexander Z. Fazliev, Tibor Furtenbacher, Iouli E. Gordon, Shui Ming Hu, Tamás Szidarovszky, and Irina A. Vasilenko. Iupac critical evaluation of the rotational-vibrational spectra of water vapor. part iv. energy levels and transition wavenumbers for d216o, d217o, and d218o. Journal of Quantitative Spectroscopy and Radiative Transfer, 142:93-108, 2014. doi:10.1016/j.jqsrt.2014.03.019.">Tennyson <em>et al.</em>, 2014</a>]</span></p></li>
 </ul>
 </div>
-</div>
+</aside>
 <p>Isotopologues are a great investigation tool to unveil the various processes that a molecular species has had to overcome over it’s existence.</p>
 <h4><strong> Hydrogen bonding </strong></h4>
 <h5><strong> Definition </strong></h5>
@@ -934,10 +1066,12 @@ der Waals radii of the A and B atoms. The geometrical changes have been
 detected by neutron and X-ray diffraction methods (1–4).</p>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
-<div class="figure align-default" id="mc-x">
+<figure class="align-default" id="mc-x">
 <a class="reference internal image-reference" href="../../_images/Novak_potential.PNG"><img alt="../../_images/Novak_potential.PNG" src="../../_images/Novak_potential.PNG" style="width: 500px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">source: <span id="id9">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id62" title="A Novak. Hydrogen bonding in solids. correlation of spectroscopic and crystallographic data*. Plenary lecture, 1973.">Novak, 1973</a>]</span></span><a class="headerlink" href="#mc-x" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">source: <span id="id9">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id62" title="A Novak. Hydrogen bonding in solids. correlation of spectroscopic and crystallographic data*. Plenary lecture, 1973.">Novak, 1973</a>]</span></span><a class="headerlink" href="#mc-x" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </div>
 </div>
 </div>
@@ -954,10 +1088,12 @@ detected by neutron and X-ray diffraction methods (1–4).</p>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
 <div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
-<div class="figure align-default" id="id11">
+<figure class="align-default" id="id11">
 <a class="reference internal image-reference" href="../../_images/Walf_tetra_MC.PNG"><img alt="../../_images/Walf_tetra_MC.PNG" src="../../_images/Walf_tetra_MC.PNG" style="width: 400px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 5 </span><span class="caption-text">Explain: source MC</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 5 </span><span class="caption-text">Explain: source MC</span><a class="headerlink" href="#id11" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
 <p>This tetrahedral geometry is caused by the ability of water to form <strong>4 hydrogen bonds</strong> with other water molecules:</p>
@@ -972,17 +1108,19 @@ detected by neutron and X-ray diffraction methods (1–4).</p>
 </div>
 </div>
 <h6><strong> Intermolecular coupling </strong></h6>
-<div class="margin sidebar">
+<aside class="margin sidebar">
 <p class="sidebar-title"></p>
-<div class="figure align-default" id="id12">
+<figure class="align-default" id="id12">
 <a class="reference internal image-reference" href="../../_images/Coupling.PNG"><img alt="../../_images/Coupling.PNG" src="../../_images/Coupling.PNG" style="width: 400px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">Source: <a class="reference external" href="https://sci-hub.ru/10.1063/1.3516460">link</a> - to redo
+<figcaption>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Source: <a class="reference external" href="https://sci-hub.ru/10.1063/1.3516460">link</a> - to redo
 black: OH of interest
 red:intramolecular coupling
 blue: strong intermolecular coupling
-green: weak intermolecular coupling</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
-</div>
-</div>
+green: weak intermolecular coupling</span><a class="headerlink" href="#id12" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</aside>
 <ul class="simple">
 <li><p>Strong / Weak</p></li>
 <li><p>Effect on the IR vibrations</p></li>
@@ -1044,9 +1182,9 @@ green: weak intermolecular coupling</span><a class="headerlink" href="#id12" tit
 <ul class="simple">
 <li><p>Two-dimensional Raman spectroscopy (?) - <span id="id13">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id60" title="Shinji Saito and Iwao Ohmine. Fifth-order two-dimensional raman spectroscopy of liquid water, crystalline ice lh and amorphous ices: sensitivity to anharmonic dynamics and local hydrogen bond network structure. Journal of Chemical Physics, 2006. doi:10.1063/1.2232254.">Saito and Ohmine, 2006</a>]</span></p></li>
 </ul>
-</div>
-<div class="section" id="water-in-the-condensed-phase">
-<h2><strong>Water in the condensed phase</strong><a class="headerlink" href="#water-in-the-condensed-phase" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="water-in-the-condensed-phase">
+<h2><strong>Water in the condensed phase</strong><a class="headerlink" href="#water-in-the-condensed-phase" title="Permalink to this headline">#</a></h2>
 <h3><strong>&#187;  <u> Phase diagram </u></strong></h3>
 <p>The earth is the only planet of our solar system that can sustain water in it’s three physical states (solid, liquid, gas).</p>
 <p><strong>Liquid</strong></p>
@@ -1062,16 +1200,20 @@ green: weak intermolecular coupling</span><a class="headerlink" href="#id12" tit
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
 <div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
-<div class="figure align-default" id="phase-diagram">
+<figure class="align-default" id="phase-diagram">
 <a class="reference internal image-reference" href="../../_images/Phase_diagram_of_water.svg"><img alt="../../_images/Phase_diagram_of_water.svg" src="../../_images/Phase_diagram_of_water.svg" width="600px" /></a>
-<p class="caption"><span class="caption-number">Fig. 7 </span><span class="caption-text">Explain: source MC</span><a class="headerlink" href="#phase-diagram" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 7 </span><span class="caption-text">Explain: source MC</span><a class="headerlink" href="#phase-diagram" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
-<div class="figure align-default" id="phase-diagram-2">
+<figure class="align-default" id="phase-diagram-2">
 <a class="reference internal image-reference" href="../../_images/Phase_diagram_2.PNG"><img alt="../../_images/Phase_diagram_2.PNG" src="../../_images/Phase_diagram_2.PNG" style="width: 380px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 8 </span><span class="caption-text">Explain: source MC</span><a class="headerlink" href="#phase-diagram-2" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 8 </span><span class="caption-text">Explain: source MC</span><a class="headerlink" href="#phase-diagram-2" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </div>
 </div>
 </div>
@@ -1102,7 +1244,7 @@ green: weak intermolecular coupling</span><a class="headerlink" href="#id12" tit
 <p class="admonition-title">Note</p>
 <p>what these underlying absorption peaks represent?</p>
 <ul class="simple">
-<li><p>Is it the number of H bonds that is important <span id="id17">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id55" title="missing journal in Walrafen1972">Walrafen, 1972</a>]</span></p></li>
+<li><p>Is it the number of H bonds that is important <span id="id17">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id55">Walrafen, 1972</a>]</span></p></li>
 <li><p>the <strong>Type of H bonds</strong> (single, bifurcated, trifurcated) ?</p></li>
 <li><p>HB bending angle ? <span id="id18">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id56" title="Klaus B. Møller, Rossend Rey, and James T. Hynes. Hydrogen bond dynamics in water and ultrafast infrared spectroscopy: a theoretical study. Journal of Physical Chemistry A, 108:1275-1289, 2 2004. doi:10.1021/jp035935r.">Møller <em>et al.</em>, 2004</a>]</span></p></li>
 <li><p>Nature of the formed or broken donor and acceptor hydrogen bonds <span id="id19">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id57" title="Arnon Millo, Yosef Raichlin, and Abraham Katzir. Mid-infrared fiber-optic attenuated total reflection spectroscopy of the solid-liquid phase transition of water. APPLIED SPECTROSCOPY, 2005.">Millo <em>et al.</em>, 2005</a>]</span></p></li>
@@ -1120,7 +1262,7 @@ green: weak intermolecular coupling</span><a class="headerlink" href="#id12" tit
 <li><p>Voight profile ? (combination of both)</p></li>
 </ul>
 <h4><strong> Other clusters</strong></h4>
-<p><span id="id23">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id66" title="missing booktitle in Aida2019">Aida and Akase, 2019</a>]</span></p>
+<p><span id="id23">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id66">Aida and Akase, 2019</a>]</span></p>
 <h3><strong>&#187;  <u>Crystalisation</u></strong></h3>
 <p>At molecular scales (few molecules up to 100 ?) - Matrix isolation techniques</p>
 <a class="reference internal image-reference" href="../../_images/crystal-min-size.png"><img alt="Water_moleucule" class="align-center" src="../../_images/crystal-min-size.png" style="width: 600px;" /></a>
@@ -1128,10 +1270,10 @@ green: weak intermolecular coupling</span><a class="headerlink" href="#id12" tit
 <p class="admonition-title">Question</p>
 <p>At what number of molecule do you consider a solid phase</p>
 </div>
-</div>
-<div class="section" id="the-solid-landscape">
-<h2><strong>The solid landscape</strong><a class="headerlink" href="#the-solid-landscape" title="Permalink to this headline">¶</a></h2>
-<div class="margin sidebar">
+</section>
+<section id="the-solid-landscape">
+<h2><strong>The solid landscape</strong><a class="headerlink" href="#the-solid-landscape" title="Permalink to this headline">#</a></h2>
+<aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <a class="reference internal image-reference" href="../../_images/320px-Ice_cubes_openphoto.jpg"><img alt="Ice-cubes" class="align-center" src="../../_images/320px-Ice_cubes_openphoto.jpg" style="width: 400px;" /></a>
 <p><a class="reference external" href="https://commons.wikimedia.org/wiki/File:Ice_cubes_openphoto.jpg">Source</a></p>
@@ -1150,7 +1292,7 @@ green: weak intermolecular coupling</span><a class="headerlink" href="#id12" tit
 <p><strong>Formation route</strong>, indeed ice cubes are formed from <strong>liquid</strong> water, where snowflakes are made in the upper atmosphere from water <strong>vapor</strong> (really?).</p>
 </div>
 </div>
-</div>
+</aside>
 <p>Ice is <a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Physics/Water/Water.html">Water</a> frozen in the <strong>solid state</strong>.</p>
 <h3><strong>&#187;  <u> Hexagonal Ice </u></strong></h3>
 <p>Hexagonal Ice (abbreviated Ih) is the most common form of ice found on earth</p>
@@ -1173,9 +1315,9 @@ green: weak intermolecular coupling</span><a class="headerlink" href="#id12" tit
 <p>number of poymorphs, how do they differ</p>
 <h4><strong> Cubic Ice</strong></h4>
 <h4><strong> Stacking Disorder Ice</strong></h4>
-</div>
-<div class="section" id="amorphous-ice">
-<h2>Amorphous Ice<a class="headerlink" href="#amorphous-ice" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="amorphous-ice">
+<h2>Amorphous Ice<a class="headerlink" href="#amorphous-ice" title="Permalink to this headline">#</a></h2>
 <h3><strong>&#187;  <u> Amorphous vs Crystaline Ice </u></strong></h3> 
 <h4><strong> Comparison </strong></h4>
 <article id="P1">
@@ -1194,8 +1336,8 @@ green: weak intermolecular coupling</span><a class="headerlink" href="#id12" tit
 </div>
 </article>
 <p>Amorphous Solid Water</p>
-</div>
-</div>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -1219,9 +1361,11 @@ green: weak intermolecular coupling</span><a class="headerlink" href="#id12" tit
 
               </div>
               
-            
-                <!-- Previous / next buttons -->
-<div class='prev-next-area'> 
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
     <a class='left-prev' id="prev-link" href="Science.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
@@ -1237,24 +1381,28 @@ green: weak intermolecular coupling</span><a class="headerlink" href="#id12" tit
     <i class="fas fa-angle-right"></i>
     </a>
 </div>
-            
+            </footer>
         </div>
     </div>
-    <footer class="footer">
-  <p>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Vincent Deguin<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
     
-      By Vincent Deguin<br/>
-    
-        &copy; Copyright 2021.<br/>
-  </p>
-</footer>
-</main>
+</div>
 
 
       </div>
     </div>
   
-  <script src="../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
 
   </body>
 </html>

@@ -4,11 +4,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>Open Dialogues across Physics and Astronomy &#8212; PhD</title>
     
-  <link href="../../../_static/css/theme.css" rel="stylesheet">
-  <link href="../../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -18,26 +20,20 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" href="../../../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/custom_style.css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/.ipynb_checkpoints/custom_style-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/assets/Calendar/public/css/calendar.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/assets/GC/GC6-08-2022_files/stylesheet.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/assets/Sample_list/Sample_list_files/stylesheet.css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     
-  <link rel="preload" as="script" href="../../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
     <script src="../../../_static/jquery.js"></script>
@@ -45,12 +41,11 @@
     <script src="../../../_static/doctools.js"></script>
     <script src="../../../_static/clipboard.min.js"></script>
     <script src="../../../_static/copybutton.js"></script>
+    <script src="../../../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../../../_static/togglebutton.js"></script>
-    <script src="../../../_static/assets/Picture_display.js"></script>
-    <script src="../../../_static/assets/.ipynb_checkpoints/Picture_display-checkpoint.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script kind="utterances">
 
@@ -86,8 +81,8 @@ var addUtterances = () => {
 }
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
+    <script src="../../../_static/assets/Picture_display.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../../../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script src="../../../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
@@ -114,7 +109,21 @@ const thebe_selector_output = ".output, .cell_output"
                 </script>
 
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint">Current Version: 09/09/2022</div>
+<div class="header header-item noprint"></div>
+
     
     <div class="container-fluid" id="banner"></div>
 
@@ -123,9 +132,10 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="container-xl">
       <div class="row">
           
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
-    
-        <div class="navbar-brand-box">
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../../../index.html">
       
         <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
@@ -442,11 +452,28 @@ const thebe_selector_output = ".output, .cell_output"
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../../Conference.html">
-   Conferences
+  <a class="reference internal" href="../../Discussions.html">
+   Discussion
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
   <label for="toctree-checkbox-8">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Discussions/Jenny.html">
+     Jenny
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../Conference.html">
+   Conferences
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+  <label for="toctree-checkbox-9">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -457,8 +484,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../Outreach.html">
    Outreach
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
-  <label for="toctree-checkbox-9">
+  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+  <label for="toctree-checkbox-10">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -486,8 +513,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../../My_Space/Organisation.html">
    Notes
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
-  <label for="toctree-checkbox-10">
+  <input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
+  <label for="toctree-checkbox-11">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -539,88 +566,193 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 
     </div>
-</nav> <!-- To handle the deprecated key -->
-
-</div>
-
-
-          
-
-
-          
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
-    
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
             
-            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-arrow-left"></i>
-                <i class="fas fa-arrow-up"></i>
-            </button>
-            
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../../_sources/Dissemination/Conferences/Open-Dialogues-Sept-2022/Open-Dial.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
-    </div>
-</div>
-
-            <!-- Source interaction buttons -->
-
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/Deugz/nb-phd"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/Deugz/nb-phd/issues/new?title=Issue%20on%20page%20%2FDissemination/Conferences/Open-Dialogues-Sept-2022/Open-Dial.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/Deugz/nb-phd/edit/main/_build/html/Dissemination/Conferences/Open-Dialogues-Sept-2022/Open-Dial.md"><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
-    </div>
-</div>
-
-            <!-- Full screen (wrap in <a> to have style consistency -->
-
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
-            class="fas fa-expand"></i></button></a>
-
-            <!-- Launch buttons -->
-
         </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
 
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
-            
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
-            </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/Deugz/nb-phd"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/Deugz/nb-phd/issues/new?title=Issue%20on%20page%20%2FDissemination/Conferences/Open-Dialogues-Sept-2022/Open-Dial.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/Deugz/nb-phd/edit/main/_build/html/Dissemination/Conferences/Open-Dialogues-Sept-2022/Open-Dial.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Edit this page"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="headerbtn__text-container">suggest edit</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../../../_sources/Dissemination/Conferences/Open-Dialogues-Sept-2022/Open-Dial.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
  <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#">
    Open Dialogues across Physics and Astronomy
@@ -825,12 +957,11 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
 </ul>
 
-            </nav>
-        </div>
-    </div>
+    </nav>
 </div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
                 <h1>Open Dialogues across Physics and Astronomy</h1>
@@ -1051,48 +1182,49 @@ const thebe_selector_output = ".output, .cell_output"
                     </div>
                 </div>
             </div>
-            
+            <main id="main-content" role="main">
+                
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="open-dialogues-across-physics-and-astronomy">
-<h1>Open Dialogues across Physics and Astronomy<a class="headerlink" href="#open-dialogues-across-physics-and-astronomy" title="Permalink to this headline">¶</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="open-dialogues-across-physics-and-astronomy">
+<h1>Open Dialogues across Physics and Astronomy<a class="headerlink" href="#open-dialogues-across-physics-and-astronomy" title="Permalink to this headline">#</a></h1>
 <hr class="docutils" />
 <p><strong>Present:</strong> poster (link)</p>
 <p><strong>Official Web-page</strong></p>
-</div>
+</section>
 <hr class="docutils" />
-<div class="tex2jax_ignore mathjax_ignore section" id="talk-notes">
-<h1>Talk notes<a class="headerlink" href="#talk-notes" title="Permalink to this headline">¶</a></h1>
+<section class="tex2jax_ignore mathjax_ignore" id="talk-notes">
+<h1>Talk notes<a class="headerlink" href="#talk-notes" title="Permalink to this headline">#</a></h1>
 <p>first is latest</p>
 <hr class="docutils" />
-<div class="section" id="talk-the-effect-of-simple-alcohol">
-<h2>Talk The effect of simple alcohol<a class="headerlink" href="#talk-the-effect-of-simple-alcohol" title="Permalink to this headline">¶</a></h2>
+<section id="talk-the-effect-of-simple-alcohol">
+<h2>Talk The effect of simple alcohol<a class="headerlink" href="#talk-the-effect-of-simple-alcohol" title="Permalink to this headline">#</a></h2>
 <p><strong>Author</strong>: Jake E Fulker</p>
 <hr class="docutils" />
 <p>Very intersting, go and get the talk !!</p>
 <p>Do you codeposit or layer</p>
 <p>methanol decrease water crystalisation temperature !!</p>
 <p>Wendy Brown</p>
-</div>
+</section>
 <hr class="docutils" />
-<div class="section" id="talk-ir-photodesorption-of-co-from-amorphous-solid-water-under-astrophysically-relevant-conditions">
-<h2>Talk IR photodesorption of CO from Amorphous Solid Water under astrophysically relevant conditions<a class="headerlink" href="#talk-ir-photodesorption-of-co-from-amorphous-solid-water-under-astrophysically-relevant-conditions" title="Permalink to this headline">¶</a></h2>
+<section id="talk-ir-photodesorption-of-co-from-amorphous-solid-water-under-astrophysically-relevant-conditions">
+<h2>Talk IR photodesorption of CO from Amorphous Solid Water under astrophysically relevant conditions<a class="headerlink" href="#talk-ir-photodesorption-of-co-from-amorphous-solid-water-under-astrophysically-relevant-conditions" title="Permalink to this headline">#</a></h2>
 <p><strong>Author</strong>: Emily Rose Ingman</p>
 <hr class="docutils" />
 <p>Dust grain diagram - <strong>Burke et al 2010</strong></p>
 <p>Astrochemistry</p>
 <hr class="docutils" />
-</div>
+</section>
 <hr class="docutils" />
-<div class="section" id="talk-x">
-<h2>Talk X<a class="headerlink" href="#talk-x" title="Permalink to this headline">¶</a></h2>
+<section id="talk-x">
+<h2>Talk X<a class="headerlink" href="#talk-x" title="Permalink to this headline">#</a></h2>
 <p><strong>Author</strong>: li Mingjie</p>
 <hr class="docutils" />
 <p>Lots of math but good presentation sills</p>
-</div>
+</section>
 <hr class="docutils" />
-<div class="section" id="the-quantum-workforce">
-<h2>The Quantum Workforce<a class="headerlink" href="#the-quantum-workforce" title="Permalink to this headline">¶</a></h2>
+<section id="the-quantum-workforce">
+<h2>The Quantum Workforce<a class="headerlink" href="#the-quantum-workforce" title="Permalink to this headline">#</a></h2>
 <p><strong>Author</strong>: Michael Fox</p>
 <hr class="docutils" />
 <p>Why the Quantum workforce ?</p>
@@ -1104,14 +1236,14 @@ const thebe_selector_output = ".output, .cell_output"
 <p>New challenges and opportunities
 Governments want to be ahead of potential competitors</p>
 <p>purpose is inform university how to develop their courses and how to support them</p>
-<div class="section" id="qualitative-research-methodologies">
-<h3>Qualitative Research methodologies<a class="headerlink" href="#qualitative-research-methodologies" title="Permalink to this headline">¶</a></h3>
+<section id="qualitative-research-methodologies">
+<h3>Qualitative Research methodologies<a class="headerlink" href="#qualitative-research-methodologies" title="Permalink to this headline">#</a></h3>
 <p>nvivo software - codes …</p>
-</div>
-<div class="section" id="results">
-<h3>Results<a class="headerlink" href="#results" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="status-of-the-quantum-industry">
-<h4>status of the quantum industry<a class="headerlink" href="#status-of-the-quantum-industry" title="Permalink to this headline">¶</a></h4>
+</section>
+<section id="results">
+<h3>Results<a class="headerlink" href="#results" title="Permalink to this headline">#</a></h3>
+<section id="status-of-the-quantum-industry">
+<h4>status of the quantum industry<a class="headerlink" href="#status-of-the-quantum-industry" title="Permalink to this headline">#</a></h4>
 <p>Jobs:</p>
 <ul class="simple">
 <li><p>Engineer</p></li>
@@ -1119,45 +1251,45 @@ Governments want to be ahead of potential competitors</p>
 <li><p>Theorist</p></li>
 <li><p>Technician</p></li>
 </ul>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 <hr class="docutils" />
-<div class="section" id="talk-7-jim">
-<h2>Talk 7 Jim<a class="headerlink" href="#talk-7-jim" title="Permalink to this headline">¶</a></h2>
+<section id="talk-7-jim">
+<h2>Talk 7 Jim<a class="headerlink" href="#talk-7-jim" title="Permalink to this headline">#</a></h2>
 <p><strong>Author</strong>: Jim Hague</p>
 <hr class="docutils" />
-<div class="section" id="motivation">
-<h3>Motivation<a class="headerlink" href="#motivation" title="Permalink to this headline">¶</a></h3>
+<section id="motivation">
+<h3>Motivation<a class="headerlink" href="#motivation" title="Permalink to this headline">#</a></h3>
 <p>Nature is full of paterns … some indicate a role for physics</p>
 <p>Tissues are made of cells and extracellualr matrix</p>
 <p>Glial cells are elongated -&gt;</p>
 <p>cells attach to ECM via <a class="reference external" href="https://en.wikipedia.org/wiki/Integrin">integrin</a> proteins</p>
-<div class="section" id="what-could-we-do-if-we-understand-the-physics">
-<h4>What could we do if we understand the physics<a class="headerlink" href="#what-could-we-do-if-we-understand-the-physics" title="Permalink to this headline">¶</a></h4>
+<section id="what-could-we-do-if-we-understand-the-physics">
+<h4>What could we do if we understand the physics<a class="headerlink" href="#what-could-we-do-if-we-understand-the-physics" title="Permalink to this headline">#</a></h4>
 <ul class="simple">
 <li><p>artificial tissues for clinical trials</p></li>
 <li><p>transplant …</p></li>
 <li><p>artificial meat</p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="tissue">
-<h3>Tissue<a class="headerlink" href="#tissue" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="tissue">
+<h3>Tissue<a class="headerlink" href="#tissue" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
 <li><p>highly organised
 …</p></li>
 </ul>
 <p>Goal develop a microscopicmodel to predict the self-organisation of orientations and positions of a large number of cells.</p>
 <p><strong>Force dipoles</strong></p>
-</div>
-<div class="section" id="vasculature">
-<h3>Vasculature<a class="headerlink" href="#vasculature" title="Permalink to this headline">¶</a></h3>
-</div>
-</div>
+</section>
+<section id="vasculature">
+<h3>Vasculature<a class="headerlink" href="#vasculature" title="Permalink to this headline">#</a></h3>
+</section>
+</section>
 <hr class="docutils" />
-<div class="section" id="talk-6-naming-conventions-who-is-making-an-impact">
-<h2>Talk 6 Naming conventions: Who is making an impact?<a class="headerlink" href="#talk-6-naming-conventions-who-is-making-an-impact" title="Permalink to this headline">¶</a></h2>
+<section id="talk-6-naming-conventions-who-is-making-an-impact">
+<h2>Talk 6 Naming conventions: Who is making an impact?<a class="headerlink" href="#talk-6-naming-conventions-who-is-making-an-impact" title="Permalink to this headline">#</a></h2>
 <p><strong>Author</strong>: Annie Lenox</p>
 <hr class="docutils" />
 <p>BepiColombo arrive in 2025</p>
@@ -1170,10 +1302,10 @@ Governments want to be ahead of potential competitors</p>
 </ul>
 <p><strong>Shoutout:</strong></p>
 <hr class="docutils" />
-</div>
+</section>
 <hr class="docutils" />
-<div class="section" id="talk-5-scaffold">
-<h2>Talk 5 scaffold …,<a class="headerlink" href="#talk-5-scaffold" title="Permalink to this headline">¶</a></h2>
+<section id="talk-5-scaffold">
+<h2>Talk 5 scaffold …,<a class="headerlink" href="#talk-5-scaffold" title="Permalink to this headline">#</a></h2>
 <p><strong>Author</strong>: Christopher Brown</p>
 <hr class="docutils" />
 <p>Nanosheets and layered materials
@@ -1182,10 +1314,10 @@ cells material interactions</p>
 <p>Graphene oxide</p>
 <p><strong>Shoutout:</strong></p>
 <hr class="docutils" />
-</div>
+</section>
 <hr class="docutils" />
-<div class="section" id="talk-4-variations-in-hippocampal-lipid">
-<h2>Talk 4 Variations in hippocampal lipid …,<a class="headerlink" href="#talk-4-variations-in-hippocampal-lipid" title="Permalink to this headline">¶</a></h2>
+<section id="talk-4-variations-in-hippocampal-lipid">
+<h2>Talk 4 Variations in hippocampal lipid …,<a class="headerlink" href="#talk-4-variations-in-hippocampal-lipid" title="Permalink to this headline">#</a></h2>
 <p><strong>Author</strong>: Hao Meng</p>
 <hr class="docutils" />
 <p>Biospec <a class="reference external" href="https://physics-astronomy.exeter.ac.uk/research/biomedical/research-interests/membrane-biophysics/">biomedical spectroscopy lab Exeter</a> –&gt; Super interesting for us !!</p>
@@ -1197,29 +1329,29 @@ cells material interactions</p>
 </ul>
 <p>BBB -&gt; Lipid metabolism between blood and brain</p>
 <p><strong>Shoutout:</strong></p>
-</div>
+</section>
 <hr class="docutils" />
-<div class="section" id="talk-3-interferometric-observations-of-agn-how-does-it-work">
-<h2>Talk 3 Interferometric observations of AGN … How does it work,<a class="headerlink" href="#talk-3-interferometric-observations-of-agn-how-does-it-work" title="Permalink to this headline">¶</a></h2>
+<section id="talk-3-interferometric-observations-of-agn-how-does-it-work">
+<h2>Talk 3 Interferometric observations of AGN … How does it work,<a class="headerlink" href="#talk-3-interferometric-observations-of-agn-how-does-it-work" title="Permalink to this headline">#</a></h2>
 <p><strong>Author</strong>: Nora Drewes</p>
 <hr class="docutils" />
 <p>Whta is AGN - supermassive Black hole actively accreting</p>
 <p>Dust make (feedback) links between Black hole and his galaxy -&gt; How ?</p>
 <p>Polar Outflow cone -&gt; Similar to PPD ?</p>
-<div class="section" id="conclusion">
-<h3>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">¶</a></h3>
+<section id="conclusion">
+<h3>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">#</a></h3>
 <p>no evidence of polar outflow cone</p>
 <p><strong>Shoutouts</strong>: Funky presentation ;)</p>
 <hr class="docutils" />
-</div>
-</div>
+</section>
+</section>
 <hr class="docutils" />
-<div class="section" id="what-accelerate-the-proton-aurora-in-the-earth-cusp">
-<h2>What accelerate the proton aurora in the Earth cusp,<a class="headerlink" href="#what-accelerate-the-proton-aurora-in-the-earth-cusp" title="Permalink to this headline">¶</a></h2>
+<section id="what-accelerate-the-proton-aurora-in-the-earth-cusp">
+<h2>What accelerate the proton aurora in the Earth cusp,<a class="headerlink" href="#what-accelerate-the-proton-aurora-in-the-earth-cusp" title="Permalink to this headline">#</a></h2>
 <p><strong>Author</strong>: Rowan dayton</p>
 <hr class="docutils" />
-<div class="section" id="intro">
-<h3>Intro<a class="headerlink" href="#intro" title="Permalink to this headline">¶</a></h3>
+<section id="intro">
+<h3>Intro<a class="headerlink" href="#intro" title="Permalink to this headline">#</a></h3>
 <p>Solar wind, protons neutron w/ magnetic field (plasma)</p>
 <ul class="simple">
 <li><p>enter via poles (funnel) - protons are accelerated by ?</p>
@@ -1233,24 +1365,24 @@ cells material interactions</p>
 <p>HITIES</p>
 <p><strong>Shoutouts</strong>: Great drawing skills</p>
 <hr class="docutils" />
-</div>
-</div>
+</section>
+</section>
 <hr class="docutils" />
-<div class="section" id="quantum-correlated-probes-for-weak-field-sensing">
-<h2>Quantum correlated probes for weak field sensing,<a class="headerlink" href="#quantum-correlated-probes-for-weak-field-sensing" title="Permalink to this headline">¶</a></h2>
+<section id="quantum-correlated-probes-for-weak-field-sensing">
+<h2>Quantum correlated probes for weak field sensing,<a class="headerlink" href="#quantum-correlated-probes-for-weak-field-sensing" title="Permalink to this headline">#</a></h2>
 <p><strong>Author</strong>: Tim Leese</p>
 <hr class="docutils" />
-<div class="section" id="motivations">
-<h3>Motivations<a class="headerlink" href="#motivations" title="Permalink to this headline">¶</a></h3>
+<section id="motivations">
+<h3>Motivations<a class="headerlink" href="#motivations" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
 <li><p>Quantum computing</p></li>
 <li><p>Quantum sensing</p></li>
 </ul>
 <p>-&gt; discover new physics</p>
 <p>what links the two - <strong>Qbits</strong> (2 level system)</p>
-</div>
-<div class="section" id="requirements">
-<h3>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="requirements">
+<h3>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
 <li><p>Cold atoms</p></li>
 <li><p>adress qubits</p></li>
@@ -1258,27 +1390,27 @@ cells material interactions</p>
 </ul>
 <p><strong>Rydberg atoms</strong> -&gt; switch on/off using laser</p>
 <p>CNOT gate ?</p>
-</div>
-<div class="section" id="simulating-qbits">
-<h3>Simulating Qbits<a class="headerlink" href="#simulating-qbits" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="simulating-qbits">
+<h3>Simulating Qbits<a class="headerlink" href="#simulating-qbits" title="Permalink to this headline">#</a></h3>
 <p>Alevel student</p>
 <p>Would love to talk about but no time - Come and do it here !?</p>
 <p>Good for Experimental predictions</p>
-</div>
-<div class="section" id="magneto-optical-trap">
-<h3>Magneto-Optical trap<a class="headerlink" href="#magneto-optical-trap" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="dipole-trap">
-<h3>Dipole Trap<a class="headerlink" href="#dipole-trap" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="magneto-optical-trap">
+<h3>Magneto-Optical trap<a class="headerlink" href="#magneto-optical-trap" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="dipole-trap">
+<h3>Dipole Trap<a class="headerlink" href="#dipole-trap" title="Permalink to this headline">#</a></h3>
 <p>or Optical tweezers (move and control positions of atoms)
 Atome is trap w/ dipole forces</p>
 <p><strong>Shoutouts</strong>: Great talk, very accessible way to chat about a complicated topic</p>
 <hr class="docutils" />
-</div>
-</div>
+</section>
+</section>
 <hr class="docutils" />
-<div class="section" id="finding-my-inner-selfie">
-<h2>Finding my inner selfie,<a class="headerlink" href="#finding-my-inner-selfie" title="Permalink to this headline">¶</a></h2>
+<section id="finding-my-inner-selfie">
+<h2>Finding my inner selfie,<a class="headerlink" href="#finding-my-inner-selfie" title="Permalink to this headline">#</a></h2>
 <p><strong>Author</strong>: Yolanda Ohene</p>
 <hr class="docutils" />
 <p>UCL master studie, only black people …</p>
@@ -1290,11 +1422,11 @@ Atome is trap w/ dipole forces</p>
 <p>then PhD - IRM images of brain (Manchester)</p>
 <p>Postdoc (UCL)</p>
 <p>Michele dougherty (tought electromagnetism) - inspiration for her, and for women in physics</p>
-<div class="section" id="technique-explanation">
-<h3>technique explanation<a class="headerlink" href="#technique-explanation" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="her-work">
-<h3>Her work<a class="headerlink" href="#her-work" title="Permalink to this headline">¶</a></h3>
+<section id="technique-explanation">
+<h3>technique explanation<a class="headerlink" href="#technique-explanation" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="her-work">
+<h3>Her work<a class="headerlink" href="#her-work" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
 <li><p>2020: 850 000 people with dementia (1.6 M in 2040)</p></li>
 <li><p>BBB (blood brain barrier) breakdown</p>
@@ -1318,9 +1450,9 @@ Atome is trap w/ dipole forces</p>
 Use water as a tracer.</p></li>
 <li><p>Filtering imaging technique</p></li>
 </ul>
-</div>
-<div class="section" id="what-sucks-in-doing-research">
-<h3>What sucks in doing research<a class="headerlink" href="#what-sucks-in-doing-research" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="what-sucks-in-doing-research">
+<h3>What sucks in doing research<a class="headerlink" href="#what-sucks-in-doing-research" title="Permalink to this headline">#</a></h3>
 <p>gut imaging</p>
 <p>How does the gut leads to the brain</p>
 <p>Broken pipeline (leaking pipeline)</p>
@@ -1331,9 +1463,9 @@ Use water as a tracer.</p></li>
 </ul>
 <p>“The master’s tools will never dismantle the master’s house” - Audrey Lorde</p>
 <p><a class="reference external" href="https://www.menti.com/">comments web-site</a></p>
-</div>
-<div class="section" id="the-heart">
-<h3>The heart<a class="headerlink" href="#the-heart" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="the-heart">
+<h3>The heart<a class="headerlink" href="#the-heart" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
 <li><p>Outreach and science communication</p></li>
 </ul>
@@ -1345,10 +1477,10 @@ Use water as a tracer.</p></li>
 <li><p>Avoid using only the deficit model</p></li>
 <li><p>Representation counts</p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="summary">
-<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
+</section>
+</section>
+<section id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">#</a></h2>
 <p>What makes you you:</p>
 <ul class="simple">
 <li><p>Brain: inquisitive mind</p></li>
@@ -1361,14 +1493,14 @@ Use water as a tracer.</p></li>
 <li><p>Very laidback presentation and great presentation skills.
 Overall, amazing</p></li>
 </ul>
-</div>
-</div>
+</section>
+</section>
 <hr class="docutils" />
-<div class="tex2jax_ignore mathjax_ignore section" id="open-dialogues-session">
-<h1>Open Dialogues session<a class="headerlink" href="#open-dialogues-session" title="Permalink to this headline">¶</a></h1>
+<section class="tex2jax_ignore mathjax_ignore" id="open-dialogues-session">
+<h1>Open Dialogues session<a class="headerlink" href="#open-dialogues-session" title="Permalink to this headline">#</a></h1>
 <hr class="docutils" />
-<div class="section" id="session-1">
-<h2>Session 1<a class="headerlink" href="#session-1" title="Permalink to this headline">¶</a></h2>
+<section id="session-1">
+<h2>Session 1<a class="headerlink" href="#session-1" title="Permalink to this headline">#</a></h2>
 <p><strong>speakers:</strong></p>
 <ul class="simple">
 <li><p>Charanjit Kaur Khosa</p></li>
@@ -1379,13 +1511,13 @@ Overall, amazing</p></li>
 <hr class="docutils" />
 <p>Ridiculous amount of teaching you have. Why not mix data processing with teaching !!!</p>
 <hr class="docutils" />
-<div class="section" id="most-important-frontier-in-physics-and-why">
-<h3>Most important frontier in physics and why ?<a class="headerlink" href="#most-important-frontier-in-physics-and-why" title="Permalink to this headline">¶</a></h3>
+<section id="most-important-frontier-in-physics-and-why">
+<h3>Most important frontier in physics and why ?<a class="headerlink" href="#most-important-frontier-in-physics-and-why" title="Permalink to this headline">#</a></h3>
 <p>…</p>
 <p>Artificial intelligence and machine learning -&gt; Trendy</p>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -1409,28 +1541,34 @@ Overall, amazing</p></li>
 
               </div>
               
-            
-                <!-- Previous / next buttons -->
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
 <div class='prev-next-area'>
 </div>
-            
+            </footer>
         </div>
     </div>
-    <footer class="footer">
-  <p>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Vincent Deguin<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
     
-      By Vincent Deguin<br/>
-    
-        &copy; Copyright 2021.<br/>
-  </p>
-</footer>
-</main>
+</div>
 
 
       </div>
     </div>
   
-  <script src="../../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
 
   </body>
 </html>

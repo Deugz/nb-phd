@@ -4,11 +4,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>Control experiments &#8212; PhD</title>
     
-  <link href="../../../../_static/css/theme.css" rel="stylesheet">
-  <link href="../../../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../../../../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -18,26 +20,20 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="../../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" href="../../../../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/custom_style.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../_static/.ipynb_checkpoints/custom_style-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/assets/Calendar/public/css/calendar.css" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/assets/GC/GC6-08-2022_files/stylesheet.css" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/assets/Sample_list/Sample_list_files/stylesheet.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     
-  <link rel="preload" as="script" href="../../../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     <script data-url_root="../../../../" id="documentation_options" src="../../../../_static/documentation_options.js"></script>
     <script src="../../../../_static/jquery.js"></script>
@@ -45,12 +41,11 @@
     <script src="../../../../_static/doctools.js"></script>
     <script src="../../../../_static/clipboard.min.js"></script>
     <script src="../../../../_static/copybutton.js"></script>
+    <script src="../../../../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../../../../_static/togglebutton.js"></script>
-    <script src="../../../../_static/assets/Picture_display.js"></script>
-    <script src="../../../../_static/assets/.ipynb_checkpoints/Picture_display-checkpoint.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script kind="utterances">
 
@@ -86,8 +81,8 @@ var addUtterances = () => {
 }
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
+    <script src="../../../../_static/assets/Picture_display.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../../../../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script src="../../../../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
@@ -116,7 +111,21 @@ const thebe_selector_output = ".output, .cell_output"
                 </script>
 
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint">Current Version: 09/09/2022</div>
+<div class="header header-item noprint"></div>
+
     
     <div class="container-fluid" id="banner"></div>
 
@@ -125,9 +134,10 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="container-xl">
       <div class="row">
           
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
-    
-        <div class="navbar-brand-box">
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../../../../index.html">
       
         <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
@@ -444,11 +454,28 @@ const thebe_selector_output = ".output, .cell_output"
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../../../../Dissemination/Conference.html">
-   Conferences
+  <a class="reference internal" href="../../../../Dissemination/Discussions.html">
+   Discussion
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
   <label for="toctree-checkbox-8">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../../Dissemination/Discussions/Jenny.html">
+     Jenny
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../../../Dissemination/Conference.html">
+   Conferences
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+  <label for="toctree-checkbox-9">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -459,8 +486,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../../../Dissemination/Outreach.html">
    Outreach
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
-  <label for="toctree-checkbox-9">
+  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+  <label for="toctree-checkbox-10">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -488,8 +515,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../../../My_Space/Organisation.html">
    Notes
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
-  <label for="toctree-checkbox-10">
+  <input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
+  <label for="toctree-checkbox-11">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -541,88 +568,193 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 
     </div>
-</nav> <!-- To handle the deprecated key -->
-
-</div>
-
-
-          
-
-
-          
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
-    
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
             
-            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-arrow-left"></i>
-                <i class="fas fa-arrow-up"></i>
-            </button>
-            
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../../../_sources/Notes/Data_Notes/Analysis/Control_Experiments/Control_experiments.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
-    </div>
-</div>
-
-            <!-- Source interaction buttons -->
-
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/Deugz/nb-phd"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/Deugz/nb-phd/issues/new?title=Issue%20on%20page%20%2FNotes/Data_Notes/Analysis/Control_Experiments/Control_experiments.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/Deugz/nb-phd/edit/main/_build/html/Notes/Data_Notes/Analysis/Control_Experiments/Control_experiments.md"><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
-    </div>
-</div>
-
-            <!-- Full screen (wrap in <a> to have style consistency -->
-
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
-            class="fas fa-expand"></i></button></a>
-
-            <!-- Launch buttons -->
-
         </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
 
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
-            
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
-            </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/Deugz/nb-phd"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/Deugz/nb-phd/issues/new?title=Issue%20on%20page%20%2FNotes/Data_Notes/Analysis/Control_Experiments/Control_experiments.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/Deugz/nb-phd/edit/main/_build/html/Notes/Data_Notes/Analysis/Control_Experiments/Control_experiments.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Edit this page"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="headerbtn__text-container">suggest edit</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../../../../_sources/Notes/Data_Notes/Analysis/Control_Experiments/Control_experiments.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#comparison-between-the-two-first-samples-produced">
    Comparison between the two first samples produced
@@ -684,12 +816,11 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
 </ul>
 
-            </nav>
-        </div>
-    </div>
+    </nav>
 </div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
                 <h1>Control experiments</h1>
@@ -767,17 +898,18 @@ const thebe_selector_output = ".output, .cell_output"
                     </div>
                 </div>
             </div>
-            
+            <main id="main-content" role="main">
+                
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="control-experiments">
-<h1>Control experiments<a class="headerlink" href="#control-experiments" title="Permalink to this headline">¶</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="control-experiments">
+<h1>Control experiments<a class="headerlink" href="#control-experiments" title="Permalink to this headline">#</a></h1>
 <ul class="simple">
 <li><p>What are the “control” parameters</p></li>
 <li><p>What are the <strong>control experiments</strong> samples:</p></li>
 </ul>
-<div class="section" id="comparison-between-the-two-first-samples-produced">
-<h2>Comparison between the two first samples produced<a class="headerlink" href="#comparison-between-the-two-first-samples-produced" title="Permalink to this headline">¶</a></h2>
+<section id="comparison-between-the-two-first-samples-produced">
+<h2>Comparison between the two first samples produced<a class="headerlink" href="#comparison-between-the-two-first-samples-produced" title="Permalink to this headline">#</a></h2>
 <hr class="docutils" />
 <ul class="simple">
 <li><p><a class="reference internal" href="../../XP-1_1/2020_09_15/2020_09_15.html"><span class="doc std std-doc">15-09</span></a></p></li>
@@ -786,10 +918,12 @@ const thebe_selector_output = ".output, .cell_output"
 <hr class="docutils" />
 <p>The first sample generated on the 09-15 only contain 3 steps at 130, 140 and 160K but the following sample produced on 09-16 has been submitted to a more classical heating ramp (40,60,80,100,120,130,140,160,180) with 30 minutes isotherm (2 scans). <a class="reference internal" href="#figce1"><span class="std std-numref">Fig. 33</span></a> show a comparison between those two samples at 3 temperatures (20K, 130K and 140K), before and after baseline correction (DR2).</p>
 <div class="full-width docutils">
-<div class="figure align-default" id="figce1">
+<figure class="align-default" id="figce1">
 <a class="reference internal image-reference" href="../../../../_images/Figure1.png"><img alt="../../../../_images/Figure1.png" src="../../../../_images/Figure1.png" style="width: 1000px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 33 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce1" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 33 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </div>
 <p>Figure 1 a) show that the two depositions are very similar, even though a slight red shift can be observed for the 16 – 09 sample (blue line) that is probably within the margin of error. This feature is still present after the baseline correction highlighting the reliability of this reduction method. It is interesting to notice that the baseline is very similar for the deposition of the two samples but is shifting towards higher absorbance for the 16-09 sample that has experienced a longer heating ramp. Figure 1b) show a slightly higher maximum absorption for the 15-09 sample whereas Figure 1c) show a similar maximum absorbance between the 2 samples but a “left shoulder” more pronounced on the 15-09 sample.</p>
 <div class="admonition note">
@@ -803,25 +937,27 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 </div>
 <p>The closest sample from the two presented above in term of experimental conditions of the deposition is the 28-09 sample, deposited at a base temperature of 21.6 K and a base pressure of 7 * 10<sup>-10</sup> mbar.</p>
-</div>
-<div class="section" id="comparison-between-the-16-09-and-28-09-samples">
-<h2>Comparison between the 16-09 and 28-09 samples<a class="headerlink" href="#comparison-between-the-16-09-and-28-09-samples" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="comparison-between-the-16-09-and-28-09-samples">
+<h2>Comparison between the 16-09 and 28-09 samples<a class="headerlink" href="#comparison-between-the-16-09-and-28-09-samples" title="Permalink to this headline">#</a></h2>
 <p>Same deposition time (20min), but less material deposited for 28-09 sample (Gas cell consumption inferior) leading to a slower deposition rate.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>How does sample thickness compare ?</p>
 </div>
 <div class="full-width docutils">
-<div class="figure align-default" id="figce2">
+<figure class="align-default" id="figce2">
 <a class="reference internal image-reference" href="../../../../_images/Figure2.png"><img alt="../../../../_images/Figure2.png" src="../../../../_images/Figure2.png" style="width: 1000px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 34 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce2" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 34 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce2" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </div>
 <p>The 28-09 sample seems to be redshifted and have a lower maximal absorbance.
 If we assume that the broad OH feature is a combination of two main Gaussians (nominally left and right, the left one having an inferior maximum absorbance than the right), as can be observed on the crystalline samples, this effect can be explained by a favouring of the left configuration for slower deposition rates.</p>
-</div>
-<div class="section" id="gas-flow-deposition-investigation">
-<h2>Gas flow deposition investigation<a class="headerlink" href="#gas-flow-deposition-investigation" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="gas-flow-deposition-investigation">
+<h2>Gas flow deposition investigation<a class="headerlink" href="#gas-flow-deposition-investigation" title="Permalink to this headline">#</a></h2>
 <hr class="docutils" />
 <ul class="simple">
 <li><p><a class="reference internal" href="../../XP-1_1/2020_09_17/2020_09_17.html"><span class="doc std std-doc">17-09</span></a></p></li>
@@ -829,22 +965,26 @@ If we assume that the broad OH feature is a combination of two main Gaussians (n
 </ul>
 <hr class="docutils" />
 <p>09-17 has been deposited with a high flow rate of 10-6 mbar for 2min whereas 21-09 sample has been deposited for 3h20 at 10-8 mbar. Figure 3 show those two samples compared with 16-09.</p>
-<div class="figure align-default" id="figce3">
+<figure class="align-default" id="figce3">
 <a class="reference internal image-reference" href="../../../../_images/Figure3.png"><img alt="../../../../_images/Figure3.png" src="../../../../_images/Figure3.png" style="width: 1000px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 35 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce3" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 35 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce3" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <p><a class="reference internal" href="#figce3"><span class="std std-numref">Fig. 35</span></a> show no apparent correlation between the flow rate and maximum absorbance shifting as postulated earlier. One explanation could be a thickness dependence. Investigating of the “gas cell consumption” parameter (i.e. the amount of water introduced into the chamber) doesn’t provide a reliable method of thickness measurement. Indeed, not all gas introduced is sticking on the target, and even though 16-09 and 17-09 have the same gas cell consumption (1.24 Torr), it is not possible at this stage to conclude about their relative thickness and further investigation will be performed using thickness calculation via Interferometry.
 Those 3 samples have the particularity to be submitted to the same heating ramp and it would be interesting to compare those sample at each temperature steps to see if this effect persist over the whole temperature ramp.</p>
-</div>
-<div class="section" id="effect-of-the-temperature-ramp-on-the-deposition">
-<h2>Effect of the temperature ramp on the deposition<a class="headerlink" href="#effect-of-the-temperature-ramp-on-the-deposition" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="effect-of-the-temperature-ramp-on-the-deposition">
+<h2>Effect of the temperature ramp on the deposition<a class="headerlink" href="#effect-of-the-temperature-ramp-on-the-deposition" title="Permalink to this headline">#</a></h2>
 <p>Before to cross compare the 3 previously mentioned samples at each temperature steps, let’s analyse our reference sample (16-09) at each temperature.</p>
-<div class="section" id="sample-over-the-whole-temperature-range">
-<h3>16-09 sample over the whole temperature range<a class="headerlink" href="#sample-over-the-whole-temperature-range" title="Permalink to this headline">¶</a></h3>
-<div class="figure align-default" id="figce4">
+<section id="sample-over-the-whole-temperature-range">
+<h3>16-09 sample over the whole temperature range<a class="headerlink" href="#sample-over-the-whole-temperature-range" title="Permalink to this headline">#</a></h3>
+<figure class="align-default" id="figce4">
 <a class="reference internal image-reference" href="../../../../_images/Figure4.png"><img alt="../../../../_images/Figure4.png" src="../../../../_images/Figure4.png" style="width: 1000px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 36 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce4" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 36 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce4" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <p><a class="reference internal" href="#figce4"><span class="std std-numref">Fig. 36</span></a> represent the 16-09 sample upon the whole temperature ramp. I can identify 4 different regimes:</p>
 <ul class="simple">
 <li><p>From 20 to 100K the overall maximum absorbance increases significantly (and more importantly between 40 and 60K). This effect is joined by a global red shifting (i.e. reduction of the left counterpart and increase of the right part of the spectrum at lower wavenumber). It is important to notice that the increase in absorbance below 3300 cm-1 is only effective at absorbance above 0.10 and has no influence on the further away red wing below 3100.</p></li>
@@ -852,74 +992,88 @@ Those 3 samples have the particularity to be submitted to the same heating ramp 
 <li><p>The biggest modification of the overall OH stretch occur between 130K and 140 where an important redshift can be observed (give quantitative information DR2_(date)_max_A). Alike the modifications in the first regime, an increase in absorbance is observed on the blue part of the OH stretch along with an increase in both red wings.</p></li>
 <li><p>The final range concerns temperatures above 140K where desorption is observed. It is interesting to notice that on the ramp from 140 to 160K (scan 24), the overall maximum absorbance remains constant whereas the left shoulder decreases significantly while both right wings increase.</p></li>
 </ul>
-</div>
-<div class="section" id="id1">
-<h3>28-09 sample over the whole temperature range<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
-<div class="figure align-default" id="figce5">
+</section>
+<section id="id1">
+<h3>28-09 sample over the whole temperature range<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h3>
+<figure class="align-default" id="figce5">
 <a class="reference internal image-reference" href="../../../../_images/Figure5.png"><img alt="../../../../_images/Figure5.png" src="../../../../_images/Figure5.png" style="width: 1000px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 37 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce5" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 37 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce5" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <p><a class="reference internal" href="#figce5"><span class="std std-numref">Fig. 37</span></a> show all the isotherms for the 28-09 samples. For a better vision, lets plot all the previously identified ranges on the same plots.</p>
-<div class="section" id="range-1-20-to-100k">
-<h4>Range 1: 20 to 100K<a class="headerlink" href="#range-1-20-to-100k" title="Permalink to this headline">¶</a></h4>
-<div class="figure align-default" id="figce6">
+<section id="range-1-20-to-100k">
+<h4>Range 1: 20 to 100K<a class="headerlink" href="#range-1-20-to-100k" title="Permalink to this headline">#</a></h4>
+<figure class="align-default" id="figce6">
 <a class="reference internal image-reference" href="../../../../_images/Figure6.png"><img alt="../../../../_images/Figure6.png" src="../../../../_images/Figure6.png" style="width: 1000px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 38 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce6" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 38 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce6" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <p>This temperature range correspond to the <strong>modification of the porous structure of ASW</strong>.
 From SANS (Small Angle Neutron Scattering) data (unpublished – Sabrina Gaertner – Pierre Ghesquiere) reduction of micropores collapsing to form bigger pores.<br />
 We can observe an increase of the maximum absorbance accompanied with a slight redshift of the peak at each temperature steps reaching a maximum around 80 – 90K. This probably is a consequence of the left shoulder reduction for the benefit of the right shoulder.
 Note that we can see a slight modification of the “tail” below 3050 cm-1  for temperature above 80K.
 The 28-09 is submitted to a heating ramp of 1 hour (4 scans – 1 warm up (dotted line) and 3 isotherms, the first one being the dashed line and the third one represented by the plain line) for each temperatures. For this temperature range, the sample seems to take time to equilibrate as highlighted by the difference between the dashed and plain line, particularly at temperatures of 60 and 70K and this effect will be investigated with the 11-16 / 11-19 samples that have a longer isotherm at 60 and 70K.</p>
-</div>
-<div class="section" id="range-2-100-to-130k">
-<h4>Range 2: 100 to 130K<a class="headerlink" href="#range-2-100-to-130k" title="Permalink to this headline">¶</a></h4>
-<div class="figure align-default" id="figce7">
+</section>
+<section id="range-2-100-to-130k">
+<h4>Range 2: 100 to 130K<a class="headerlink" href="#range-2-100-to-130k" title="Permalink to this headline">#</a></h4>
+<figure class="align-default" id="figce7">
 <a class="reference internal image-reference" href="../../../../_images/Figure7.png"><img alt="../../../../_images/Figure7.png" src="../../../../_images/Figure7.png" style="width: 1000px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 39 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce7" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 39 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce7" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <p>Increase in maximum overall maximum absorbance. Desorption observed during the warm-up scan.
 Influence on the right part of the spectrum (Is it Gaussian? – Looks more like Lorentzian distribution)</p>
-</div>
-<div class="section" id="range-3-130-to-150k">
-<h4>Range 3: 130 to 150K<a class="headerlink" href="#range-3-130-to-150k" title="Permalink to this headline">¶</a></h4>
+</section>
+<section id="range-3-130-to-150k">
+<h4>Range 3: 130 to 150K<a class="headerlink" href="#range-3-130-to-150k" title="Permalink to this headline">#</a></h4>
 <div class="full-width docutils">
-<div class="figure align-default" id="figce8">
+<figure class="align-default" id="figce8">
 <a class="reference internal image-reference" href="../../../../_images/Figure8.png"><img alt="../../../../_images/Figure8.png" src="../../../../_images/Figure8.png" style="width: 1000px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 40 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce8" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 40 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce8" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </div>
 <p>Redshift of the maximum absorbance peak is triggered at temperature of 135K but takes time to happen as no real change is observed for scans 55 and 56 (respectively dotted and dashed light blue curves) but visible for scan 58 (plein light blue curve)
 Desorption starts at 145 K</p>
-</div>
-<div class="section" id="range-4-beyond-150k">
-<h4>Range 4: Beyond 150K<a class="headerlink" href="#range-4-beyond-150k" title="Permalink to this headline">¶</a></h4>
+</section>
+<section id="range-4-beyond-150k">
+<h4>Range 4: Beyond 150K<a class="headerlink" href="#range-4-beyond-150k" title="Permalink to this headline">#</a></h4>
 <p>This range is indicative of ice desorption and is best interpreted using the OH stretch integration values (DR3_(date)_data_1_Int) rather than the actual spectroscopic data.</p>
-</div>
-</div>
-<div class="section" id="and-11-19-sample">
-<h3>11-16 and 11-19 sample<a class="headerlink" href="#and-11-19-sample" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="and-11-19-sample">
+<h3>11-16 and 11-19 sample<a class="headerlink" href="#and-11-19-sample" title="Permalink to this headline">#</a></h3>
 <p>Those samples have been produced to study how long it takes for the sample to reach an “equilibrium state” after experiencing an annealing step. From 20K the samples have been brought up to 60K (with long isotherm achieved using OMNIC MACRO), and then at 70K to confirm the previous result. The Macro did not work for the 60K step of the 11-16 sample.</p>
-<div class="figure align-default" id="figce9">
+<figure class="align-default" id="figce9">
 <a class="reference internal image-reference" href="../../../../_images/Figure9.png"><img alt="../../../../_images/Figure9.png" src="../../../../_images/Figure9.png" style="width: 1000px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 41 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce9" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 41 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce9" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <p><a class="reference internal" href="#figce9"><span class="std std-numref">Fig. 41</span></a> show the deposition scans of samples 11-16 (red) and 11-19 (blue) submitted to baseline correction (DR2 – plain line), and normalisation. Some differences exist between the 2 samples, the 19-11 being redshifted with respect to the 11-16. The normalisation routine preserves those differences, this is a satisfactory result proving this reduction step is reliable.</p>
-<div class="figure align-default" id="figce10">
+<figure class="align-default" id="figce10">
 <a class="reference internal image-reference" href="../../../../_images/Figure10.png"><img alt="../../../../_images/Figure10.png" src="../../../../_images/Figure10.png" style="width: 1000px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 42 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce10" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 42 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce10" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <p><a class="reference internal" href="#figce10"><span class="std std-numref">Fig. 42</span></a> shows that a minimum of 3 isothermal scans are required to reach a “pseudo equilibrium” where the inertia resulting from the annealing step is deeply reduced but not completely supressed.
 Figure 10 also show the 60K steps of the 28-09 sample (dashed lines). This confirm the previous result that there is not much difference between using a ramp or a step to get to a certain temperature (apart from the differences already observed for the depositions).</p>
-<div class="figure align-default" id="figce11">
+<figure class="align-default" id="figce11">
 <a class="reference internal image-reference" href="../../../../_images/Figure11.png"><img alt="../../../../_images/Figure11.png" src="../../../../_images/Figure11.png" style="width: 1000px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 43 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce11" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 43 </span><span class="caption-text">Caption</span><a class="headerlink" href="#figce11" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <p><a class="reference internal" href="#figce11"><span class="std std-numref">Fig. 43</span></a> show the 11-16 sample sitting at 130K. It is interesting to observe that big differences can be observe between the scan 49 and 50 where the ice has been sitting at 130K for a long time (How long exactly?). This suggest that some crystallisation is occurring well below the assume glass transition temperature.
 A deeper investigation of this process is required; thus, a dedicated sample need to be produced. Subtraction scans of such sample sitting at 130K should be the key to investigate the crystallisation processes of ASW. Furthermore samples sitting at 126, 128, 132, 134, 136 should unveil the kinetics of such a process.</p>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -943,9 +1097,11 @@ A deeper investigation of this process is required; thus, a dedicated sample nee
 
               </div>
               
-            
-                <!-- Previous / next buttons -->
-<div class='prev-next-area'> 
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
     <a class='left-prev' id="prev-link" href="../Data_Analysis.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
@@ -961,24 +1117,28 @@ A deeper investigation of this process is required; thus, a dedicated sample nee
     <i class="fas fa-angle-right"></i>
     </a>
 </div>
-            
+            </footer>
         </div>
     </div>
-    <footer class="footer">
-  <p>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Vincent Deguin<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
     
-      By Vincent Deguin<br/>
-    
-        &copy; Copyright 2021.<br/>
-  </p>
-</footer>
-</main>
+</div>
 
 
       </div>
     </div>
   
-  <script src="../../../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
 
   </body>
 </html>

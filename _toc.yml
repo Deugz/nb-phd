@@ -64,6 +64,9 @@ parts:
     - file: Thesis_JB/Biblio/Thesis_Bibliography/bibliography   
   - caption: Dissemination
     chapters:
+    - file: Dissemination/Discussions
+      sections:
+      - file: Dissemination/Discussions/Jenny
     - file: Dissemination/Conference
       sections:
       - file: Dissemination/Conferences/Astra_Conf.ipynb

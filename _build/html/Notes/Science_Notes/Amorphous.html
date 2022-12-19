@@ -4,11 +4,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>is Amorphous &#8212; PhD</title>
     
-  <link href="../../_static/css/theme.css" rel="stylesheet">
-  <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -18,26 +20,20 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/custom_style.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/.ipynb_checkpoints/custom_style-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/assets/Calendar/public/css/calendar.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/assets/GC/GC6-08-2022_files/stylesheet.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/assets/Sample_list/Sample_list_files/stylesheet.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     
-  <link rel="preload" as="script" href="../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
@@ -45,12 +41,11 @@
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../../_static/togglebutton.js"></script>
-    <script src="../../_static/assets/Picture_display.js"></script>
-    <script src="../../_static/assets/.ipynb_checkpoints/Picture_display-checkpoint.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script kind="utterances">
 
@@ -86,8 +81,8 @@ var addUtterances = () => {
 }
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
+    <script src="../../_static/assets/Picture_display.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script src="../../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
@@ -116,7 +111,21 @@ const thebe_selector_output = ".output, .cell_output"
                 </script>
 
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint">Current Version: 09/09/2022</div>
+<div class="header header-item noprint"></div>
+
     
     <div class="container-fluid" id="banner"></div>
 
@@ -125,9 +134,10 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="container-xl">
       <div class="row">
           
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
-    
-        <div class="navbar-brand-box">
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../../index.html">
       
         <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
@@ -444,11 +454,28 @@ const thebe_selector_output = ".output, .cell_output"
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../../Dissemination/Conference.html">
-   Conferences
+  <a class="reference internal" href="../../Dissemination/Discussions.html">
+   Discussion
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
   <label for="toctree-checkbox-8">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Dissemination/Discussions/Jenny.html">
+     Jenny
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../Dissemination/Conference.html">
+   Conferences
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+  <label for="toctree-checkbox-9">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -459,8 +486,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../Dissemination/Outreach.html">
    Outreach
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
-  <label for="toctree-checkbox-9">
+  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+  <label for="toctree-checkbox-10">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -488,8 +515,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../My_Space/Organisation.html">
    Notes
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
-  <label for="toctree-checkbox-10">
+  <input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
+  <label for="toctree-checkbox-11">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -541,88 +568,193 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 
     </div>
-</nav> <!-- To handle the deprecated key -->
-
-</div>
-
-
-          
-
-
-          
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
-    
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
             
-            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-arrow-left"></i>
-                <i class="fas fa-arrow-up"></i>
-            </button>
-            
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/Notes/Science_Notes/Amorphous.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
-    </div>
-</div>
-
-            <!-- Source interaction buttons -->
-
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/Deugz/nb-phd"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/Deugz/nb-phd/issues/new?title=Issue%20on%20page%20%2FNotes/Science_Notes/Amorphous.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/Deugz/nb-phd/edit/main/_build/html/Notes/Science_Notes/Amorphous.md"><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
-    </div>
-</div>
-
-            <!-- Full screen (wrap in <a> to have style consistency -->
-
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
-            class="fas fa-expand"></i></button></a>
-
-            <!-- Launch buttons -->
-
         </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
 
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
-            
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
-            </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/Deugz/nb-phd"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/Deugz/nb-phd/issues/new?title=Issue%20on%20page%20%2FNotes/Science_Notes/Amorphous.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/Deugz/nb-phd/edit/main/_build/html/Notes/Science_Notes/Amorphous.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Edit this page"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="headerbtn__text-container">suggest edit</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../../_sources/Notes/Science_Notes/Amorphous.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#amorphous-ices">
    Amorphous Ices
@@ -752,12 +884,11 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
 </ul>
 
-            </nav>
-        </div>
-    </div>
+    </nav>
 </div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
                 <h1>is Amorphous</h1>
@@ -903,11 +1034,12 @@ const thebe_selector_output = ".output, .cell_output"
                     </div>
                 </div>
             </div>
-            
+            <main id="main-content" role="main">
+                
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="is-amorphous">
-<h1>is Amorphous<a class="headerlink" href="#is-amorphous" title="Permalink to this headline">¶</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="is-amorphous">
+<h1>is Amorphous<a class="headerlink" href="#is-amorphous" title="Permalink to this headline">#</a></h1>
 <p>Introduction</p>
 <hr class="docutils" />
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
@@ -934,7 +1066,7 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 </div>
 <hr class="docutils" />
-<div class="margin sidebar">
+<aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <div class="note admonition">
 <p class="admonition-title"><strong>Definitions</strong></p>
@@ -957,12 +1089,12 @@ const thebe_selector_output = ".output, .cell_output"
 <br>
 <br>
 </div>
-</div>
-<div class="section" id="amorphous-ices">
-<h2>Amorphous Ices<a class="headerlink" href="#amorphous-ices" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="strong-u-discovery-and-early-history-u-strong">
-<h3><strong>»  <u> Discovery and early history </u></strong><a class="headerlink" href="#strong-u-discovery-and-early-history-u-strong" title="Permalink to this headline">¶</a></h3>
-<p>The first experimental description of amorphous water ice has been achieved in 1935 by <span id="id2">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id12" title="missing journal in Burton1935">BURTON and OLIVER, 1935</a>]</span> that deposited water vapor on a copper rod maintained at -155 ℃. It has since been an intense subject of research</p>
+</aside>
+<section id="amorphous-ices">
+<h2>Amorphous Ices<a class="headerlink" href="#amorphous-ices" title="Permalink to this headline">#</a></h2>
+<section id="strong-u-discovery-and-early-history-u-strong">
+<h3><strong>»  <u> Discovery and early history </u></strong><a class="headerlink" href="#strong-u-discovery-and-early-history-u-strong" title="Permalink to this headline">#</a></h3>
+<p>The first experimental description of amorphous water ice has been achieved in 1935 by <span id="id2">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id12">BURTON and OLIVER, 1935</a>]</span> that deposited water vapor on a copper rod maintained at -155 ℃. It has since been an intense subject of research</p>
 <ul class="simple">
 <li><p>Why ?</p></li>
 <li><p>…</p></li>
@@ -1009,9 +1141,9 @@ const thebe_selector_output = ".output, .cell_output"
 <p class="admonition-title">Question</p>
 <p>How is the density determined from Diffraction data</p>
 </div>
-</div>
-<div class="section" id="strong-u-polyamorphism-u-strong">
-<h3><strong>»  <u> Polyamorphism </u></strong><a class="headerlink" href="#strong-u-polyamorphism-u-strong" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="strong-u-polyamorphism-u-strong">
+<h3><strong>»  <u> Polyamorphism </u></strong><a class="headerlink" href="#strong-u-polyamorphism-u-strong" title="Permalink to this headline">#</a></h3>
 <p><span id="id4">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id23" title="Thomas Loerting, Katrin Winkel, Markus Seidl, Marion Bauer, Christian Mitterdorfer, Philip H. Handle, Christoph G. Salzmann, Erwin Mayer, John L. Finney, and Daniel T. Bowron. How many amorphous ices are there? Physical Chemistry Chemical Physics, 13:8783-8794, 5 2011. doi:10.1039/c0cp02600j.">Loerting <em>et al.</em>, 2011</a>]</span> 5 main categories of Amorphous ice</p>
 <div class="full-width docutils">
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
@@ -1074,9 +1206,9 @@ the vibrational characteristics are those of a highly ordered substance.  The <s
 <li><p>What does this mean, where does it come from ?
 Similar (but less dramatic) behaviour have been observed in other tetrahedrally coordinated solid (SiO2, GeO2, ZNCl2 etc).</p></li>
 </ul>
-</div>
-<div class="section" id="asw">
-<h3>ASW<a class="headerlink" href="#asw" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="asw">
+<h3>ASW<a class="headerlink" href="#asw" title="Permalink to this headline">#</a></h3>
 <p>Vapor deposition methods were employed to prepare ASW for the following studies:</p>
 <ul class="simple">
 <li><p>Calorimetry</p></li>
@@ -1097,8 +1229,8 @@ Similar (but less dramatic) behaviour have been observed in other tetrahedrally 
 <li><p>Thermal conductivity studies</p></li>
 </ul>
 <p>The sharp crystallization exotherm commencing in the range of 150–160 K during reheating is the one universal feature of all previous studies of ASW or vitreous water.</p>
-<div class="section" id="other-preparation-techniques">
-<h4>Other preparation techniques<a class="headerlink" href="#other-preparation-techniques" title="Permalink to this headline">¶</a></h4>
+<section id="other-preparation-techniques">
+<h4>Other preparation techniques<a class="headerlink" href="#other-preparation-techniques" title="Permalink to this headline">#</a></h4>
 <ul class="simple">
 <li><p>cold microtoming method (68)</p></li>
 <li><p>decompression amorphization (73)</p></li>
@@ -1119,9 +1251,9 @@ Similar (but less dramatic) behaviour have been observed in other tetrahedrally 
 <li><p>First indication of the existence of polyamorphism</p></li>
 </ul>
 <p>do they coexist in metastable equilibrium Mishima 5-7</p>
-</div>
-<div class="section" id="influence-of-the-substrate">
-<h4>Influence of the Substrate<a class="headerlink" href="#influence-of-the-substrate" title="Permalink to this headline">¶</a></h4>
+</section>
+<section id="influence-of-the-substrate">
+<h4>Influence of the Substrate<a class="headerlink" href="#influence-of-the-substrate" title="Permalink to this headline">#</a></h4>
 <ul class="simple">
 <li><p><span id="id7">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id74" title="R Scott Smith, C Huang, E K L Wong, and Bruce D Kay. Desorption and crystallization kinetics in nanoscale thin films of amorphous water ice. Surface Science, pages 13-18, 1996.">Smith <em>et al.</em>, 1996</a>]</span></p>
 <ul>
@@ -1140,10 +1272,10 @@ Similar (but less dramatic) behaviour have been observed in other tetrahedrally 
 <ul class="simple">
 <li><p>Katrina …</p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="amorphous-vs-crystaline-ice">
-<h3>Amorphous vs Crystaline Ice<a class="headerlink" href="#amorphous-vs-crystaline-ice" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="amorphous-vs-crystaline-ice">
+<h3>Amorphous vs Crystaline Ice<a class="headerlink" href="#amorphous-vs-crystaline-ice" title="Permalink to this headline">#</a></h3>
 <p>How does amorphous ices differs from its crystaline conterpart ? Well it depends on the formation route
 of the amorphous ice.</p>
 <article id="P1">
@@ -1170,15 +1302,15 @@ of the amorphous ice.</p>
 </div>
 </article>
 <p><strong>Amorphous ice - supercooled liquid water</strong></p>
-</div>
-<div class="section" id="asw-properties">
-<h3>ASW Properties<a class="headerlink" href="#asw-properties" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="asw-properties">
+<h3>ASW Properties<a class="headerlink" href="#asw-properties" title="Permalink to this headline">#</a></h3>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Debye frequency spectrum</p>
 </div>
-<div class="section" id="vibrational-dynamics">
-<h4>Vibrational dynamics<a class="headerlink" href="#vibrational-dynamics" title="Permalink to this headline">¶</a></h4>
+<section id="vibrational-dynamics">
+<h4>Vibrational dynamics<a class="headerlink" href="#vibrational-dynamics" title="Permalink to this headline">#</a></h4>
 <ul class="simple">
 <li><p>2, 28, 30, 31, 61, 82, 91, 105, 107</p></li>
 <li><p>Rice and coworkers (29 - 30b) <strong>review 2</strong></p></li>
@@ -1189,14 +1321,14 @@ of the amorphous ice.</p>
 <li><p>Dangling bonds in crystaline solids (106)</p></li>
 </ul>
 </div>
-</div>
-<div class="section" id="bulk-organisation">
-<h4>Bulk Organisation<a class="headerlink" href="#bulk-organisation" title="Permalink to this headline">¶</a></h4>
-<div class="section" id="definition">
-<h5>Definition<a class="headerlink" href="#definition" title="Permalink to this headline">¶</a></h5>
-</div>
-<div class="section" id="experiments">
-<h5>Experiments<a class="headerlink" href="#experiments" title="Permalink to this headline">¶</a></h5>
+</section>
+<section id="bulk-organisation">
+<h4>Bulk Organisation<a class="headerlink" href="#bulk-organisation" title="Permalink to this headline">#</a></h4>
+<section id="definition">
+<h5>Definition<a class="headerlink" href="#definition" title="Permalink to this headline">#</a></h5>
+</section>
+<section id="experiments">
+<h5>Experiments<a class="headerlink" href="#experiments" title="Permalink to this headline">#</a></h5>
 <ul class="simple">
 <li><p>Variation of the deposition angle</p></li>
 </ul>
@@ -1205,18 +1337,18 @@ of the amorphous ice.</p>
 <li><p>Deposition temperature variations</p></li>
 <li><p>Annealing processes</p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="porosity">
-<h4>Porosity<a class="headerlink" href="#porosity" title="Permalink to this headline">¶</a></h4>
-<div class="section" id="id9">
-<h5>Definition<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h5>
+</section>
+</section>
+<section id="porosity">
+<h4>Porosity<a class="headerlink" href="#porosity" title="Permalink to this headline">#</a></h4>
+<section id="id9">
+<h5>Definition<a class="headerlink" href="#id9" title="Permalink to this headline">#</a></h5>
 <ul class="simple">
 <li><p>Controlling the</p></li>
 </ul>
-</div>
-<div class="section" id="id10">
-<h5>Experiments<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h5>
+</section>
+<section id="id10">
+<h5>Experiments<a class="headerlink" href="#id10" title="Permalink to this headline">#</a></h5>
 <ul class="simple">
 <li><p>Different types</p></li>
 </ul>
@@ -1228,10 +1360,10 @@ of the amorphous ice.</p>
 </ul>
 </li>
 </ul>
-</div>
-</div>
-<div class="section" id="infrared-spectroscopy">
-<h4>Infrared Spectroscopy<a class="headerlink" href="#infrared-spectroscopy" title="Permalink to this headline">¶</a></h4>
+</section>
+</section>
+<section id="infrared-spectroscopy">
+<h4>Infrared Spectroscopy<a class="headerlink" href="#infrared-spectroscopy" title="Permalink to this headline">#</a></h4>
 <hr class="docutils" />
 <p><strong>Key Papers</strong>:</p>
 <ul class="simple">
@@ -1239,8 +1371,8 @@ of the amorphous ice.</p>
 <li><p>Jenny</p></li>
 </ul>
 <hr class="docutils" />
-<div class="section" id="what-did-we-leran">
-<h5>What did we leran<a class="headerlink" href="#what-did-we-leran" title="Permalink to this headline">¶</a></h5>
+<section id="what-did-we-leran">
+<h5>What did we leran<a class="headerlink" href="#what-did-we-leran" title="Permalink to this headline">#</a></h5>
 <ul class="simple">
 <li><p>ASW is porous</p></li>
 <li><p>3 µm band is changing when the T is increased</p></li>
@@ -1268,22 +1400,22 @@ of the amorphous ice.</p>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>2266</p></td>
 <td class="text-align:left"><p>2220</p></td>
-<td class="text-align:left"><p>𝜈<sub>2</sub> + 𝜈<sub>R</sub> <span id="id17">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id32" title="missing journal in Whalley1977">Whalley, 1977</a>]</span></p></td>
+<td class="text-align:left"><p>𝜈<sub>2</sub> + 𝜈<sub>R</sub> <span id="id17">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id32">Whalley, 1977</a>]</span></p></td>
 <td class="text-align:left"><p>3.3 × 10<sup>-18</sup></p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>3150</p></td>
 <td class="text-align:left"><p>3191</p></td>
-<td class="text-align:left"><p>𝜈<sub>1</sub> in phase <span id="id18">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id32" title="missing journal in Whalley1977">Whalley, 1977</a>]</span></p></td>
+<td class="text-align:left"><p>𝜈<sub>1</sub> in phase <span id="id18">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id32">Whalley, 1977</a>]</span></p></td>
 <td class="text-align:left"><p></p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>3220</p></td>
 <td class="text-align:left"><p>3253</p></td>
-<td class="text-align:left"><p>𝜈<sub>3</sub> TO <span id="id19">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id32" title="missing journal in Whalley1977">Whalley, 1977</a>]</span></p></td>
+<td class="text-align:left"><p>𝜈<sub>3</sub> TO <span id="id19">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id32">Whalley, 1977</a>]</span></p></td>
 <td class="text-align:left"><p>1.7 × 10<sup>-16</sup></p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>3380</p></td>
 <td class="text-align:left"><p>3367</p></td>
-<td class="text-align:left"><p>𝜈<sub>3</sub> LO, 𝜈<sub>1</sub> out of phase <span id="id20">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id32" title="missing journal in Whalley1977">Whalley, 1977</a>]</span></p></td>
+<td class="text-align:left"><p>𝜈<sub>3</sub> LO, 𝜈<sub>1</sub> out of phase <span id="id20">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id32">Whalley, 1977</a>]</span></p></td>
 <td class="text-align:left"><p></p></td>
 </tr>
 </tbody>
@@ -1295,7 +1427,7 @@ of the amorphous ice.</p>
 <li><p>b <span id="id22">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id30" title="A H Hardin and K B rvey. Temperature dependences of the ice i hydrogen bond spectzal shifts-i. the vitreous to cubic ice i phase transformation. Spectr himka Acta, 296:1139-1151, 1973.">Hardin and rvey, 1973</a>]</span></p></li>
 <li><p>c <span id="id23">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id13" title="D M Hudgins, S A Sandford, L J Allamandola, and A G G M Tielens. Mid-and far-infrared spectroscopy of ices: optical constants and integrated absorbances. The Astrophysical Journal Supplement Series, 86:713-870, 1993.">Hudgins <em>et al.</em>, 1993</a>]</span></p></li>
 <li><p>d <span id="id24">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id31" title="Nathan Ockman. The infra-red and raman spectra of ice. Advances in Physics, 7:199-220, 1958. doi:10.1080/00018735800101227.">Ockman, 1958</a>]</span></p></li>
-<li><p>e <span id="id25">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id32" title="missing journal in Whalley1977">Whalley, 1977</a>]</span></p></li>
+<li><p>e <span id="id25">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id32">Whalley, 1977</a>]</span></p></li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -1308,10 +1440,10 @@ of the amorphous ice.</p>
 <ul class="simple">
 <li><p>Real and imaginary part (how do they relate to what we observe in space)</p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="differential-scanning-calorimetry">
-<h4>Differential Scanning Calorimetry<a class="headerlink" href="#differential-scanning-calorimetry" title="Permalink to this headline">¶</a></h4>
+</section>
+</section>
+<section id="differential-scanning-calorimetry">
+<h4>Differential Scanning Calorimetry<a class="headerlink" href="#differential-scanning-calorimetry" title="Permalink to this headline">#</a></h4>
 <p>tg at 136K (ramp 30K.min-1) –&gt; Increase in heat capacity (lower than other amorphous solid: similar to SiO2 - GeO2) –&gt; Imply limited number of entropically different configurational states in the fluid state following tg</p>
 <p>Dielectric relaxation behaviour expected to be determined by two processes both involving a thermaly activated dipolar reorientation:</p>
 <ul class="simple">
@@ -1323,26 +1455,28 @@ of the amorphous ice.</p>
 </li>
 </ul>
 <p>ASW at 140K - true glass or very viscous liquid ? What is the difference</p>
-</div>
-</div>
-</div>
-<div class="section" id="crystalisation">
-<h2>Crystalisation<a class="headerlink" href="#crystalisation" title="Permalink to this headline">¶</a></h2>
+</section>
+</section>
+</section>
+<section id="crystalisation">
+<h2>Crystalisation<a class="headerlink" href="#crystalisation" title="Permalink to this headline">#</a></h2>
 <p>At molecular scales (few molecules up to 100 ?) - Matrix isolation techniques</p>
 <a class="reference internal image-reference" href="../../_images/crystal-min-size.png"><img alt="Water_moleucule" class="align-center" src="../../_images/crystal-min-size.png" style="width: 600px;" /></a>
-</div>
-<div class="section" id="desorption">
-<h2>Desorption<a class="headerlink" href="#desorption" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="desorption">
+<h2>Desorption<a class="headerlink" href="#desorption" title="Permalink to this headline">#</a></h2>
 <p><span id="id26">[<a class="reference internal" href="../../Thesis_JB/Biblio/Thesis_Bibliography/bibliography.html#id44" title="Alexander Rosu-Finsen, Bharvi Chikani, and Christoph G Salzmann. Thermal desorption of h2o ice: from nanoscale films to the bulk. Monthly Notices of the Royal Astronomical Society, 517:1919-1927, 10 2022. URL: https://academic.oup.com/mnras/article/517/2/1919/6747155, doi:10.1093/mnras/stac2803.">Rosu-Finsen <em>et al.</em>, 2022</a>]</span></p>
-</div>
-<div class="section" id="is-it-amorphous">
-<h2>Is it Amorphous ?<a class="headerlink" href="#is-it-amorphous" title="Permalink to this headline">¶</a></h2>
-<div class="figure align-default" id="mc-x">
+</section>
+<section id="is-it-amorphous">
+<h2>Is it Amorphous ?<a class="headerlink" href="#is-it-amorphous" title="Permalink to this headline">#</a></h2>
+<figure class="align-default" id="mc-x">
 <a class="reference internal image-reference" href="../../_images/Ice-process-PPD1.PNG"><img alt="../../_images/Ice-process-PPD1.PNG" src="../../_images/Ice-process-PPD1.PNG" style="width: 800px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 9 </span><span class="caption-text">Source</span><a class="headerlink" href="#mc-x" title="Permalink to this image">¶</a></p>
-</div>
-</div>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 9 </span><span class="caption-text">Source</span><a class="headerlink" href="#mc-x" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -1366,9 +1500,11 @@ of the amorphous ice.</p>
 
               </div>
               
-            
-                <!-- Previous / next buttons -->
-<div class='prev-next-area'> 
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
     <a class='left-prev' id="prev-link" href="Space.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
@@ -1384,24 +1520,28 @@ of the amorphous ice.</p>
     <i class="fas fa-angle-right"></i>
     </a>
 </div>
-            
+            </footer>
         </div>
     </div>
-    <footer class="footer">
-  <p>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Vincent Deguin<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
     
-      By Vincent Deguin<br/>
-    
-        &copy; Copyright 2021.<br/>
-  </p>
-</footer>
-</main>
+</div>
 
 
       </div>
     </div>
   
-  <script src="../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
 
   </body>
 </html>

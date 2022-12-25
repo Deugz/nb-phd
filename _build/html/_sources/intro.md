@@ -61,17 +61,234 @@ Water ice is ubiquitously present on the surface of interstellar dust grains and
 
 ## Table of Content
 
-```{note}
-reformat
+````{margin} 
+
+```{warning}
+
+- Chapters in bold (+ &#9999;) on the left menu are **Thesis Chapters**.
+
+- Chapter 6 and 7 are located in another book (differrent project)
+
 ```
 
-``````{margin} 
+<br>
+<br>
 
-`````{admonition} **My Corner**
-:class: seealso
+```{note}
+Other pages in the relevant sections are secoundary materials. 
+```
+
+````
+
+### <strong>&#187;  <u>Corpus </u></strong>
+
+<h4><strong>Part 1: Stairway to Heaven</strong></h4>
 
 <br>
 <br>
+
+- [Chapter 1.A](Thesis_JB/Chapter1/Chapter1) : **Introduction**
+<br>
+<br>
+    - 1.1 The Dust cycle in the Galaxy
+<br>
+<br>
+    - 1.2 Synergy Between Experiments, Modelling and Observation in Astronomy through the Prism of Ice
+<br>
+<br>   
+    - 1.3 Amorphous Ices in the Laboratory
+<br>
+<br>
+    - 1.4 Ice Processing in the Context of Planet Formation
+<br>
+<br>
+    - 1.5 Thesis Motivation and Aim
+<br>
+<br>
+    - 1.6 Thesis Outline
+<br>
+<br>
+- [Chapter 2.B](Thesis_JB/Chapter2/Chapter2) : **Method**
+<br>
+<br>
+    - 2.1 The Portable Astrochemistry Chamber (PAC)
+        - 2.1.1 Description
+        - 2.1.2 Experimental procedure
+        - 2.1.3 Experimental limitations
+<br>
+<br>
+    - 2.2 Infrared Spectroscopy
+<br>
+<br>
+- [Chapter 3](Thesis_JB/Chapter3/Chapter3) : **Investigation of Amorphous Solid Water bulk structure**
+<br>
+<br>
+- [Chapter 4](Thesis_JB/Chapter4/Chapter4) : **Crystalisation kinetics of ASW**
+<br>
+<br>
+- [Chapter 5](Thesis_JB/Chapter5/Chapter5) : **Influence of impurity (ethane) on the structure, morphology and crystalisation kinetics of ASW**
+<br>
+<br>
+
+***
+
+:::::{margin} 
+::::{grid} 1
+:::{grid-item-card} 
+:img-top: Docs/OU_Logo.svg
+:link: https://deugz.github.io/nb-museum/_build/html/intro.html
+^^^
+**PhD Part 2**
+:::
+::::
+:::::
+
+<h4><strong>Part 2: Highway to Hell</strong></h4>
+
+<br>
+<br>
+
+
+- [Chapter 1.B]() : **Introduction**
+<br>
+<br>
+    - 1.1 A brief history of planet formation
+<br>
+<br>
+    - 1.2 Ice Processing in the Context of Planet Formation
+<br>
+<br>
+- [Chapter 2.B]() : **Method**
+<br>
+<br>
+    - 2.1 The Portable Astrochemistry Chamber (PAC)
+        - 2.1.1 Description
+        - 2.1.2 Experimental procedure
+        - 2.1.3 Experimental limitations
+<br>
+<br>
+    - 2.2 Infrared Spectroscopy
+<br>
+<br>
+<br>
+<br>
+- [Chapter 6](Thesis_JB/Chapter4/Chapter4) : **Crystalisation kinetics of ASW**
+<br>
+<br>
+- [Chapter 7](Thesis_JB/Chapter5/Chapter5) : **Influence of impurity (ethane) on the structure, morphology and crystalisation kinetics of ASW**
+<br>
+<br>
+
+
+***
+
+- [Discussion](Thesis_JB/Discussion) : **Discussion**
+<br>
+<br>
+- [Conclusion](Thesis_JB/Chapter8/Chapter8) : **Conclusion**
+<br>
+<br>
+
+### <strong>&#187;  <u>Extra Material </u></strong>
+
+:::::{div} full-width
+
+::::{grid} 3
+
+:::{grid-item-card}
+**Data** <span style="float: right">&#128165;</span>
+^^^
+    
+Link to figshare (test with DR1_Full)
+
+- DR1_Full
+- DR2_Full
+- DR3_Full
+
+   
+:::
+    
+
+
+:::{grid-item-card}
+**Interactive Notebooks** <span style="float: right">&#128165;</span>
+^^^
+    
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Deugz/ASW_Data_Processing/HEAD?labpath=Data_Analysis_Binder.ipynb)
+
+github link ?
+    
+
+   
+:::
+
+:::{grid-item-card}
+**Teaching** <span style="float: right">&#128165;</span>
+^^^
+    
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Deugz/ASW_Data_Processing/HEAD?labpath=Data_Analysis_Binder.ipynb)
+
+    
+
+   
+:::
+
+
+
+::::
+
+:::::
+
+### <strong>&#187;  <u>Lists </u></strong>
+
+````{margin}
+
+```{note}
+
+No lists of abbreviation as will be directly described in the text:
+
+**Exemple:**  <span class="hovertext" data-hover="Amorphous Solid Water">ASW</span>
+
+<br>
+<br>
+
+```
+
+````
+
+::::{grid} 3
+
+<div>
+    
+<h5><strong>Figures</strong></h5>
+ 
+- {numref}`Figure {number}:<Ice-cycle>` Ice cycle  
+
+</div>
+    
+<div>
+    
+<h5><strong>Tables</strong></h5>
+
+
+- {numref}`example-table`: ASW Experiments
+
+</div>
+
+<div>
+    
+<h5><strong>Equations</strong></h5>
+
+- {eq}`my_label` Equation 1
+
+</div>
+
+::::
+    
+<br>
+<br>
+
+## My Corner
 
 :::{grid-item-card}
 :link: Notes/Daily_Log.html
@@ -137,219 +354,7 @@ or
 
 <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy me a coffee', '#317315', 'O4O6EZO78');kofiwidget2.draw();</script> 
 
-<br>
-<br>
 
-`````
-
-``````
-
-
-### <strong>&#187;  <u>Thesis </u></strong>
-
-Chapters in bold (+ &#9999;) on the left menu are **Thesis Chapters**, Other pages in the relevant sections are secoundary materials. Chapter 6 and 7 are located in another book (differrent project). 
-
-<h4><strong>Corpus</strong></h4>
-
-<h5>Part 1: Stairway to Heaven</h5>
-
-
-- [Chapter 1.A](Thesis_JB/Chapter1/Chapter1) : **Introduction**
-<br>
-<br>
-    - 1.1 The Dust cycle in the Galaxy
-<br>
-<br>
-    - 1.2 Synergy Between Experiments, Modelling and Observation in Astronomy through the Prism of Ice
-<br>
-<br>   
-    - 1.3 Amorphous Ices in the Laboratory
-<br>
-<br>
-    - 1.4 Ice Processing in the Context of Planet Formation
-<br>
-<br>
-    - 1.5 Thesis Motivation and Aim
-<br>
-<br>
-    - 1.6 Thesis Outline
-<br>
-<br>
-- [Chapter 2.B](Thesis_JB/Chapter2/Chapter2) : **Method**
-<br>
-<br>
-    - 2.1 The Portable Astrochemistry Chamber (PAC)
-        - 2.1.1 Description
-        - 2.1.2 Experimental procedure
-        - 2.1.3 Experimental limitations
-<br>
-<br>
-    - 2.2 Infrared Spectroscopy
-<br>
-<br>
-- [Chapter 3](Thesis_JB/Chapter3/Chapter3) : **Investigation of Amorphous Solid Water bulk structure**
-<br>
-<br>
-- [Chapter 4](Thesis_JB/Chapter4/Chapter4) : **Crystalisation kinetics of ASW**
-<br>
-<br>
-- [Chapter 5](Thesis_JB/Chapter5/Chapter5) : **Influence of impurity (ethane) on the structure, morphology and crystalisation kinetics of ASW**
-<br>
-<br>
-
-***
-
-:::::{margin} 
-::::{grid} 1
-:::{grid-item-card} 
-:img-top: Docs/OU_Logo.svg
-:link: https://deugz.github.io/nb-museum/_build/html/intro.html
-^^^
-**PhD Part 2**
-:::
-::::
-:::::
-
-<h5>Part 2: Highway to Hell</h5>
-
-- [Chapter 1.B]() : **Introduction**
-<br>
-<br>
-    - 1.1 A brief history of planet formation
-<br>
-<br>
-    - 1.2 Ice Processing in the Context of Planet Formation
-<br>
-<br>
-- [Chapter 2.B]() : **Method**
-<br>
-<br>
-    - 2.1 The Portable Astrochemistry Chamber (PAC)
-        - 2.1.1 Description
-        - 2.1.2 Experimental procedure
-        - 2.1.3 Experimental limitations
-<br>
-<br>
-    - 2.2 Infrared Spectroscopy
-<br>
-<br>
-<br>
-<br>
-- [Chapter 6](Thesis_JB/Chapter4/Chapter4) : **Crystalisation kinetics of ASW**
-<br>
-<br>
-- [Chapter 7](Thesis_JB/Chapter5/Chapter5) : **Influence of impurity (ethane) on the structure, morphology and crystalisation kinetics of ASW**
-<br>
-<br>
-
-
-***
-
-- [Discussion](Thesis_JB/Discussion) : **Discussion**
-<br>
-<br>
-- [Conclusion](Thesis_JB/Chapter8/Chapter8) : **Conclusion**
-<br>
-<br>
-  
-<h4><strong>Extra Material</strong></h4>
-
-:::::{div} full-width
-
-::::{grid} 3
-
-:::{grid-item-card}
-**Data** <span style="float: right">&#128165;</span>
-^^^
-    
-Link to figshare (test with DR1_Full)
-
-- DR1_Full
-- DR2_Full
-- DR3_Full
-
-   
-:::
-    
-
-
-:::{grid-item-card}
-**Interactive Notebooks** <span style="float: right">&#128165;</span>
-^^^
-    
-- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Deugz/ASW_Data_Processing/HEAD?labpath=Data_Analysis_Binder.ipynb)
-
-github link ?
-    
-
-   
-:::
-
-:::{grid-item-card}
-**Teaching** <span style="float: right">&#128165;</span>
-^^^
-    
-- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Deugz/ASW_Data_Processing/HEAD?labpath=Data_Analysis_Binder.ipynb)
-
-    
-
-   
-:::
-
-
-
-::::
-
-:::::
-
-<h4><strong>Lists </strong></h4>
-
-````{margin}
-
-```{note}
-
-No lists of abbreviation as will be directly described in the text:
-
-**Exemple:**  <span class="hovertext" data-hover="Amorphous Solid Water">ASW</span>
-
-<br>
-<br>
-
-```
-
-````
-
-::::{grid} 3
-
-<div>
-    
-<h5><strong>Figures</strong></h5>
- 
-- {numref}`Figure {number}:<Ice-cycle>` Ice cycle  
-
-</div>
-    
-<div>
-    
-<h5><strong>Tables</strong></h5>
-
-
-- {numref}`example-table`: ASW Experiments
-
-</div>
-
-<div>
-    
-<h5><strong>Equations</strong></h5>
-
-- {eq}`my_label` Equation 1
-
-</div>
-
-::::
-    
-<br>
-<br>
 
 
 

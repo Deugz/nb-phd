@@ -17,12 +17,8 @@ latex:
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
-  - Thesis_JB/Biblio/Thesis_Bibliography/Chapt1.bib
-  - Thesis_JB/Biblio/Thesis_Bibliography/Chapt2.bib
-  - Thesis_JB/Biblio/Thesis_Bibliography/Chapt3.bib
-  - Thesis_JB/Biblio/Thesis_Bibliography/Chapt4.bib
-  - Thesis_JB/Biblio/Thesis_Bibliography/Chapt5.bib
-  - references.bib
+  - Thesis_JB/Biblio/Ref_nb-phd.bib
+
 
 # Information about where the book exists on the web
 repository:

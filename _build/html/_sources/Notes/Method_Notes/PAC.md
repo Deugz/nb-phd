@@ -7,6 +7,17 @@ Portable Astrochemistry Chamber
 
 ## Experimental Setup
 
+```{figure} Docs/PAC-setup.jpg
+---
+name: PAC-setup
+width: 1000px
+---
+Portable AstroChemistry (PAC)  setup
+```
+
+**Describe**
+
+
 
 
 ## Experimental Procedure

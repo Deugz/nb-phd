@@ -60,6 +60,19 @@ Introduction
 
 ## Amorphous Ices
 
+### Litterature
+
+
+Study Title	Year
+"Infrared spectra of amorphous solid water" by G.A. Baratta and J.A. Westley	1989
+"Infrared spectra of amorphous solid water: Implications for interstellar and cometary ice" by L.D. Deshmukh et al.	2004
+"H2O ice in the interstellar medium: a comparison between observed and simulated infrared spectra" by C.A. Boogert et al.	2015
+"Ice grain morphology and infrared spectra in protoplanetary disks" by M. Min et al.	2016
+"The Low-Temperature Infrared Spectrum of Amorphous Solid Water: A Spectroscopic and Theoretical Study" by J. P. Lewis et al.	2000
+"Mid-infrared spectroscopy of interstellar ice analogs" by J.M. Brown et al.	2007
+"A laboratory study of the mid-infrared spectra of amorphous solid water and water-rich ices" by A.G.G.M. Tielens et al.	2008
+"Spectroscopic properties of amorphous solid water: a review" by P. Ehrenfreund et al.	2015
+
 ### <strong>&#187;  <u> Discovery and early history </u></strong>
     
 The first experimental description of amorphous water ice has been achieved in 1935 by {cite:p}`Burton1935` that deposited water vapor on a copper rod maintained at -155 &#x2103;. It has since been an intense subject of research
@@ -292,6 +305,8 @@ Debye frequency spectrum
 
 #### Porosity
 
+{cite:p}`Carmack2023`
+
 ##### Definition
 
 - Controlling the 
@@ -392,6 +407,12 @@ At molecular scales (few molecules up to 100 ?) - Matrix isolation techniques
 ## Desorption
 
 {cite:p}`Rosu-Finsen2022`
+
+## Porosity
+
+{cite:p}`Cazaux2014`
+
+- {cite:p}`Bossa2014`
 
 
 ## Is it Amorphous ?

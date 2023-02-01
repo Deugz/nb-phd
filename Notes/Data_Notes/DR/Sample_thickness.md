@@ -10,6 +10,22 @@
 
 ***
 
+## Theory
+
+```{note}
+
+Inserer diagramme (Rachael Thesis ?)
+
+```
+
+$$y = y_0 + A sin(\frac{2\pi}{w}(x-x_c))$$
+
+where $y_0$ is the vertical offset, $A$ is the amplitude, $x_c$ is the horizontal offset and $w$ is the period (i.e. $2\pi/w$ is the frequency)
+
+We define the sine function 'sinfit(x, *p)' for the fit with some initial guesses, which can be edited accordingly.
+
+
+
 ::::{grid} 3
 
 :::{grid-item}

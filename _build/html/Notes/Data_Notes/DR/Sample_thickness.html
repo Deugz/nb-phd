@@ -91,6 +91,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../../../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="canonical" href="https://deugz.github.io/nb-phd/_build/html/Notes/Data_Notes/DR/Sample_thickness.html" />
     <link rel="shortcut icon" href="../../../_static/OU_Logo.svg"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
@@ -734,12 +736,36 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#theory">
+   Theory
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
@@ -751,6 +777,19 @@ title="Print to PDF"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#theory">
+   Theory
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -769,6 +808,16 @@ title="Print to PDF"
 </ul>
 </div>
 <hr class="docutils" />
+<section id="theory">
+<h2>Theory<a class="headerlink" href="#theory" title="Permalink to this headline">#</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Inserer diagramme (Rachael Thesis ?)</p>
+</div>
+<div class="math notranslate nohighlight">
+\[y = y_0 + A sin(\frac{2\pi}{w}(x-x_c))\]</div>
+<p>where <span class="math notranslate nohighlight">\(y_0\)</span> is the vertical offset, <span class="math notranslate nohighlight">\(A\)</span> is the amplitude, <span class="math notranslate nohighlight">\(x_c\)</span> is the horizontal offset and <span class="math notranslate nohighlight">\(w\)</span> is the period (i.e. <span class="math notranslate nohighlight">\(2\pi/w\)</span> is the frequency)</p>
+<p>We define the sine function ‘sinfit(x, *p)’ for the fit with some initial guesses, which can be edited accordingly.</p>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
 <div class="sd-col sd-d-flex-column docutils">
@@ -805,6 +854,7 @@ title="Print to PDF"
 <li><p>Create <strong>laser_diode1.1</strong></p></li>
 </ul>
 </div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">

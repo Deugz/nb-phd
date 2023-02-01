@@ -1,6 +1,7 @@
 # Reduction
 
 
+::::{margin}
 ```{note}
 
 - Need cleaning
@@ -16,15 +17,42 @@
 
 
 ```
+::::
+
+***
+
+Our data is generated using a Brucker spectrometer working with a software called OMNIC that generate `.spa` files. 
+
+```{admonition} Python library
+:class: tip
+
+
+I discovered quite late during my PhD a python library that can process OMNIC .spa files:
+
+- **SpectroChemPY**: [Doc](https://www.spectrochempy.fr/stable/index.html)
+
+
+```
 
 
 Each sample is reduced individually going through each reduction steps. Once a reduction step is achieved for all the samples, the samples are merged together to produce a **single data file, uploaded on Zenodo**.
 
 
-**4 steps**:
+***
 
+## Steps
 
-::::{grid} 4
+### Preliminary
+
+::::{grid} 3
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: Step1.html
+**DR0** 
+^^^
+
+:::
 
 :::{grid-item-card}
 :class-header: bg-light
@@ -35,6 +63,22 @@ Each sample is reduced individually going through each reduction steps. Once a r
 
 
 :::
+:::{grid-item-card}
+:class-header: bg-light
+:link: Step2.html
+**DR_Omnic** 
+^^^
+
+For each sample - All outputs generated
+
+:::
+
+### Python Reduction
+
+
+**4 steps**:
+
+::::{grid} 3
 
 :::{grid-item-card}
 :class-header: bg-light

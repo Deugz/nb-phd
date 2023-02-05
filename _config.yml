@@ -1,8 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: PhD
-author: Vincent Deguin
+title: "PHD"
+author: <strong>Vincent Deguin</strong> (with ❤️)
 logo: Docs/OU_logo.svg
 
 # Force re-execution of notebooks on each build.
@@ -34,7 +34,10 @@ html:
   use_issues_button         : true
   use_multitoc_numbering    : false
   extra_navbar              : ""
-  extra_footer              : ""  # Will be displayed underneath the footer.
+  extra_footer: |
+  
+    <img class="CC_licence" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" alt="Licence CC BY NC SA 2"/>
+     
   google_analytics_id       : G-EQV9FEH9JF   
   home_page_in_navbar       : false
   baseurl                   : "https://deugz.github.io/nb-phd/_build/html/"
@@ -42,7 +45,7 @@ html:
     hypothesis              : true
     utterances              : 
       repo: "https://github.com/Deugz/nb-phd"
-  announcement              : "Current Version: 09/09/2022"
+  announcement              : "Current Version: Jan 2023"
 
 
 sphinx:
@@ -50,5 +53,6 @@ sphinx:
     language: en
     html_extra_path: ['Script']
     bibtex_reference_style: author_year
+    html_show_copyright: false
   extra_extensions:
   - sphinx_design

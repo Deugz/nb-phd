@@ -198,6 +198,9 @@ Once all the samples have been reduced and are comparable, we have two more step
 
 #### Analysis 
 
+<img src="https://imgs.xkcd.com/comics/change_in_slope.png" />
+
+
 The Analysis of the data is performed in a rather creative fashion. Indeed, I intend to perform the anysis by chunck of samples that relate to one another and write stories about them. I have created one page per stories those samples told me.
 
 ## Progress

@@ -11,12 +11,29 @@ parts:
   - caption: Introduction
     chapters:
     - file: Thesis_JB/Chapter1/Chapter1
-    - file: Notes/Science_Notes/Science
+    - file: Science/Science
       sections:
-      - file: Notes/Science_Notes/Water
-      - file: Notes/Science_Notes/Space
-      - file: Notes/Science_Notes/Amorphous
-      - file: Notes/Science_Notes/Mixed
+      - file: Science/Water/Main_Water
+        sections:
+        - file: Science/Water/Molecule
+        - file: Science/Water/Phase-diagram
+        - file: Science/Water/Models
+        - file: Science/Water/Hexagonal-ice
+      - file: Science/Space/Main_Space
+        sections:
+        - file: Science/Space/Dust        
+        - file: Science/Space/IR_Spectro
+        - file: Science/Space/Space_Molecules
+      - file: Science/Amorphous/Main_Amorphous
+        sections:
+        - file: Science/Amorphous/Discovery_History       
+        - file: Science/Amorphous/Bulk_Properties
+        - file: Science/Amorphous/Surface_Properties
+        - file: Science/Amorphous/Crystalisation
+      - file: Science/Mixed/Main_Mixed
+        sections:
+        - file: Science/Mixed/Astrochemistry
+        - file: Science/Mixed/Ethane
       - file: Notes/Science_Notes/Questions       
   - caption: Methods
     chapters:

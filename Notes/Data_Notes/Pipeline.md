@@ -13,6 +13,11 @@
 
 ```
 
+
+<img src="https://imgs.xkcd.com/comics/automation.png" />
+
+<img src="https://imgs.xkcd.com/comics/code_lifespan.png" />
+
 ## Tools
 
 ### Jupyter Notebooks

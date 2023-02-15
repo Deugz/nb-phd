@@ -55,8 +55,26 @@ Ice doesn't form in space like on Earth. Actually the type of ice we will speak 
 - - {cite:p}`Dartois2022`
 
 
-
 ## Molecules in space
+
+
+::::{margin}
+
+```{admonition} Molecules
+:class: tip
+
+[CDMS database](https://cdms.astro.uni-koeln.de/classic/molecules?do=)
+
+
+```
+
+::::
+
+Water is the most abundant solid-state molecule in space {cite:p}`Oberg2011`,
+
+
+
+
 
 - insert list of molecules detected
 

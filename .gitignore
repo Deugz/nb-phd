@@ -178,9 +178,10 @@ cython_debug/
 
 Data
 Script
-THESIS_Word
+Word_THESIS
 _build/html/DR1_full.csv
 _build/html/DR2_full.csv
 Notes/Script_Copie/
 _build/html/Data_test/DR1_full.csv
 _build/html/Data_test/DR2_full.csv
+Admin

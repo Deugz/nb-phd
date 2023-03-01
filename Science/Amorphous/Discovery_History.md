@@ -10,7 +10,7 @@
 :::{grid-item}
 :columns: 7
 
-Intro paragraph
+While most people are familiar with the crystalline structure of ice, there is another form of ice that is less well-known: <strong>Amorphous Solid Water </strong> (ASW). In this section, we will explore in depth what amorphous solid water is, how it has been discovered, how it is formed and its significance in various fields of study.
 
 :::
 
@@ -80,13 +80,141 @@ Star formation is not my expertise so if you want to help, feel free to comment 
 ::::::
 
 (content:references:Title1)=
-## Amorphous Ice 
+## Discovery  
 
-<p class="emphase"> Solid that lack a long range order</p>
+<p class="emphase"> Amorphous solid water, is a form of ice that lacks a crystalline structure. It is also referred to as non-crystalline, glassy, or vitreous ice. Unlike crystalline ice, which has a well-defined periodic arrangement of molecules, ASW is disordered and lacks long-range order (similar to glass)</p>
 
-### <strong>&#187;  <u> Discovery </u></strong>
-    
-The first experimental description of amorphous water ice has been achieved in 1935 by {cite:p}`Burton1935` that deposited water vapor on a copper rod maintained at -155 &#x2103;. It has since been an intense subject of research.
+The first experimental description of amorphous water ice has been achieved in 1935 by {cite:p}`Burton1935` that deposited water vapor on a copper rod maintained at -155 &#x2103; It has since been an intense subject of research involving multiple characterisation techniques
+
+### Amorphous Solid Water
+
+```{note}
+
+- Insert Jenniskens controversal paper
+
+- different experimental conditions different forms of ice ...
+
+```
+
+### <strong>&#187;  <u>Water polyamorphism  </u></strong>
+
+
+## Investigation techniques
+
+
+### Method of investigation
+
+```{note}
+ - Create html tables with all ASW experiments.
+     - 1 table for all experiments
+     - 1 entry per scientific group
+```
+
+Unclassified yet: {cite:p}`Li2021`
+
+```{list-table} This table title
+:header-rows: 1
+:name: example-table
+
+* - Ref
+  - Investigation technique
+  - Purpose
+  - Ice formation conditions
+  - Comparative studies
+* - {cite:p}`Johari1991`
+  - Dielectric properties
+  - Optical constants
+  - 77K - 10^-6 mbar - 4-5h (1mm thick)
+  - cf ref 6-7
+* - 13720
+  - 2744
+  - 
+  - 
+  - 
+```
+
+#### Dielectric relaxation
+ 
+ Explain technique 
+ 
+| Ref | Investigation technique | Purpose | Ice formation conditions | Comparative studies |
+| :- | -: | :-: | :-: | :-: |
+| {cite:p}`Johari1991` | Dielectric properties | Optical constants | 77K - 10^-6 mbar - 4-5h (1mm thick) | cf ref 6-7 |
+| {cite:p}`Hallbrucker1989`  | Dielectric properties | Optical constants | 77K - 10^-6 mbar - 4-5h (1mm thick) | cf ref 6-7 |
+| {cite:p}`May2012`  | Dielectric properties | Optical constants | 77K - 10^-6 mbar - 4-5h (1mm thick) | cf ref 6-7 |
+
+#### Calorimetric studies
+
+TPD (Temperature Program Desorption) / DSC (Differential Scanning Calorimetry)
+
+| Ref | Investigation technique | Purpose | Ice formation conditions | Comparative studies |
+| :- | -: | :-: | :-: | :-: |
+| {cite:p}`Dulieu2010` | IR | Optical constants | diff | none |
+
+#### Infrared Spectroscopy 
+
+Absorption / Reflection
+
+Water alone or in mixture
+
+::::::{div} full-width
+:::::{dropdown} <span style="float: right">![flag alt >](../../Docs/Svg_icons/onion-svgrepo-com.svg)</span> Onion layers
+
+| Groups - Setup | Work related to water | Investigation technique | Purpose | Ice formation conditions | Comparative studies |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| NASA Ames (US) - {cite:p}`Hudgins1993` | {cite:p}`Mastrapa2009` - {cite:p}`Mastrapa2008`  | IR | Optical constants | 77K - 10<sup>-6</sup> mbar - 4-5h (1mm thick) | none |
+| {cite:p}`Bergren1978` | IR | Optical constants | diff | none |
+| {cite:p}`Bertie1964` | IR | Optical constants | diff | none |
+| {cite:p}`Hagen1981` | IR | Optical constants | diff | none |
+| {cite:p}`Mate2012` | IR | Optical constants | diff | none |
+| {cite:p}`Schephard2013` | IR | LDA - structural relaxation | diff | none |
+| HFML-FELIX (Nederland) - {cite:p}`Noble2020` | {cite:p}`Coussan2022`  | RAFTIR + IRFEL (InfraRed Free Electron Laser) | Dangling bonds | BD (Background deposition) 18K 10<sup>-8</sup> mbar 1080s at 10-6 mbar | none |
+| PIIM (France) | {cite:p}`Noble2014a` - {cite:p}`Noble2014b` | RAFTIR  | Dangling bonds | none | none |
+| Leiden (Nederland) | Gerakine {cite:p}`Noble2014a` - {cite:p}`Noble2014b` | RAFTIR  | A values | none | none |
+
+:::::
+::::::
+
+
+Optical constants - necessary to produce "artificial" spectra necessary to fit observation.
+Experimental spectra can also be directly feated to observation cf Alexis work.
+
+#### Scattering Experiments
+
+XRay/ Neutron
+
+Best technique to obtain information on crystal structure. Costly and lots of other constraints.
+
+
+#### Other
+
+Jenny, Bar-Num ...
+Electron microscopy ...
+
+Download Giulia's paper
+
+
+
+## <strong>&#187;  <u> Investigation techniques </u></strong>
+
+#### <strong> Scattering </strong>
+
+##### X-RAY
+
+
+##### Neutron
+
+
+#### <strong> Spectroscopy </strong>
+
+
+
+#### More
+
+- positron and positronium annihilation {cite:p}`Wu2011`
+
+#### Production method
+
 
 - Why ?
 - ...
@@ -304,3 +432,20 @@ Debye frequency spectrum
 - Dangling bonds in crystaline solids (106)
 
 ```
+
+
+## Scientic field of interest
+
+### Material Sciences
+
+```{note}
+
+proximity with liquid water
+
+
+```
+
+
+### Atmospheric Science 
+
+ASW plays an important role in atmospheric processes, such as cloud formation and ice nucleation. Clouds are formed when water vapor in the atmosphere condenses onto tiny particles, such as dust or pollen, forming droplets. In certain conditions, such as at high altitudes, these droplets can freeze and form ice crystals. The presence of ASW can affect the freezing point of water, which can have significant implications for cloud formation and atmospheric processes.

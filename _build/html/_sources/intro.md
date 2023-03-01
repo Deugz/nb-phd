@@ -21,8 +21,7 @@ s0.parentNode.insertBefore(s1,s0);
 <br>
 <br>
 
-# <u>Thesis</u>  .A
-
+# **Open Notes**
 
 
 :::::{margin} 
@@ -34,10 +33,24 @@ s0.parentNode.insertBefore(s1,s0);
 **Vincent Deguin**
 :::
 ::::
+
+
+**Support**
+
+![flag alt >](Docs/Svg_icons/patreon-svgrepo-com.svg) [Patreon](https://www.patreon.com/Science_for_the_People)
+
+
+or
+
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy me a coffee', '#317315', 'O4O6EZO78');kofiwidget2.draw();</script>
+
 :::::
 
 
 ***
+
+<p class="emphase2"><strong>Thesis .A </strong></p>
 
 <p class="emphase"><strong>Kinetics and Morphologie Changes of Amorphous Solid Water upon Crystalisation (and influence of an imuprity, ethane)</strong></p>
 
@@ -75,141 +88,149 @@ Water ice is ubiquitously present on the surface of interstellar dust grains and
 
 ## Table of Content
 
-````{margin} 
-
-```{warning}
-
-- Chapters in bold (+ &#9999;) on the left menu are **Thesis Chapters**.
-
-- Chapter 6 and 7 are located in another book (differrent project)
-
-```
-
-<br>
-<br>
-
 ```{note}
-Other pages in the relevant sections are secoundary materials. 
+
+Explanation of the Hybrid format + link toward relevant page
+
++ link to thesis pdf
+
 ```
 
-````
+### <strong>&#187;  <u>Science</u></strong>
 
-### <strong>&#187;  <u>Corpus </u></strong>
+:::::{div} full-width
 
-<h4><strong>Part 1: Stairway to Heaven</strong></h4>
+::::{grid} 
 
-<br>
-<br>
+:::{grid-item}
+:columns: 5 
 
-- [Chapter 1.A](Thesis_JB/Chapter1/Chapter1) : **Introduction**
+- [Overview](Science/Science)
 <br>
 <br>
-    - 1.1 The Dust cycle in the Galaxy
+- ![flag alt >](Docs/Svg_icons/flags/flag-for-flag-united-kingdom-svgrepo-com.svg) [Water Ice](Science/Water/Main_en_Water) / ![flag alt >](Docs/Svg_icons/flags/flag-for-flag-france-svgrepo-com.svg) [Les Glaces d'Eau](Science/Water/Main_fr_Water)
 <br>
 <br>
-    - 1.2 Synergy Between Experiments, Modelling and Observation in Astronomy through the Prism of Ice
-<br>
-<br>   
-    - 1.3 Amorphous Ices in the Laboratory
-<br>
-<br>
-    - 1.4 Ice Processing in the Context of Planet Formation
+    - [Water Molecule](Science/Water/Molecule)     
+    - [Condensed Phase](Science/Water/Condensed)     
+    - [Water Models](Science/Water/Models)    
+    - [Hexagonal Ice](Science/Water/Hexagonal-ice)
 <br>
 <br>
-    - 1.5 Thesis Motivation and Aim
+- ![flag alt >](Docs/Svg_icons/flags/flag-for-flag-united-kingdom-svgrepo-com.svg) [In Space](Science/Space/Main_en_Space) / ![flag alt >](Docs/Svg_icons/flags/flag-for-flag-france-svgrepo-com.svg) [Dans l'Espace](Science/Space/Main_fr_Space)
 <br>
 <br>
-    - 1.6 Thesis Outline
+    - [Solar System](Science/Space/Solar_System)     
+    - [ISM & Observations](Science/Space/ISM_Obs)     
+    - [Interstellar Dust](Science/Space/Dust)    
+    - [Ice Mantle](Science/Space/Ice_Mantle)
 <br>
 <br>
-- [Chapter 2.B](Thesis_JB/Chapter2/Chapter2) : **Method**
+- ![flag alt >](Docs/Svg_icons/flags/flag-for-flag-united-kingdom-svgrepo-com.svg) [Is Amorphous](Science/Amorphous/Main_en_Amorphous) / ![flag alt >](Docs/Svg_icons/flags/flag-for-flag-france-svgrepo-com.svg) [Sont Amorphes](Science/Amorphous/Main_fr_Amorphous)
 <br>
 <br>
-    - 2.1 The Portable Astrochemistry Chamber (PAC)
-        - 2.1.1 Description
-        - 2.1.2 Experimental procedure
-        - 2.1.3 Experimental limitations
+    - [Discovery / History](Science/Amorphous/Discovery_History)     
+    - [Bulk Properties](Science/Amorphous/Bulk_Properties)     
+    - [Surface Properties](Science/Amorphous/Surface_Properties)    
+    - [Crystalisation](Science/Amorphous/Crystalisation)
 <br>
 <br>
-    - 2.2 Infrared Spectroscopy
+- ![flag alt >](Docs/Svg_icons/flags/flag-for-flag-united-kingdom-svgrepo-com.svg) [and Mixed](Science/Mixed/Main_en_Mixed) / ![flag alt >](Docs/Svg_icons/flags/flag-for-flag-france-svgrepo-com.svg) [Et Mixés](Science/Mixed/Main_fr_Mixed)
 <br>
 <br>
-- [Chapter 3](Thesis_JB/Chapter3/Chapter3) : **Investigation of Amorphous Solid Water bulk structure**
+    - [Molecules in Space](Science/Mixed/Space_Molecules)
+    - [ASW + Molecules](Science/Mixed/ASW_Mol) 
+    - [Astrochemistry](Science/Mixed/Astrochemistry)     
+    - [ASW + Ethane](Science/Mixed/Ethane)    
 <br>
 <br>
-- [Chapter 4](Thesis_JB/Chapter4/Chapter4) : **Crystalisation kinetics of ASW**
-<br>
-<br>
-- [Chapter 5](Thesis_JB/Chapter5/Chapter5) : **Influence of impurity (ethane) on the structure, morphology and crystalisation kinetics of ASW**
-<br>
-<br>
+- <strong> [Introduction](https://deugz.github.io/nb-thesis/_build/html/Introduction/Introduction.html) </strong> (📖 Thesis)
 
-***
-
-:::::{margin} 
-::::{grid} 1
-:::{grid-item-card} 
-:img-top: Docs/OU_Logo.svg
-:link: https://deugz.github.io/nb-museum/_build/html/intro.html
-^^^
-**PhD Part 2**
 :::
+
+:::{grid-item}
+:columns: 7
+
+<p class="emphase">Water Ice in Space is Amorphous and Mixed</p>
+
+Explanation
+
+
+
+:::
+
 ::::
+
 :::::
 
-<h4><strong>Part 2: Highway to Hell</strong></h4>
 
+***
+
+### <strong>&#187;  <u>Methods</u></strong>
+
+:::::{div} full-width
+
+::::{grid} 2 
+
+:::{grid-item}
+:columns: 5 
+
+- [Overview](Method/Method)
 <br>
 <br>
+- [PAC](Method/PAC)
+<br>
+<br>
+- [IR Spectroscopy](Method/Spectroscopy)
+<br>
+<br>
+    - [Absorption](Method/sub_Absorption)     
+    - [Interferometry](Method/sub_Interferometry)     
+<br>
+<br>
+- <strong> [Methods](https://deugz.github.io/nb-thesis/_build/html/Methods/Methods.html) </strong> (📖 Thesis)
+
+:::
+
+:::{grid-item}
+:columns: 7
+
+Methodology
+
+:::
+
+::::
+
+:::::
 
 
-- [Chapter 1.B]() : **Introduction**
-<br>
-<br>
-    - 1.1 A brief history of planet formation
-<br>
-<br>
-    - 1.2 Ice Processing in the Context of Planet Formation
-<br>
-<br>
-- [Chapter 2.B]() : **Method**
-<br>
-<br>
-    - 2.1 The Portable Astrochemistry Chamber (PAC)
-        - 2.1.1 Description
-        - 2.1.2 Experimental procedure
-        - 2.1.3 Experimental limitations
-<br>
-<br>
-    - 2.2 Infrared Spectroscopy
-<br>
-<br>
-<br>
-<br>
-- [Chapter 6](Thesis_JB/Chapter4/Chapter4) : **Crystalisation kinetics of ASW**
-<br>
-<br>
-- [Chapter 7](Thesis_JB/Chapter5/Chapter5) : **Influence of impurity (ethane) on the structure, morphology and crystalisation kinetics of ASW**
-<br>
-<br>
+
+
+
 
 
 ***
 
-- [Discussion](Thesis_JB/Discussion) : **Discussion**
-<br>
-<br>
-- [Conclusion](Thesis_JB/Chapter8/Chapter8) : **Conclusion**
-<br>
-<br>
+### <strong>&#187;  <u>Data</u></strong>
 
-### <strong>&#187;  <u>Extra Material </u></strong>
+```{note}
+
+- subject to evolution so intentionaly left blank for now
+
+```
+
+
+***
+
+
+#### <strong>Extra Material </strong>
 
 :::::{div} full-width
 
 ::::{grid} 3
 
 :::{grid-item-card}
+:class-header: bg-light
 **Data** <span style="float: right">&#128165;</span>
 ^^^
     
@@ -225,6 +246,7 @@ Link to figshare (test with DR1_Full)
 
 
 :::{grid-item-card}
+:class-header: bg-light
 **Interactive Notebooks** <span style="float: right">&#128165;</span>
 ^^^
     
@@ -237,6 +259,7 @@ github link ?
 :::
 
 :::{grid-item-card}
+:class-header: bg-light
 **Teaching** <span style="float: right">&#128165;</span>
 ^^^
     
@@ -253,56 +276,29 @@ github link ?
 
 :::::
 
-### <strong>&#187;  <u>Lists </u></strong>
+### <strong>&#187;  <u>Results</u></strong>
 
-````{margin}
-
-```{note}
-
-No lists of abbreviation as will be directly described in the text:
-
-**Exemple:**  <span class="hovertext" data-hover="Amorphous Solid Water">ASW</span>
-
+- <strong> [Chapter 3](https://deugz.github.io/nb-thesis/_build/html/Chapter3/Chapter3.html) </strong> (📖 Thesis)
+<br>
+<br>
+- <strong> [Chapter 4](https://deugz.github.io/nb-thesis/_build/html/Chapter4/Chapter4.html) </strong> (📖 Thesis)
+<br>
+<br>
+- <strong> [Chapter 5](https://deugz.github.io/nb-thesis/_build/html/Chapter5/Chapter5.html) </strong> (📖 Thesis)
 <br>
 <br>
 
-```
+### <strong>&#187;  <u>Conclusion</u></strong>
 
-````
-
-::::{grid} 3
-
-<div>
-    
-<h5><strong>Figures</strong></h5>
- 
-- {numref}`Figure {number}:<Ice-cycle>` Ice cycle  
-
-</div>
-    
-<div>
-    
-<h5><strong>Tables</strong></h5>
+- <strong> [Conclusion](https://deugz.github.io/nb-thesis/_build/html/Conclusion/Conclusion.html) </strong> (📖 Thesis)
 
 
-- {numref}`example-table`: ASW Experiments
-
-</div>
-
-<div>
-    
-<h5><strong>Equations</strong></h5>
-
-- {eq}`my_label` Equation 1
-
-</div>
-
-::::
-    
-<br>
-<br>
 
 ## My Corner
+
+:::::{div} full-width
+
+::::{grid} 3 
 
 :::{grid-item-card}
 :link: Notes/Daily_Log.html
@@ -348,25 +344,126 @@ Implemented with major progress.
 - Admin
 :::
 
+::::
 
-
-<br>
-<br>
-
-**Support**
+:::::
 
 <br>
 <br>
 
-![flag alt >](Docs/Svg_icons/patreon-svgrepo-com.svg) [Patreon](https://www.patreon.com/Science_for_the_People)
+## Lists
+
+````{margin}
+
+```{note}
+
+No lists of abbreviation as will be directly described in the text:
+
+**Exemple:**  <span class="hovertext" data-hover="Amorphous Solid Water">ASW</span>
 
 <br>
-
-or
-
 <br>
 
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy me a coffee', '#317315', 'O4O6EZO78');kofiwidget2.draw();</script> 
+```
+
+````
+
+::::{grid} 3
+
+<div>
+    
+<h5><strong>Figures</strong></h5>
+ 
+- {numref}`Figure {number}:<Ice-cycle>` Ice cycle  
+
+</div>
+    
+<div>
+    
+<h5><strong>Tables</strong></h5>
+
+
+- {numref}`example-table`: ASW Experiments
+
+</div>
+
+<div>
+    
+<h5><strong>Equations</strong></h5>
+
+- {eq}`my_label` Equation 1
+
+</div>
+
+::::
+    
+    
+
+# Comments
+
+<script src="https://utteranc.es/client.js"
+        repo="Deugz/nb-phd"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+<hr>
+
+:::::::{div} full-width
+
+::::::{grid} 2
+
+:::::{grid-item-card}
+:class-header: bg-light
+:columns: 9
+
+**Notes**
+^^^
+::::{grid} 2
+:::{grid-item}
+
+```{admonition} To Do
+:class: note, dropdown
+
+- Rewrite the Abstract
+- Send to Friends to Review, comment
+- Orthographique correction
+
+```
+
+:::
+
+:::{grid-item}
+
+```{admonition} Ideas
+:class: tip, dropdown
+
+Nothing, just leave it like that.
+
+
+```
+:::
+::::
+:::::
+
+
+
+:::::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+**Page**
+^^^
+
+- Status:  &#9989;
+  
+- Reviewed: <span class="hovertext" data-hover="Insert here who has done what">&#x274C;</span>
+       
+- Updated: 27/02/2023
+   
+::::::
+:::::::
 
 
 

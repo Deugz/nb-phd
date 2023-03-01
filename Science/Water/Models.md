@@ -1,4 +1,4 @@
-# Models
+# Water Models
 
 ***
 
@@ -81,3 +81,15 @@ Star formation is not my expertise so if you want to help, feel free to comment 
 
 (content:references:Title1)=
 ## Introduction
+
+
+### From atoms to molecules 
+
+[Atomic Simulation Environment](https://wiki.fysik.dtu.dk/ase/index.html), Python Library to model molecules
+
+
+
+
+## Modeling crystalisation
+
+- **Review**: {cite:p}`Kaplan2006`

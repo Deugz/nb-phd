@@ -8,40 +8,45 @@ parts:
   - caption: 
     chapters:
     - file: content
-  - caption: Introduction
+  - caption: Science
     chapters:
-    - file: Thesis_JB/Chapter1/Chapter1
     - file: Science/Science
+    - file: Science/Water/Main_en_Water
       sections:
-      - file: Science/Water/Main_Water
-        sections:
-        - file: Science/Water/Molecule
-        - file: Science/Water/Phase-diagram
-        - file: Science/Water/Models
-        - file: Science/Water/Hexagonal-ice
-      - file: Science/Space/Main_Space
-        sections:
-        - file: Science/Space/Dust        
-        - file: Science/Space/IR_Spectro
-        - file: Science/Space/Space_Molecules
-      - file: Science/Amorphous/Main_Amorphous
-        sections:
-        - file: Science/Amorphous/Discovery_History       
-        - file: Science/Amorphous/Bulk_Properties
-        - file: Science/Amorphous/Surface_Properties
-        - file: Science/Amorphous/Crystalisation
-      - file: Science/Mixed/Main_Mixed
-        sections:
-        - file: Science/Mixed/Astrochemistry
-        - file: Science/Mixed/Ethane
-      - file: Notes/Science_Notes/Questions       
+      - file: Science/Water/Molecule
+      - file: Science/Water/Condensed
+      - file: Science/Water/Models
+      - file: Science/Water/Hexagonal-ice
+    - file: Science/Space/Main_en_Space
+      sections:
+      - file: Science/Space/Solar_System
+      - file: Science/Space/ISM_Obs
+      - file: Science/Space/Dust
+      - file: Science/Space/Ice_Mantle  
+    - file: Science/Amorphous/Main_en_Amorphous
+      sections:
+      - file: Science/Amorphous/Discovery_History       
+      - file: Science/Amorphous/Bulk_Properties
+      - file: Science/Amorphous/Surface_Properties
+      - file: Science/Amorphous/Crystalisation
+    - file: Science/Mixed/Main_en_Mixed
+      sections:
+      - file: Science/Mixed/Space_Molecules
+      - file: Science/Mixed/ASW_Mol 
+      - file: Science/Mixed/Astrochemistry     
+      - file: Science/Mixed/Ethane
+    - file: Science/Questions
+    - url: https://deugz.github.io/nb-thesis/_build/html/Introduction/Introduction.html
+      title: "Introduction (📖 Thesis)"
   - caption: Methods
     chapters:
-    - file: Thesis_JB/Chapter2/Chapter2
-    - file: Notes/Method_Notes/Method
+    - file: Method/PAC
+    - file: Method/Spectroscopy
       sections:
-      - file: Notes/Method_Notes/PAC
-      - file: Notes/Method_Notes/Spectroscopy
+      - file: Method/sub_Absorption
+      - file: Method/sub_Interferometry
+    - url: https://deugz.github.io/nb-thesis/_build/html/Methods/Methods.html
+      title: "Methods (📖 Thesis)  "
   - caption: Data
     chapters:
     - file: Notes/Data_Notes/Data_Main
@@ -67,15 +72,16 @@ parts:
       - file: Notes/Data_Notes/Analysis/2OK_ASW
   - caption: Results
     chapters:
-    - file: Thesis_JB/Chapter3/Chapter3
-    - file: Thesis_JB/Chapter4/Chapter4
-    - file: Thesis_JB/Chapter5/Chapter5
-  - caption: Discussion
-    chapters:
-    - file: Thesis_JB/Discussion
+    - url: https://deugz.github.io/nb-thesis/_build/html/Chapter3/Chapter3.html
+      title: "Chapter 3 (📖 Thesis)  "
+    - url: https://deugz.github.io/nb-thesis/_build/html/Chapter4/Chapter4.html
+      title: "Chapter 4 (📖 Thesis)  "
+    - url: https://deugz.github.io/nb-thesis/_build/html/Chapter5/Chapter5.html
+      title: "Chapter 5 (📖 Thesis)  "
   - caption: Conclusion
     chapters:
-    - file: Thesis_JB/Chapter8/Chapter8
+    - url: https://deugz.github.io/nb-thesis/_build/html/Conclusion/Conclusion.html
+      title: "Conclusion (📖 Thesis)  "
   - caption: Bibliography
     chapters:
     - file: Thesis_JB/Biblio/Thesis_Bibliography/bibliography   

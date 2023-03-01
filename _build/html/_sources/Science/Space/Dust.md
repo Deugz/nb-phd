@@ -31,31 +31,18 @@ Intro paragraph
 ::::
 :::::
 
-::::{margin}
-:::{grid-item-card}
+:::::::{div} full-width
+
+::::::{grid} 2
+
+:::::{grid-item-card}
 :class-header: bg-light
-
-**Page**
-^^^
-
-- Status: ![flag alt >](../../Docs/Svg_icons/Under_construction.svg)
-  
-- Reviewed: &#x274C;
-       
-- Updated: 04/02/2023
-   
-:::
-::::
-
-
-
-::::::{grid-item-card}
-:class-header: bg-light
+:columns: 9
 
 **Notes**
 ^^^
-:::::{grid} 2
-::::{grid-item}
+::::{grid} 2
+:::{grid-item}
 
 ```{admonition} To Do
 :class: note, dropdown
@@ -65,19 +52,69 @@ Intro paragraph
 
 ```
 
-::::
+:::
 
-::::{grid-item}
+:::{grid-item}
 
 ```{admonition} Colaboration
 :class: tip, dropdown
 
-Star formation is not my expertise so if you want to help, feel free to comment the contribution you could make
+Presentation
 
 ```
+:::
 ::::
-:::::  
+:::::
+
+
+
+:::::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+**Page**
+^^^
+
+- Status: ![flag alt >](../../Docs/Svg_icons/Under_construction.svg)
+  
+- Reviewed: &#x274C;
+       
+- Updated: 15/02/2023
+   
 ::::::
+:::::::
 
 (content:references:Title1)=
 ## Introduction
+
+## Optical Properties
+
+- **Review**: {cite:p}`Draine2003`
+
+
+
+## Types
+
+### Carbonaceous 
+
+
+### Silicates
+
+- **Review**: {cite:p}`Henning2010`
+
+
+
+## Ice Mantle
+
+
+### <strong> &#x2023; <u> Abundances </u></strong>
+
+```{figure} Docs/Dust_Ice_Oberg2016.png
+---
+name: Dust_Ice_Oberg2016
+width: 1000px
+---
+{cite:p}`Oberg2016`
+```
+
+
+#### <strong> &#x2023; &#x2023; Polar / Apolar </strong>

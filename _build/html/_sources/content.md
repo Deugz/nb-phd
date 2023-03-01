@@ -1,4 +1,4 @@
-# Why an online Thesis?
+# Hybrid Format
 
 ***
 

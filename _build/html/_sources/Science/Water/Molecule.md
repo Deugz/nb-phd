@@ -1,4 +1,4 @@
-# Molecule
+# Water Molecule
 
 ***
 
@@ -94,9 +94,9 @@ It is commonly stated that the presence of liquid water is a necessary condition
 
 **Water is more than just a solvent**
 
-<h3><strong>&#187;  <u> Properties </u></strong></h3>
+### <strong>&#x2023;  <u> Properties </u></strong></h3>
 
-<h4><strong> Anomalous macroscopic behaviour </strong></h4>
+#### <strong>&#x2023; &#x2023;  Anomalous macroscopic behaviour </strong></h4>
 
 Water molecules are symetric (point group C<sub>2V</sub> - two mirror planes of symmetry and a 2-fold rotation axis).
 - Is it important ?

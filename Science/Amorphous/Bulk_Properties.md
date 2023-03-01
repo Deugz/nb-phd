@@ -82,3 +82,24 @@ Star formation is not my expertise so if you want to help, feel free to comment 
 (content:references:Title1)=
 ## Introduction
 
+
+## Porosity
+
+
+
+## Diffusivity
+
+<p class="emphase"> Molecular diffusion occurs as a result of thermal motion of the molecules.</p>
+
+{cite:p}`Smith2000`
+
+
+## Desorption
+
+
+Thermal desorption formula (test)
+
+$$
+k_{td,i} \simeq  \nu _{i} e ^{-\frac{E_{b,i}}{k_{B} T_{S}}}
+$$
+

@@ -1,12 +1,13 @@
 # DR2
 
-**Notebooks**:
+<h3>Notebooks</h3>
+
+:::::{div} full-width
 
 ::::{grid} 3
 
 :::{grid-item-card}
 :class-header: bg-light
-:link: Step1.html
 <span style="float: right">![flag alt >](../../../Docs/Svg_icons/jupyter-svgrepo-com.svg)</span>**DR2_ASW**
 ^^^
 
@@ -16,11 +17,15 @@
 :align: center
 ```
 
++++
+
+- Link Github
+- Link Binder ?
+
 :::
 
 :::{grid-item-card}
 :class-header: bg-light
-:link: Step1.html
 <span style="float: right">![flag alt >](../../../Docs/Svg_icons/jupyter-svgrepo-com.svg)</span>**DR2_C2H6**
 ^^^
 
@@ -30,11 +35,15 @@
 :align: center
 ```
 
++++
+
+- Link Github
+- Link Binder ?
+
 :::
 
 :::{grid-item-card}
 :class-header: bg-light
-:link: Step1.html
 <span style="float: right">![flag alt >](../../../Docs/Svg_icons/jupyter-svgrepo-com.svg)</span>**DR2_C2H6_ASW**
 ^^^
 
@@ -44,59 +53,121 @@
 :align: center
 ```
 
++++
+
+- Link Github
+- Link Binder ?
+
 :::
 
 ::::
 
-***
+:::::
+
+<h3>Data</h3>
 
 :::::{div} full-width
-::::{grid} 3
-:::{grid-item}
+::::{grid} 2
+:::{grid-item-card}
 
 **Input**
 
+^^^
+
+- **Data** 
+
+
 - ![flag alt >](../../../Docs/Svg_icons/excel-svgrepo-com.svg) - DR1_{}_All-scans.csv
-    - ![flag alt >](../../../Docs/Svg_icons/folder-svgrepo-com.svg) - \DATA\DATA-Processing\PAC\{}/Samples/{}/Data/DR/
 - ![flag alt >](../../../Docs/Svg_icons/excel-svgrepo-com.svg) - DR1_{}_data_annex.csv
+
+![flag alt >](../../../Docs/Svg_icons/folder-svgrepo-com.svg) - \Data\DATA-PROCESSING\{}\Data\
+
 - ![flag alt >](../../../Docs/Svg_icons/excel-svgrepo-com.svg) - XP_list_test.csv
 
+![flag alt >](../../../Docs/Svg_icons/folder-svgrepo-com.svg) - \Data\
+
+
+- **Input parameters**:
+
+```python
+
+# 0.1 Date
+date = "2020_09_15"
+
+# Necessary to read the background
+
+date2 = date.replace("_", "")
+
+# 0.2 XP
+XP = "XP_1-1"
+
+# 0.3 Sample type
+spl = "ASW"
+
+# 0.4 Deposition Temperature
+Tdep = "20"
+
+# Colormap normalisation
+
+Tmin = 20
+Tmax = 200
+
+
+# Is there any Isotherm ?
+
+Iso = False
+
+```
 
 
 
 :::
 
-:::{grid-item}
+:::{grid-item-card}
 
 **Output**
+
+^^^
+
+- **Data**
+
+<br>
+<br>
 
 - ![flag alt >](../../../Docs/Svg_icons/excel-svgrepo-com.svg) DR1_Date_{}.csv  
 - ![flag alt >](../../../Docs/Svg_icons/excel-svgrepo-com.svg) {}_data Annex.csv   
 
-:::
+<br>
+<br>
 
-:::{grid-item}
+- **Plots**
 
-**Plots**
+<br>
+<br>
 
 - ![flag alt >](../../../Docs/Svg_icons/chart-svgrepo-com.svg) All_scan 
 
+
 :::
+
 ::::
 :::::
+
+
+
+
+
 
 ***
 
 
 ## Overview
 
-
-
-***
-
 ::::{grid} 2 
 
 :::{grid-item}
+:columns: 4
+
 
 **Plan**:
 - Load data
@@ -115,25 +186,25 @@
 :::
 
 :::{grid-item}
+:columns: 8
 
-**Input parameters**:
+Description of the whole process, why we do that 
 
-- Date: string ("2020_09_15")
+The Baseline correction is rarely mentionned in the scientific litterature reporting about IR Spectra of Amorphous ice. It is quickly mentionned in 
 
-- XP: string ("XP_1-2")
+- {cite:p}`Hudgins1993`
 
-- Sample type: string ("C2H6")
+need to use k value (imaginary part that describes the absorption of light at wavelength lambda) to adopt a suitable range.
 
-- Deposition Temperature: string ("20")
-
-- Colormap normalisation:
-    - Tmin = int (20)
-    - Tmax = int (70)
-
-- Isotherm: Boolean (Iso = False)
+We will based our assesment on the 10K sample as this is the spectrum that show the broader spectrum
 
 
+```{note}
 
+note do the same for ethane
+
+
+```
 
 :::
 
@@ -145,6 +216,19 @@
 ```{note}
 Implement here the general structure of the notebook
 ```
+
+### Common stuffs
+
+- **Open files**
+
+We open *DR1_{}_All-scans.csv*
+
+- **Chop The Data**
+
+    - A: OH stretch : (4000 - 2800 cm-1)
+    - B: Combination bands : (2800 - 1900 cm-1)
+    - C: Bending modes : (1900 - 800 cm-1)
+
 
 [/----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Is it a comment ?/]: # 
 

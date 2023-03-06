@@ -99,6 +99,7 @@ parts:
   - caption: My Corner
     chapters:
     - file: My_Space/Productivity_Dashboard
+    - file: Tools/Tools
     - file: My_Space/Organisation
       sections:
       - file: My_Space/Daily_Log

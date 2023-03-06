@@ -94,6 +94,10 @@ Star formation is not my expertise so if you want to help, feel free to comment 
 {cite:p}`Smith2000`
 
 
+### Models of diffusion
+
+{cite:p}`Ghesquiere2015`
+
 ## Desorption
 
 

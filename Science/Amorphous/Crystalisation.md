@@ -161,6 +161,9 @@ width: 1000px
 :::::
 ::::::
 
+
+- **Review** {cite:p}`Garkul2022`
+
 ### Surface
 
 {cite:p}`Backus2004`
@@ -181,7 +184,18 @@ Studies that state that ASW crystalises from the surface:
 
 Operando measurment in order to resolve the ASW crystalisation. 
 
+### In the intermediate pressure regime
+
+ie other forms of amorphous ices
+
+- **Review**: {cite:p}`Stern2017`
+
 
 ### Geometrical vs statistical model
 
 - {cite:p}`Bonn2004`
+
+
+## Glass Transition
+
+- Modern computational studies of the glass transition [Nature Review](https://www.nature.com/articles/s42254-022-00548-x) (**not accessible**)

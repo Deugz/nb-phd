@@ -1,5 +1,33 @@
 # is Amorphous
 
+Image_Pierre_ASW_void
+
+
+Amorphous water ice, shapeless and still,
+A formless beauty that seems to spill,
+Over surfaces, with no defined shape,
+A sight that's unique and hard to escape.
+
+It's formed when water freezes fast,
+And loses its structure in the cast,
+Of cold and rapid freezing pace,
+A sight that seems to hold its place.
+
+It's found on comets, asteroids, and more,
+A form of water that's hard to ignore,
+A substance that's elusive and rare,
+A beauty that's formed without a care.
+
+It's a sight to behold, with its misty form,
+A beauty that seems to weather the storm,
+Of time and space, and endless nights,
+A thing of beauty, pure and bright.
+
+So let us marvel at amorphous ice,
+A substance formed in a flash, precise,
+A wonder that's hard to replicate,
+A beauty that's formed without a mistake.
+
 ***
 
 :::::{div} full-width
@@ -19,6 +47,12 @@
 :alt: Amorphous
 :width: 600px
 :align: center
+```
+
+```{note}
+
+Change image with Pierre picture
+
 ```
 
 :::

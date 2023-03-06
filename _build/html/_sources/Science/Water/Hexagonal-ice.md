@@ -128,6 +128,12 @@ Ice is [Water](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Physics/
 
 <h3><strong>&#187;  <u> Hexagonal Ice </u></strong></h3>
 
+***
+
+[Youtube video](https://www.youtube.com/watch?v=eC6mBkCxGAE) - 3D view of the crystal structure of hexagonal ice
+
+***
+
 Hexagonal Ice (abbreviated Ih) is the most common form of ice found on earth
 
 <h4><strong>Crystal structure </strong></h4>

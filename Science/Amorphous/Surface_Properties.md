@@ -81,3 +81,31 @@ Star formation is not my expertise so if you want to help, feel free to comment 
 
 (content:references:Title1)=
 ## Introduction
+
+
+
+
+## Title
+
+
+- {cite:p}`Souda2005b`: ASW-hexane interaction, 120 – 165 K, surface diffusion of molecules even below 120 K, abrupt dewetting at 165 K (glass-liquid transition), fluidity of supercooled liquid phase.
+
+```{note}
+
+Could also be implemented in previous section
+
+```
+
+***
+
+- {cite:p}`Parent2002`: Vapour-deposited ASW & crystalline ice (38 – 150 K, UHV), NEXAFS (bulk sensitive) & PSD-NEXAFS (photon-stimulated desorption mode -> surface sensitive), ASW: 38 – 55 K: change from HDA to LDA, **H2O-H2O molecular distance at surface always longer than in bulk**.
+
+```{note}
+
+Is it the reason why dangling bonds are in the blue ?
+
+
+```
+
+## Dangling Bonds
+

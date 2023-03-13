@@ -208,6 +208,24 @@ At what number of molecule do you consider a solid phase
 ```
 
 
+## Liquid 
+
+
+
+- **Review**: {cite:p}`Malenkov2009`
+
+
+
+```{note}
+
+Good article to make the link between the 2 phases
+
+```
+
+
+## Solid
+
+
 ## Glasses and supercooled liquids
 
 - **Review**: {cite:p}`Lubchenko2007`

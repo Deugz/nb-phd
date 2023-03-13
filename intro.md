@@ -23,46 +23,38 @@ s0.parentNode.insertBefore(s1,s0);
 
 # **Open Notes**
 
+<p class="emphase2"><strong>Thesis .A </strong></p>
 
-:::::{margin} 
-::::{grid} 1
-:::{grid-item-card} 
-:img-top: Docs/SFP-logo.png
+
+:::::{margin}
+
+:::{card}
+:margin: 2
 :link: https://deugz.github.io/nb-master/_build/html/intro.html
-^^^
+
+
+```{image} Docs/SFP-logo.png
+
+```
+
++++
+
 **Vincent Deguin**
+
 :::
-::::
-
-
-**Support**
-
-![flag alt >](Docs/Svg_icons/patreon-svgrepo-com.svg) [Patreon](https://www.patreon.com/Science_for_the_People)
-
-
-or
-
-
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy me a coffee', '#317315', 'O4O6EZO78');kofiwidget2.draw();</script>
 
 :::::
 
 
 ***
 
-<p class="emphase2"><strong>Thesis .A </strong></p>
+<br>
 
 <p class="emphase"><strong>Kinetics and Morphologie Changes of Amorphous Solid Water upon Crystalisation (and influence of an imuprity, ethane)</strong></p>
 
 <p class="emphase">V. Deguin, A. Dawes (S. Green, R. Moat)</p>
 
-
-- **Topics**: Experimental Astrophysics, Astrochemistry
-- **Techniques**: mid-IR Spectroscopy
-- **Job**: PhD Part II - Stairway to Heaven
 <br>
-<br>
-- **Info**: ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-phd?color=green&style=plastic) - ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-phd?color=yellow&style=plastic) - ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-phd/_build/html/intro.html) - ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/nb-phd?color=red&style=plastic)
 
 ***
 
@@ -81,6 +73,13 @@ Water ice is ubiquitously present on the surface of interstellar dust grains and
 
 - Presence of impurities will be investigated
 
+
+### Info
+
+
+- **Topics**: Experimental Astrophysics, Astrochemistry
+- **Techniques**: mid-IR Spectroscopy
+- **Job**: PhD Part II - Stairway to Heaven
 
 **Tags**: (insert)
 
@@ -400,51 +399,42 @@ No lists of abbreviation as will be directly described in the text:
 
 # Comments
 
-<script src="https://utteranc.es/client.js"
-        repo="Deugz/nb-phd"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
-
-<hr>
-
 :::::::{div} full-width
 
-::::::{grid} 2
+::::::{grid} 3
 
 :::::{grid-item-card}
 :class-header: bg-light
-:columns: 9
+:columns: 6
 
 **Notes**
 ^^^
-::::{grid} 2
-:::{grid-item}
+
 
 ```{admonition} To Do
+:class: warning, dropdown
+
+- Create intro video
+
+
+```
+
+```{admonition} Ideas
+:class: tip, dropdown
+
+none
+
+
+```
+
+```{admonition} Collaboration
 :class: note, dropdown
 
-- Rewrite the Abstract
 - Send to Friends to Review, comment
 - Orthographique correction
 
 ```
 
-:::
-
-:::{grid-item}
-
-```{admonition} Ideas
-:class: tip, dropdown
-
-Nothing, just leave it like that.
-
-
-```
-:::
-::::
 :::::
 
 
@@ -455,14 +445,63 @@ Nothing, just leave it like that.
 **Page**
 ^^^
 
+<br>
+<br>
+
+
+- Author:  Vince;
 - Status:  &#9989;
-  
 - Reviewed: <span class="hovertext" data-hover="Insert here who has done what">&#x274C;</span>
-       
-- Updated: 27/02/2023
+- Updated: 08/03/2023
+
+
+
    
+:::::
+
+:::::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+<span style="float: right">![flag alt >](Docs/Svg_icons/coins-money-svgrepo-com.svg)</span>**Help** 
+^^^
+
+<br>
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy me a coffee', '#317315', 'O4O6EZO78');kofiwidget2.draw();</script> 
+
+<br>
+<br>
+
+or
+
+<br>
+
+![flag alt >](Docs/Svg_icons/patreon-svgrepo-com.svg) [Patreon](https://www.patreon.com/Science_for_the_People) 
+
+:::::
 ::::::
 :::::::
+
+
+
+***
+
+::::{div} full-width
+
+- ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-phd?color=green&style=plastic) - ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-phd?color=yellow&style=plastic) - ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/nb-phd?color=red&style=plastic) - ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-phd/_build/html/intro.html) - ![watchers](https://img.shields.io/github/watchers/Deugz/nb-phd?style=social) - ![stars](https://img.shields.io/github/stars/Deugz/nb-phd?style=social)
+      
+::::
+
+***
+
+<script src="https://utteranc.es/client.js"
+        repo="Deugz/nb-phd"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
 
 
 

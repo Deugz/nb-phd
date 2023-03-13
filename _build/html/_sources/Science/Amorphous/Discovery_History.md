@@ -84,7 +84,15 @@ Star formation is not my expertise so if you want to help, feel free to comment 
 
 <p class="emphase"> Amorphous solid water, is a form of ice that lacks a crystalline structure. It is also referred to as non-crystalline, glassy, or vitreous ice. Unlike crystalline ice, which has a well-defined periodic arrangement of molecules, ASW is disordered and lacks long-range order (similar to glass)</p>
 
-The first experimental description of amorphous water ice has been achieved in 1935 by {cite:p}`Burton1935` that deposited water vapor on a copper rod maintained at -155 &#x2103; It has since been an intense subject of research involving multiple characterisation techniques
+The first experimental description of amorphous water ice has been achieved in 1935 by {cite:p}`Burton1935` that deposited water vapor on a copper rod maintained at -155 &#x2103; It has since been an intense subject of research involving multiple characterisation techniques.
+
+
+### Jenniskens
+
+
+- {cite:p}`Jenniskens1994a`
+- {cite:p}`Jenniskens1994b`
+
 
 ### Amorphous Solid Water
 
@@ -96,7 +104,27 @@ The first experimental description of amorphous water ice has been achieved in 1
 
 ```
 
+
+### ASW vs Ih vs Clathrate
+
+
+
+- **Review**: {cite:p}`Devlin2001a`
+
 ### <strong>&#187;  <u>Water polyamorphism  </u></strong>
+
+{cite:p}`Tulk2002`: High-density ASW annealing, neutron & X-ray diffraction, 5 distinct ASW forms – all metastable at each anneal T, structure evolves systematically between 4 – 8 K.
+
+
+
+```{note}
+
+Insert Loerting, how many amorphous ice is there.
+
+```
+
+
+
 
 
 ## Investigation techniques
@@ -201,6 +229,8 @@ Download Giulia's paper
 
 ##### X-RAY
 
+{cite:p}`Silonov2015`
+
 
 ##### Neutron
 
@@ -214,6 +244,15 @@ Download Giulia's paper
 - positron and positronium annihilation {cite:p}`Wu2011`
 
 #### Production method
+
+
+***
+
+{cite:p}`Kouchi2016` - Matrix sublimation method for the formation of high density amorphous ice
+
+
+
+***
 
 
 - Why ?

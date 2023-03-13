@@ -265,7 +265,10 @@ source: {cite:p}`Novak1973`
 <h6><strong> Different types of Hydrogen bonds ?</strong></h6>
 
 - linear
-- bifurcated - {cite:p}`Giguere1984` 
+
+- bifurcated 
+    - {cite:p}`Giguere1984`
+    - {cite:p}`Giguere1987` 
 
 
 <h5><strong> Molecular interaction </strong></h5>

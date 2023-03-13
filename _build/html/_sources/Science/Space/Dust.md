@@ -94,6 +94,10 @@ Presentation
 
 ## Types
 
+Produced in outer layers of stars or in violent events (ie supernovae ...). Depending on the type of star, it is generally assumed that two distinct population of grains can be produced:
+
+
+
 ### Carbonaceous 
 
 
@@ -101,7 +105,9 @@ Presentation
 
 - **Review**: {cite:p}`Henning2010`
 
+### Mixture ?
 
+- {cite:p}`Haenecour2019`
 
 ## Ice Mantle
 

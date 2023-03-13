@@ -212,3 +212,20 @@ Amorphous Solid Water
 - **Review**: {cite:p}`Shultz2017`
 
 
+
+## Crystal structure
+
+difference between ice Ih and ice XI ({cite:p}`Malenkov2009` state that the position of H and O are identical (cf figure below))
+
+
+
+
+```{figure} Docs/Hexagonal_ice_structure.png
+---
+name: MC_X
+width: 500px
+---
+Reproduced from {cite:p}`Malenkov2009` 
+```
+
+

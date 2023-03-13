@@ -118,3 +118,8 @@ Large molecules are difficult to observe in spacetf
 
 (content:references:Title2)=
 ## IR Spectroscopy
+
+
+## Diffuse ISM
+
+ {cite:p}`Potapov2021`

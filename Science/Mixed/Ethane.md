@@ -81,3 +81,31 @@ Star formation is not my expertise so if you want to help, feel free to comment 
 
 (content:references:Title1)=
 ## Introduction
+
+
+
+## Ethane Observation
+
+```{note}
+
+Check cologne database
+
+```
+
+### Ethane IR spectra
+
+```{note}
+
+Insert Dartois article 
+
+- Where is it ?
+
+```
+
+
+
+## Formation of alkanes 
+
+### Methane
+
+{cite:p}`Qasim2020`

@@ -99,6 +99,20 @@ Even though that may be correct within certain laboratory condition, particulary
 {cite:p}`Souda2005`
 
 
+## Experimental investigation
+
+### Positron beam spectroscopy
+
+```{note}
+
+Technique to describe
+
+```
+
+{cite:p}`Wu2010`
+
+
+
 (content:references:Title2)=
 ## Crystalisation Proceses
 
@@ -182,6 +196,16 @@ Studies that state that ASW crystalises from the surface:
 {cite:p}`Backus2004`
 - insert BD Kay article
 
+
+
+
+### ASW vs HGW
+
+- {cite:p}`Mate2012`: Porosity, SSA & Crystallisation of ASW & HGW: 14 – 150 K, CH4 adsorption -> SSA = 280 ± 30 m2 g-1 ( ASW) and SSA = 40 ± 12 m2 g-1 (HGW), crystallisation rate constant (≈ 7 x 10-4 s-1) independent of deposition T (14, 40, 90 K), hints towards different ASW structure at very low (14 K) T
+
+
+
+
 Operando measurment in order to resolve the ASW crystalisation. 
 
 ### In the intermediate pressure regime
@@ -199,3 +223,13 @@ ie other forms of amorphous ices
 ## Glass Transition
 
 - Modern computational studies of the glass transition [Nature Review](https://www.nature.com/articles/s42254-022-00548-x) (**not accessible**)
+
+
+
+
+
+
+
+## Transition between different forms of amorphous ice
+
+- {cite:p}`Paschek2008`: Liquid-liquid transition (TIP4P-Ew model water), 150 – 360 K, low/high/very high density transformations.

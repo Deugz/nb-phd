@@ -67,6 +67,7 @@ parts:
         - file: Notes/Data_Notes/Processing/Step2
     - file: Notes/Data_Notes/Analysis/Data_Analysis
       sections:
+      - file: Notes/Data_Notes/Analysis/DR2_first_Analysis      
       - file: Notes/Data_Notes/Analysis/Control_Experiments/Control_experiments
       - file: Notes/Data_Notes/Analysis/Ethane_Samples/Ethane_analysis
       - file: Notes/Data_Notes/Analysis/2OK_ASW
@@ -84,7 +85,7 @@ parts:
       title: "Conclusion (📖 Thesis)  "
   - caption: Bibliography
     chapters:
-    - file: Thesis_JB/Biblio/Thesis_Bibliography/bibliography   
+    - file: Biblio/Thesis_Bibliography/bibliography   
   - caption: Dissemination
     chapters:
     - file: Dissemination/Discussions

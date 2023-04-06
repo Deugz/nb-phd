@@ -512,7 +512,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -528,6 +530,17 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#integration">Integration</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#column-density">Column density</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#optical-depth">Optical Depth</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#normalisation">Normalisation</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -539,6 +552,33 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="dr3">
 <h1>DR3<a class="headerlink" href="#dr3" title="Permalink to this headline">#</a></h1>
+<p class="emphase2">Integration / Normalisation</p>
+<hr class="docutils" />
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This notebook must be ran after the sample thickness.</p>
+</div>
+<p>To do: test with 2020_09_15</p>
+<section id="integration">
+<h2>Integration<a class="headerlink" href="#integration" title="Permalink to this headline">#</a></h2>
+</section>
+<section id="column-density">
+<h2>Column density<a class="headerlink" href="#column-density" title="Permalink to this headline">#</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>How do we get from an integration value to a column density ?</p>
+</div>
+</section>
+<section id="optical-depth">
+<h2>Optical Depth<a class="headerlink" href="#optical-depth" title="Permalink to this headline">#</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>insert Hagen 1981 ref</p>
+</div>
+</section>
+<section id="normalisation">
+<h2>Normalisation<a class="headerlink" href="#normalisation" title="Permalink to this headline">#</a></h2>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -593,6 +633,23 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#integration">Integration</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#column-density">Column density</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#optical-depth">Optical Depth</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#normalisation">Normalisation</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

@@ -188,6 +188,9 @@ Link with ethane deposition type
 
 ## Desorption
 
+{cite:p}`Speedy1996`: Free energy difference (ΔiaG (150 K) = 1100 J/mol) & residual entropy difference (ΔiaS (0) = 0.7 J/(K mol)) for ASW & crystalline ice, from evaporation rates, ΔiaS (0) allows connection of ASW with normal liquid H2O via reversible thermodynamic path (1 atm).
+
+***
 
 Thermal desorption formula (test)
 
@@ -279,7 +282,10 @@ To define (R<sub>OO</sub>)
 
 #### Deposition angle
 
-{cite:p}`Dohnalek2003`: ASW characterisation (laser optical interferometry): film thickness & density of ASW films (vapour deposited @ 22 K, collimated molecular beam, angle varied between normal & oblique incidence), normal incidence films presumed to be compact (0.94 g/cm3), glancing incidence ρ = 0.16 g/cm3 (> 80 % porosity), in agreement with ballistic deposition simulations.
+- {cite:p}`Dohnalek2003`: ASW characterisation (laser optical interferometry): film thickness & density of ASW films (vapour deposited @ 22 K, collimated molecular beam, angle varied between normal & oblique incidence), normal incidence films presumed to be compact (0.94 g/cm3), glancing incidence ρ = 0.16 g/cm3 (> 80 % porosity), in agreement with ballistic deposition simulations.
+
+{cite:p}`Stevenson1999`
+
 
 #### Surface
 

@@ -1,5 +1,9 @@
 # Discovery & History
 
+
+<p class="emphase2"> of Amorphous Ice </p>
+
+
 ***
 
 <h3> <strong> <u>  Introduction </u></strong> </h3>
@@ -84,21 +88,122 @@ Star formation is not my expertise so if you want to help, feel free to comment 
 
 <p class="emphase"> Amorphous solid water, is a form of ice that lacks a crystalline structure. It is also referred to as non-crystalline, glassy, or vitreous ice. Unlike crystalline ice, which has a well-defined periodic arrangement of molecules, ASW is disordered and lacks long-range order (similar to glass)</p>
 
-The first experimental description of amorphous water ice has been achieved in 1935 by {cite:p}`Burton1935` that deposited water vapor on a copper rod maintained at -155 &#x2103; It has since been an intense subject of research involving multiple characterisation techniques.
+The first experimental description of amorphous water ice has been achieved in 1935 by {cite:p}`Burton1935` that deposited water vapor on a copper rod maintained at -155 &#x2103; It has since been an intense subject of research involving multiple production method and characterisation techniques.
 
-
-### Jenniskens
-
-
-- {cite:p}`Jenniskens1994a`
-- {cite:p}`Jenniskens1994b`
-
-
-### Amorphous Solid Water
+ 
+### <strong>&#187;  <u>Amorphous vs Crystaline ice </u></strong>
 
 ```{note}
 
-- Insert Jenniskens controversal paper
+insert 2 MD structure to show the differences
+
+```
+
+We have seen crystaline ice in previous chapter (link)
+
+Long range order ...
+
+**Amorphous ice** is ...
+
+### <strong>&#187;  <u>Water Polyamorphism </u></strong>
+
+
+```{note}
+
+- **Jenniskens**
+
+    - {cite:p}`Jenniskens1994a`
+    - {cite:p}`Jenniskens1994b`
+
+To read and extract why those papers are controversial. 
+
+```
+
+#### <strong>How many Amorphous Ices is there ?</strong>
+
+
+- {cite:p}`Loerting2011` 5 main categories of Amorphous ice
+
+
+- {cite:p}`Tulk2002`: High-density ASW annealing, neutron & X-ray diffraction, 5 distinct ASW forms – all metastable at each anneal T, structure evolves systematically between 4 – 8 K.
+
+
+
+:::::{div} full-width
+::::{grid} 5
+:::{grid-item-card}
+**ASW**
+^^^
+:::
+:::{grid-item-card}
+**HGW**
+^^^
+:::
+:::{grid-item-card}
+**LDA**
+^^^
+:::
+:::{grid-item-card}
+**HDA**
+^^^
+:::
+:::{grid-item-card}
+**vHDA**
+^^^
+:::
+
+::::
+
+```{image} Docs/Amorphous_high_low_cat.png
+:width: 100%
+:align: center
+```
+
+:::::
+
+#### <strong> High Density vs Low density </strong>
+
+```{note}
+
+How do they differ 
+- OO distances ...
+
+Radial distribution function ...
+
+```
+
+
+#### <strong> Medium Density ? </strong>
+
+
+### <strong>&#187;  <u>Production Method </u></strong>
+
+A key parameter for the production of those various forms is the different production method. We will split them in 2 categories:
+
+##### High Pressure 
+
+
+
+##### Low pressure 
+
+- ASW 
+
+    - Vapor deposited ...
+
+- HGW
+
+```{note}
+
+In this book, we will speak about ASW
+
+Make link toward Thesis.B HGW section
+
+```
+
+
+## Amorphous Solid Water
+
+```{note}
 
 - different experimental conditions different forms of ice ...
 
@@ -111,26 +216,11 @@ The first experimental description of amorphous water ice has been achieved in 1
 
 - **Review**: {cite:p}`Devlin2001a`
 
-### <strong>&#187;  <u>Water polyamorphism  </u></strong>
-
-{cite:p}`Tulk2002`: High-density ASW annealing, neutron & X-ray diffraction, 5 distinct ASW forms – all metastable at each anneal T, structure evolves systematically between 4 – 8 K.
-
-
-
-```{note}
-
-Insert Loerting, how many amorphous ice is there.
-
-```
-
-
-
-
 
 ## Investigation techniques
 
 
-### Method of investigation
+### Experimental
 
 ```{note}
  - Create html tables with all ASW experiments.
@@ -222,6 +312,13 @@ Electron microscopy ...
 Download Giulia's paper
 
 
+### Simulations
+
+#### Molecular Dynamics
+
+- {cite:p}`Essmann1995`: Molecular dynamics simulation, vapour deposited ASW, compared to neutron scattering data from high & low density ASW (pressure induced transformation of crystalline ice), result: vapour deposited ASW between the other two, but closer to high density ASW, agreement with vapour deposited ASW neutron scattering & electron diffraction studies, ASW surface layer deeply fissured (-> high porosity of vapour deposited ice).
+
+
 
 ## <strong>&#187;  <u> Investigation techniques </u></strong>
 
@@ -233,6 +330,8 @@ Download Giulia's paper
 
 
 ##### Neutron
+
+- **Incoherent inelastic neutron scattering** {cite:p}`Klug1999`: Neutron scattering of HDA (from pressure0induced amorphisation), LDA (from annealing HDA, hyperquenched liquid water, Ih, & Ic, H-bond interaction in LDA differ from hyperquenched water & are stronger than in HDA.
 
 
 #### <strong> Spectroscopy </strong>
@@ -294,40 +393,6 @@ Ice deposited at 10K is **high density**
 How is the density determined from Diffraction data
 
 ```
-
-
-
-### <strong>&#187;  <u> Polyamorphism </u></strong>
-
-{cite:p}`Loerting2011` 5 main categories of Amorphous ice
-
-
-:::::{div} full-width
-::::{grid} 5
-:::{grid-item-card}
-**ASW**
-^^^
-:::
-:::{grid-item-card}
-**HGW**
-^^^
-:::
-:::{grid-item-card}
-**LDA**
-^^^
-:::
-:::{grid-item-card}
-**HDA**
-^^^
-:::
-:::{grid-item-card}
-**vHDA**
-^^^
-:::
-
-:::::
-
-
 
 
 When subject to increasing pressure, amorphous ice **soften (what is meant by this ?)** and then suddenly collapse to a denser but still amorphous phase. This result is verified by computer simulations where density and structure of the high density amorphous form depends on the **potential function** chosen to represent the water.

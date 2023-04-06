@@ -316,6 +316,8 @@ At first glance, it seems that a linear background over the whole range is suffi
 
 Different ranges (like ASW) + rolling(5)
 
+- Data = DR2_{}_All-scans_BC1.csv 
+
 :::
 
 :::{grid-item-card}
@@ -326,9 +328,19 @@ Different ranges (like ASW) + rolling(5)
 
 Single baseline over whole range
 
+- Data = DR2_{}_All-scans_BC2.csv 
+
 :::
 ::::
 :::::
+
+
+```{warning}
+
+Which one is best ?
+
+
+```
 
 
 

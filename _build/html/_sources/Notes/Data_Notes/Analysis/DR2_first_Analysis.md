@@ -133,3 +133,133 @@ Caption
 
 -  Big change at 140 K (nothing seen at 135)
 
+
+
+
+
+## C2H6
+
+Ethane Ice phases
+
+- Crystaline
+- Amorphous 
+- Clathrate
+
+
+## C2H6/ASW
+
+### 2021/03/08 
+
+- Dodgy sample (CO2 contamination + unsmoothed sample)
+- We can observe that some ethane remain embeded within the ice during all the annealing step (**Embeded into the pores**)
+
+- Big peak growing at (?)
+
+:::::{div} full-width
+::::{grid} 2 
+:::{grid-item}
+
+
+```{figure} ../../../Data/DATA_PROCESSING/2021_03_08/Plots/DR2_2021_03_08_A.png
+:width: 800px
+:name: DR2_2021_03_08_A.png
+Caption
+```
+
+:::
+
+:::{grid-item}
+
+
+```{figure} ../../../Data/DATA_PROCESSING/2021_03_08/Plots/DR2_2021_03_08_PeakA-frequency_shift_no_legend.png
+:width: 800px
+:name: DR2_2021_03_08_PeakA-frequency_shift_no_legend
+Caption
+```
+
+:::
+::::
+:::::
+
+```{note}
+
+A more friendly view of the sample (splitted by the different ranges) will be generated during the data-processing phase
+
+```
+
+### 2021/03/24
+
+
+- (C2H6:ASW 1:1 Mixture)
+- **Step to 130K**
+
+Again, dodgy sample with some unsmoothed scans 
+
+```{note}
+
+Will need to put something in place to take care of those
+
+ie (in the processing phase)
+
+
+```
+
+### 2021/07/16
+
+Nice sample but lots of CO2 contamination
+
+```{note}
+
+would that influence the sample signal
+- No because it is only the detector box that is contaminated and not the chamber itself
+
+
+How can I supress that contribution
+
+```
+
+### 2021/09/20
+
+- Layered sample.
+
+```{note}
+
+Is there still some ethane present at high temperature ? 
+
+We dont see a modification of the OH stretch as is happening for the codeposition samples above.
+
+```
+
+OK sample (some CO2 contamination but contained)
+
+Not too much ethane though
+
+### 2021/10/04
+
+***
+
+Very Intersting sample
+
+
+***
+
+```{warning}
+
+Is the peak growing when  we go down in temperature the same as the one that grow when we have codeposition of ASW + ethane
+
+- What would that mean ?
+
+```
+
+**Insert plots**
+
+### 2021/10/07
+
+
+Scan 3,4,5 very interesting dangling bond feature, is it due to CO2 contamination
+
+
+
+
+
+

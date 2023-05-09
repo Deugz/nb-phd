@@ -84,6 +84,20 @@ Star formation is not my expertise so if you want to help, feel free to comment 
 (content:references:Title1)=
 ## Introduction
 
+
+
+```{figure} Docs/ASW_Depositions.png
+
+Source
+```
+
+
+
+
+## Purity
+
+ie purely amorphous, no <strong>crystaline nuclei</strong>
+
 ## Density
 
 ### Hydrogen bonding
@@ -290,5 +304,24 @@ To define (R<sub>OO</sub>)
 #### Surface
 
 {cite:p}`Mate2003`: ASW & crystalline H2O ice (vapour deposited), < 100 nm – 5 μm thickness, FT-RAIRS, Al & Au substrates (similar results for both), optical effects (surface suppression/vibrational mode enhancement) vary with thickness, spectral simulations (**Fresnel model**)
+
+
+
+
+## Phase transition between polyamorphs
+
+Occur in a very narrow temperature-pressure interval (more info) and is characterized by sudden, step-like changes in properties such as:
+
+- Density
+- Coordination number
+- Isothermal compressibility
+
+Furthermore, tha transitions can be reversed with **hysteresis**, (typical from first order transition)
+
+```{note}
+
+define the different type of transitions.    
+
+```
 
 

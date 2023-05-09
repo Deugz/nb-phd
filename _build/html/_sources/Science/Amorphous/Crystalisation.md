@@ -81,6 +81,11 @@ Star formation is not my expertise so if you want to help, feel free to comment 
 :::::  
 ::::::
 
+### Key Review to read !!
+
+{cite:p}`Tonauer2023`
+
+
 (content:references:Title1)=
 ## ASW Crystalisation ...
 
@@ -115,6 +120,19 @@ Technique to describe
 
 (content:references:Title2)=
 ## Crystalisation Proceses
+
+<p class="emphase"> Separating <strong>nucleation</strong> & <strong>growth</strong> in amorphous ice </p>
+
+- Crystallisation temperature: T<sub>x</sub>
+- Crystallization rate: R<sub>JG</sub>
+
+**General mechanism**: Amorphous ices turning into an ultraviscous deeply supercooled liquid prior to nucleation.
+
+```{note}
+
+To investigate
+
+```
 
 ### Nucleation
 

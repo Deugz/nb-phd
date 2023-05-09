@@ -1,6 +1,65 @@
 # and Mixed
 
-Introduction
+
+<p class="emphase">Catchy Phrase</p>
+
+***
+
+:::::{div} full-width
+::::{grid} 2
+
+:::{grid-item}
+:columns: 5
+
+<div style="background-color:aliceblue;padding:25px;border-radius:20px;text-align:center;">
+ 
+Amorphous ice, a sight to behold,<br>
+Molecules within, a story untold.<br>
+A symphony of atoms, dancing free,<br>
+In a frozen world, as far as the eye can see.
+
+But cosmic rays and UV photons reign,<br>
+Their energy drives the molecules insane.<br>
+They dance and bond in a wild orgie,<br>
+Creating new compounds, with such intensity.
+
+Carbon, oxygen, nitrogen too,<br>
+Reacting wildly, as if on cue.<br>
+Amino acids, sugars, and more,<br>
+All formed in ice, like never before.
+
+This cosmic dance, a sight to see,<br>
+In the depths of space, so wild and free.<br>
+The energy of the cosmos, a driving force,<br>
+Creating new molecules, without remorse.
+
+Amorphous ice, a laboratory,<br>
+Where cosmic rays and photons play with glee.<br>
+A mysterious world, beyond our sight,<br>
+Yet essential to life, both day and night.
+    
+-- Vince (& ChatGPT)
+
+</div>
+    
+:::
+
+:::{grid-item}
+:columns: 7
+
+```{image} Docs/cocktail-aqua-velva.jpg
+:alt: Iceberg
+:width: 600px
+:align: center
+```
+
+:::
+
+
+::::
+:::::
+
+
 
 ***
 

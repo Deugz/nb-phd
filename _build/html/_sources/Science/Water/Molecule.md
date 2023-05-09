@@ -94,6 +94,50 @@ It is commonly stated that the presence of liquid water is a necessary condition
 
 **Water is more than just a solvent**
 
+
+## Molecular Structure
+
+### Atomic Orbitals
+
+```{note}
+
+Table about the different quantum numbers
+
+```
+
+
+
+```{figure} Docs/Single_electron_orbitals.jpg
+
+[Source](https://commons.wikimedia.org/wiki/File:Single_electron_orbitals.jpg)
+```
+
+
+
+
+```{figure} Docs/Subshells_in_order_of_the_diagonal_lines.png
+
+[Source](https://upload.wikimedia.org/wikipedia/commons/1/1a/Subshells_in_order_of_the_diagonal_lines.png)
+```
+
+
+
+
+```{figure} Docs/Hydrogen-molecule-potential_EN.svg
+
+[Source](https://commons.wikimedia.org/wiki/File:Hydrogen-molecule-potential_EN.svg)
+```
+
+
+
+```{figure} Docs/1024px-Molecular_Orbitals_for_Water.png
+
+[Source](https://commons.wikimedia.org/wiki/File:Molecular_Orbitals_for_Water.png)
+```
+
+
+
+
 ### <strong>&#x2023;  <u> Properties </u></strong></h3>
 
 #### <strong>&#x2023; &#x2023;  Anomalous macroscopic behaviour </strong></h4>

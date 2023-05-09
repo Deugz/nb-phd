@@ -1,32 +1,66 @@
 # is Amorphous
 
-Image_Pierre_ASW_void
 
+<p class="emphase">Catchy Phrase</p>
 
-Amorphous water ice, shapeless and still,
-A formless beauty that seems to spill,
-Over surfaces, with no defined shape,
+***
+
+:::::{div} full-width
+::::{grid} 2
+
+:::{grid-item}
+:columns: 5
+
+<div style="background-color:aliceblue;padding:25px;border-radius:20px;text-align:center;">
+ 
+Amorphous water ice, shapeless and still,<br>
+A formless beauty that seems to spill,<br>
+Over surfaces, with no defined shape,<br>
 A sight that's unique and hard to escape.
 
-It's formed when water freezes fast,
-And loses its structure in the cast,
-Of cold and rapid freezing pace,
+It's formed when water freezes fast,<br>
+And loses its structure in the cast,<br>
+Of cold and rapid freezing pace,<br>
 A sight that seems to hold its place.
 
-It's found on comets, asteroids, and more,
-A form of water that's hard to ignore,
-A substance that's elusive and rare,
+It's found on comets, asteroids, and more,<br>
+A form of water that's hard to ignore,<br>
+A substance that's elusive and rare,<br>
 A beauty that's formed without a care.
 
-It's a sight to behold, with its misty form,
-A beauty that seems to weather the storm,
-Of time and space, and endless nights,
+It's a sight to behold, with its misty form,<br>
+A beauty that seems to weather the storm,<br>
+Of time and space, and endless nights,<br>
 A thing of beauty, pure and bright.
 
-So let us marvel at amorphous ice,
-A substance formed in a flash, precise,
-A wonder that's hard to replicate,
+So let us marvel at amorphous ice,<br>
+A substance formed in a flash, precise,<br>
+A wonder that's hard to replicate,<br>
 A beauty that's formed without a mistake.
+    
+-- Vince (& ChatGPT)
+
+</div>
+    
+:::
+
+:::{grid-item}
+:columns: 7
+
+```{image} Docs/First_Snowfall.jpg
+:alt: Iceberg
+:width: 600px
+:align: center
+```
+
+:::
+
+
+::::
+:::::
+
+
+
 
 ***
 

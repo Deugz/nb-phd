@@ -97,6 +97,12 @@ Presentation
 
 ## Formation
 
+<p class="emphase"> 2 main routes, direct water condensation or from O, H and OH adsorbed pon the grain and reacting. </p>
+
+
+
+
+
 ### Adsorption
 
 {cite:p}`Zhao2020`
@@ -119,4 +125,10 @@ Presentation
 How dense ? Compare w/ Garrod above
 
 ```
+
+## Other Ices
+
+### CO
+
+- {cite:p}`Gerakines2023`: Review + experiments
 

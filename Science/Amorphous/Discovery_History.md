@@ -90,6 +90,76 @@ Star formation is not my expertise so if you want to help, feel free to comment 
 
 The first experimental description of amorphous water ice has been achieved in 1935 by {cite:p}`Burton1935` that deposited water vapor on a copper rod maintained at -155 &#x2103; It has since been an intense subject of research involving multiple production method and characterisation techniques.
 
+
+### <strong>&#187;  <u>Amorphous Solids </u></strong>
+
+<p class="emphase"> Amorphous ice does not naturally form under Earth conditions (Pressure and Temperature)</p>
+
+That is why you may not be familliar with it, however there is a whole diversity of amorphous materials that you may encounter in your everyday life:
+
+#### <strong>&#187; &#187; Examples </strong>
+
+:::::{div} full-width
+
+::::{grid} 6
+
+:::{grid-item-card}
+:class-header: bg-light
+**Glass**
+^^^
+
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+**Rubber**
+^^^
+
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+**Asphalt**
+^^^
+
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+**Plastics**
+^^^
+
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+**Wax**
+^^^
+
+
+:::
+
+
+:::{grid-item-card}
+:class-header: bg-light
+**Resins**
+^^^
+
+
+:::
+
+
+::::
+
+:::::
+
+**Reminder video**:
+
+- [Youtube](https://www.youtube.com/watch?v=VH9cRxXUNRA)
  
 ### <strong>&#187;  <u>Amorphous vs Crystaline ice </u></strong>
 
@@ -105,7 +175,17 @@ Long range order ...
 
 **Amorphous ice** is ...
 
+### <strong>&#187;  <u>Supercooled liquid and Glasses </u></strong>
+
+{cite:p}`Ediger1996`
+
 ### <strong>&#187;  <u>Water Polyamorphism </u></strong>
+
+```{note}
+
+Definition
+
+```
 
 
 ```{note}
@@ -159,7 +239,20 @@ To read and extract why those papers are controversial.
 :align: center
 ```
 
+```
+Check slideshow type to include different way of classifying them
+```
+
 :::::
+
+Characterised by their **mass densities**, respectively 0.92, 1.15 and 1.25 g.cm-2
+
+#### Other forms
+
+- IDA: Intermediate Density Amorphous
+    - Can't be considered a polyamorph because can't be equilibrated
+
+- MDA: Medium Density Amorphous
 
 #### <strong> High Density vs Low density </strong>
 

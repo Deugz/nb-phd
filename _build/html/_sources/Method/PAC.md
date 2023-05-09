@@ -1,7 +1,18 @@
-# PAC
+# Astrochemistry Chamber
 
 ***
-Portable Astrochemistry Chamber
+**PAC**: Portable Astrochemistry Chamber
+
+- Designed by [Anita Dawes](https://www.open.ac.uk/people/ad3298)
+
+
+
+
+```{note}
+
+- insert link to Anita Thesis, papers. Rachael work ...
+
+```
 
 ***
 

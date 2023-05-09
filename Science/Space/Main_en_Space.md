@@ -1,5 +1,7 @@
 # in Space
 
+<p class="emphase">Intro catchy phrase</p>
+
 ***
 
 :::::{div} full-width
@@ -7,8 +9,6 @@
 
 :::{grid-item}
 :columns: 5
-
-<p class="emphase">Intro catchy phrase</p>
 
 <div style="background-color:aliceblue;padding:25px;border-radius:20px;text-align:center;"> 
 
